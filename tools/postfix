@@ -1,0 +1,19 @@
+#!/bin/sh
+# Convert dane_fail_list.dat to a Postfix smtp_tls_policy_maps[1] in postmap format[2]
+#
+# [1] http://www.postfix.org/postconf.5.html#smtp_tls_policy_maps
+# [2] http://www.postfix.org/postmap.1.html
+#
+# dane_fail_postfix < dane_fail_list.dat > /etc/postfix/tls_policy
+
+nondanepolicy="may"
+while read -r line
+do
+	firstchar=`echo $line | cut -c1-1`
+	if [ "$firstchar" == " " ] || [ "$firstchar" == "#" ] || [ -z "$firstchar" ]
+	then
+		echo $line
+	else
+		echo "$line $nondanepolicy"
+	fi
+done
