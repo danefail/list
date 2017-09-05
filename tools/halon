@@ -1,0 +1,36 @@
+function dane_fail_list_fetch()
+{
+	$data = http("https://danefail.org/list/dane_fail_list.dat",
+			[
+				"ssl_default_ca" => true,
+				"ssl_verify_host" => true,
+				"timeout" => 30,
+			]);
+	if (!is_string($data))
+		return;
+
+	return array_filter(function ($line) {
+				if (trim($line) == "") return false;
+				if ($line[0] == "#") return false;
+				return true;
+			}, explode("\n", $data));
+}
+
+function dane_fail_list()
+{
+	return cache [
+		"ttl_function" => function($a) {
+			return is_array($a) ? 3600 : 1800;
+		},
+		"update_function" => function($a, $b) {
+			return is_array($b) ? $b : $a;
+		},
+	] dane_fail_list_fetch();
+}
+
+$danefail = dane_fail_list();
+
+if (is_array($danefail) and in_array($recipientdomain, $danefail))
+	SetTLS("optional");
+else
+	SetTLS("dane");
