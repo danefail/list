@@ -21,5 +21,8 @@ vanderheijdenbouw.nl
 # Insecure NODATA/NXDOMAIN
 schenkmakelaars.nl
 
+# Bogus/security failure
+truman.edu
+
 # DNS timeout for TLSA
 mynta.org
