@@ -18,5 +18,8 @@ rvhautos.nl
 schoorsteenvegerij-feije.nl
 vanderheijdenbouw.nl
 
+# Insecure NODATA/NXDOMAIN
+schenkmakelaars.nl
+
 # DNS timeout for TLSA
 mynta.org
