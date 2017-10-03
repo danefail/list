@@ -15,3 +15,23 @@ have email delivered to them.
 
 See https://danefail.org/ for more information, or create a pull request for suggested
 updates.
+
+## Reach out before adding
+Before adding a domain to the list, contact the domain in question (info@ etc, as well as postmaster@ and hostmaster@) and if possible the DNS service provider, possibly by using the email template below:
+
+> Hi,
+>
+> The domain XXX [hosted at YYY] ZZZ which prevents encrypted email delivery to this domain from email systems using DANE. We urge you to fix this (or disable DNSSEC), but in the meantime we like to add you to a list of domains that should be bypassed, so that email delivery doesn’t fail to your domain: https://danefail.org
+>
+> We’re sending this email to make sure that you don’t use DANE email encryption. Even if you’re added to the list, you’ll be automatically removed, should the DNS server be fixed.
+>
+> [unbound-host example]
+>
+>Thanks,
+
+where XXX is the domain, YYY is the DNS and/or email provider, ZZZ is the problem (such as "have broken DNSSEC" or "doesn't respond to TLSA queries") and the example could be something like:
+
+```
+$ unbound-host -f /etc/unbound/root.key -v -t TLSA _25._tcp.mx-of-XXX
+Host _25._tcp.mx-of-XXX not found: 3(NXDOMAIN) (BOGUS (security failure))
+```
