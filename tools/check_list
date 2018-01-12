@@ -1,0 +1,47 @@
+/*
+ * The following Halon code will check all domains in the danefail.org list.
+ */
+
+$domains = dane_fail_list_fetch();
+$result = "";
+foreach ($domains as $d) {
+	$danefail = false;
+	foreach (range(0,10) as $i) {
+		echo "Try $d (attempt $i)";
+		$recipient = "user@$d";
+		$ret = smtp_lookup_rcpt(["host" => "lookup-mx", "tls" => "dane"], "", $recipient, ["extended_result" => true]);
+		if ($ret["error_message"][0:12] == "DANE error: ") {
+			$danefail = true;
+			$error = $ret["error_message"];
+			break;
+		}
+	}
+	if (!$danefail)
+		$result .= "$d seems to work now!\n";
+	else if (isset($debug))
+		$result .= "$d still broken: ".$error."\n";
+}
+echo "RESULTS";
+echo "-------";
+echo $result;
+
+if (!isset($debug) and $result)
+	mail("", "support@halon.se", "danefail.org", "Fixed domains: $result");
+
+function dane_fail_list_fetch()
+{
+	$data = http("https://danefail.org/list/dane_fail_list.dat",
+			[
+				"ssl_default_ca" => true,
+				"ssl_verify_host" => true,
+				"timeout" => 30,
+			]);
+	if (!is_string($data))
+		return;
+
+	return array_filter(function ($line) {
+				if (trim($line) == "") return false;
+				if ($line[0] == "#") return false;
+				return true;
+			}, explode("\n", $data));
+}
