@@ -1,6 +1,3 @@
-# Insecure NODATA/NXDOMAIN
-dkz-networks.nl
-
 # Bogus/security failure
 truman.edu
 marketconservative.com
@@ -13,3 +10,4 @@ tre-pr.jus.br
 
 # SERVFAIL
 ohrevision.se
+dkz-networks.nl
