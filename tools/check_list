@@ -10,7 +10,7 @@ foreach ($domains as $d) {
 		echo "Try $d (attempt $i)";
 		$recipient = "user@$d";
 		$ret = smtp_lookup_rcpt(["host" => "lookup-mx", "tls" => "dane"], "", $recipient, ["extended_result" => true]);
-		if ($ret["error_message"][0:12] == "DANE error: ") {
+		if ($ret["error_message"][0:12] == "DANE error: " or $ret["error_message"][0:22] == "STARTTLS error: DANE: ") {
 			$danefail = true;
 			$error = $ret["error_message"];
 			break;
