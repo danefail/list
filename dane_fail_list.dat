@@ -157,3 +157,31 @@ pixograf.ch
 seiserkurve.ch
 skatesins.ch
 skateverein-hitzkirch.ch
+
+## leibniz.dexalo.de
+# 2018-04-13
+#
+# The TLSA record:
+#
+#    _25._tcp.leibniz.dexalo.de. IN TLSA 3 0 2 \
+#        8bbf32857ba9ca524ad1c94b1ee6b0e5 \
+#        6d5b42b065b99875beb06afe6c7f3adc \
+#        62b8ec415ddb93135928c1eb9fd8766c \
+#        0daf70a858e81112c85703a85c782398
+#
+# does not match the actual certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-04-01T21:32:06Z
+#     notAfter = 2018-06-30T21:32:06Z
+#     Subject CommonName = leibniz.dexalo.de
+#     cert sha512: 3 0 2 6d57f48b88be5a0f661fd75927e518ca \
+#                        3723fb58b3a7e86905c911a9d98f111f \
+#                        2c843da1d7d890b3853824229e2cb1b1 \
+#                        55e6e30f7bf126be5e7a00df08ccb872
+#
+dexalo.de
+daallexx.eu
+dexalo.eu
+maximilian-greger.com
