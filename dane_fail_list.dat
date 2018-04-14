@@ -224,3 +224,28 @@ as206479.net
 inboxcheck.de
 jnpl.de
 jpbe-apps.de
+
+## skauting.cz
+# 2018-04-14
+#
+# The TLSA record:
+#
+#    _25._tcp.skauting.cz. IN CNAME skauting.cz.
+#    _25._tcp.88oddil.cz. IN CNAME lebeda.skauting.cz.
+#    lebeda.skauting.cz. IN CNAME skauting.cz.
+#
+#    skauting.cz. IN TLSA 3 0 1 \
+#        56ff406749aaff087c197fccc3f2a627 \
+#        fdffd1f796acd21715c9332db0964f49
+#
+# does not match the actual certificate:
+#
+#     Issuer CommonName = COMODO RSA Domain Validation Secure Server CA
+#     Issuer Organization = COMODO CA Limited
+#     notBefore = 2016-10-29T00:00:00Z
+#     notAfter = 2018-01-30T23:59:59Z
+#     Subject CommonName = *.skauting.cz
+#     cert sha256: 3 0 1 981eadc9033f3fd256c27a1d085007d1 \
+#                        f865810de19d62c3f1ac6ea8108000e5
+skauting.cz
+88oddil.cz
