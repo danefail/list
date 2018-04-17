@@ -1,5 +1,6 @@
 # Bogus/security failure
 marketconservative.com
+dgtf.nl
 
 # Doesn't match
 ## mail.zionbit.cz
@@ -25,6 +26,9 @@ edgtslfcbngq6sk.top
 # 20180323 - All TLSA RRs failed
 kassoft.eu
 stansoft.bg
+tre-sp.jus.br
+tre-pr.jus.br
+denimx.nl
 
 ## itaskmanager.ovh
 # 2018-04-12
