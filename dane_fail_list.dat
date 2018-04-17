@@ -264,6 +264,22 @@ jpbe-apps.de
 #     Subject CommonName = *.skauting.cz
 #     cert sha256: 3 0 1 981eadc9033f3fd256c27a1d085007d1 \
 #                        f865810de19d62c3f1ac6ea8108000e5
+#
+#    Note, nameserver synchronization issue:
+#
+#        @ns1.skauting.cz.[81.31.46.138]
+#        ;_25._tcp.skauting.cz.  IN TLSA
+#        ;; flags: qr aa; QUERY: 1, ANSWER: 4, AUTHORITY: 2, ADDITIONAL: 1
+#        skauting.cz. TLSA 3 0 1 ...
+#
+#        @ns2.skauting.cz.[81.31.46.137]
+#        ;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 61660
+#        ;; flags: qr aa; QUERY: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 1
+#        ;_25._tcp.skauting.cz.  IN TLSA
+#
+#     As a result, the error is intermittent for the skauting.cz domain,
+#     but persistent for 88oddil.cz.
+#
 skauting.cz
 88oddil.cz
 
