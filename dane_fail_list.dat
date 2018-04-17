@@ -1,8 +1,17 @@
-# Bogus/security failure
+# -----------------
+# DNS problems: TLSA record lookup failure, dropped queries, incorrect denial
+# of existence proofs, looping CNAMEs, ...
+
 marketconservative.com
 dgtf.nl
+tre-sp.jus.br
+tre-pr.jus.br
+denimx.nl
 
-# Doesn't match
+# -----------------
+# STARTTLS problems: TLSA records that don't match the server certificate
+# chain, or no STARTTLS support at all
+
 ## mail.zionbit.cz
 ilustrat.cz
 pointaart.cz
@@ -10,11 +19,13 @@ zionbit.cz
 arbogard.cz
 masout.cz
 skodapetr.cz
+
 ## mail.abanto-zierbena.org
 abantoyciervana.org
 abanto-zierbena.org
 abantoyciervana.com
 abanto-zierbena.com
+
 ## mail.efflam.net
 efflam.ovh
 mail-jetable.ovh
@@ -23,12 +34,14 @@ efflam.net
 edgtslfcbngq6sk.space
 edgtslfcbngq6sk.top
 
-# 20180323 - All TLSA RRs failed
-kassoft.eu
+## eumembers.stansoft.bg
+## eufront.stansoft.bg
+# 20180323
 stansoft.bg
-tre-sp.jus.br
-tre-pr.jus.br
-denimx.nl
+
+## webmail.kassoft.eu
+# 20180323
+kassoft.eu
 
 ## itaskmanager.ovh
 # 2018-04-12
