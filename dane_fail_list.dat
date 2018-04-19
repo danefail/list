@@ -3,11 +3,15 @@
 # of existence proofs, looping CNAMEs, ...
 
 marketconservative.com
-dgtf.nl
 tre-sp.jus.br
 tre-pr.jus.br
 tre-sc.jus.br
 denimx.nl
+
+# http://dnsviz.net/d/_25._tcp.mail.dgtf.nl/WtWMnA/dnssec/
+# SOA RRSIG fails, likely serial bump after signing.
+#
+dgtf.nl
 
 # -----------------
 # STARTTLS problems: TLSA records that don't match the server certificate
