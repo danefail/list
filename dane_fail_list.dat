@@ -6,9 +6,31 @@ marketconservative.com
 tre-sp.jus.br
 tre-pr.jus.br
 tre-sc.jus.br
+
+## http://dnsviz.net/d/_25._tcp.denimx.nl/Wtujww/dnssec/
+# ServFail from all nameservers:
+#
+#   @ns3.firstfind.nl.[85.158.203.142]
+#   @ns4.firstfind.nl.[93.94.226.155]
+#   @ns5.firstfind.net.[178.62.34.128]
+#   ;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL
+#   ;; flags: qr aa; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+#   ;_25._tcp.denimx.nl.    IN TLSA
+#
+# The domain's NSEC3 chain is incomplete.  Queries for the below domains
+# SERVFAIL, because their NSEC3 hashes fall into the range
+# (70o22c5g82agqe75a2tacfhfkaf0sc4b, eg06tm3v5e1cf6jopg2boeqmlj5aet61)
+# for which no covering NSEC3 record is present.
+#
+#  NSEC3: salt "AB", iterations: 1   Domain
+#  --------------------------------  ------
+#  70p7h06sfcklscn648k9vgte7rjkhohr  communer.denimx.nl
+#  b9ljj8cbpqn6d6hss2n1nrgsbqsank1s  _tcp.denimx.nl
+#  efv6if24m6sq4rruf9746k5j4cjpl12u  aver.denimx.nl
+#
 denimx.nl
 
-# http://dnsviz.net/d/_25._tcp.mail.dgtf.nl/WtWMnA/dnssec/
+## http://dnsviz.net/d/_25._tcp.mail.dgtf.nl/WtWMnA/dnssec/
 # SOA RRSIG fails, likely serial bump after signing.
 #
 dgtf.nl
