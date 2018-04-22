@@ -2,10 +2,73 @@
 # DNS problems: TLSA record lookup failure, dropped queries, incorrect denial
 # of existence proofs, looping CNAMEs, ...
 
-marketconservative.com
-tre-sp.jus.br
+## http://dnsviz.net/d/_25._tcp.mandark.tse.jus.br/WtwGtA/dnssec/
+## http://dnsviz.net/d/_25._tcp.dexter.tse.jus.br/WtwGvg/dnssec/
+#
+# https://tools.ietf.org/html/draft-ietf-dnsop-no-response-issue-08
+#
+# TLSA queries blocked by misconfigured middlebox.
+#
+#   @sauron.tse.jus.br.[187.4.152.32]
+#   @saruman.tse.jus.br.[187.4.152.58]
+#   ;; connection timed out; no servers could be reached
+#
+# Type A queries get through, proving NXDOMAIN for the qname, and show
+# that the middlebox is selectively filtering TLSA queries.
+#
+#   @sauron.tse.jus.br.[187.4.152.32]
+#   @saruman.tse.jus.br.[187.4.152.58]
+#   ;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN
+#   ;; flags: qr aa; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+#   ;_25._tcp.mandark.tse.jus.br. IN        A
+#   tse.jus.br. SOA [...]
+#   mandark.tse.jus.br. NSEC miss.tse.jus.br. [...]
+#
+# tre-ap.jus.br.          IN      MX      5 mandark.tse.jus.br.
+# tre-ap.jus.br.          IN      MX      5 dexter.tse.jus.br.
+# tre-ce.jus.br.          IN      MX      5 mandark.tse.jus.br.
+# tre-ce.jus.br.          IN      MX      5 dexter.tse.jus.br.
+# tre-pb.jus.br.          IN      MX      5 mandark.tse.jus.br.
+# tre-pb.jus.br.          IN      MX      5 dexter.tse.jus.br.
+# tre-pr.jus.br.          IN      MX      5 mandark.tse.jus.br.
+# tre-pr.jus.br.          IN      MX      5 dexter.tse.jus.br.
+# tre-rj.jus.br.          IN      MX      5 mandark.tse.jus.br.
+# tre-rj.jus.br.          IN      MX      5 dexter.tse.jus.br.
+# tre-sc.jus.br.          IN      MX      5 mandark.tse.jus.br.
+# tre-sc.jus.br.          IN      MX      10 dexter.tse.jus.br.
+# tre-sp.jus.br.          IN      MX      5 mandark.tse.jus.br.
+# tre-sp.jus.br.          IN      MX      10 dexter.tse.jus.br.
+#
+tre-ap.jus.br
+tre-ce.jus.br
+tre-pb.jus.br
 tre-pr.jus.br
+tre-rj.jus.br
 tre-sc.jus.br
+tre-sp.jus.br
+
+## _25._tcp.mx1.marketconservative.com
+# Bogus response from all nameservers
+#
+# Failure to include non-existence proof for the relevant wildcard:
+#
+#   @ns1.psyclonecontacts.net.[52.1.81.184]
+#   @ns2.psyclonecontacts.net.[52.1.132.80]
+#   ;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN
+#   ;; flags: qr aa; QUERY: 1, ANSWER: 0, AUTHORITY: 6, ADDITIONAL: 5
+#   ;_25._tcp.mx1.marketconservative.com. IN	TLSA
+#
+#   marketconservative.com. SOA [...]
+#   marketconservative.com. NSEC _dmarc.marketconservative.com. [...]
+#   dk._domainkey.mx1.marketconservative.com. NSEC mx2.marketconservative.com. [...]
+#
+# The NSEC chain also has:
+#
+#    mx1.marketconservative.com. NSEC _dmarc.mx1.marketconservative.com. [...]
+#
+# but this is left out of the response.
+#
+marketconservative.com
 
 ## http://dnsviz.net/d/_25._tcp.denimx.nl/Wtujww/dnssec/
 # ServFail from all nameservers:
