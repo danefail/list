@@ -2,6 +2,19 @@
 # DNS problems: TLSA record lookup failure, dropped queries, incorrect denial
 # of existence proofs, looping CNAMEs, ...
 
+## Sites hosted at enavn.dk / dotserv.com
+## http://dnsviz.net/d/_25._tcp.mail.aktiv-varme.dk/dnssec/
+## http://dnsviz.net/d/_25._tcp.mail.falckwaehrens.dk/dnssec/
+# 
+# Host _25._tcp.mail.aktiv-varme.dk not found: 3(NXDOMAIN). (BOGUS (security failure))
+# validation failure <_25._tcp.mail.aktiv-varme.dk. TLSA IN>: nameerror proof failed from 178.20.218.61
+# 
+# Host _25._tcp.mail.falckwaehrens.dk not found: 3(NXDOMAIN). (BOGUS (security failure))
+# validation failure <_25._tcp.mail.falckwaehrens.dk. TLSA IN>: nameerror proof failed from 91.215.162.155
+#
+aktiv-varme.dk
+falckwaehrens.dk
+
 ## http://dnsviz.net/d/_25._tcp.mandark.tse.jus.br/WtwGtA/dnssec/
 ## http://dnsviz.net/d/_25._tcp.dexter.tse.jus.br/WtwGvg/dnssec/
 #
