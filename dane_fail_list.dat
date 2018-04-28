@@ -456,3 +456,26 @@ pseudomail.eu
 rietv.nl
 vakantiewoningblesdijke.nl
 welcomefoodlovers.nl
+
+## mail.fscker.nl
+# 2018-04-27
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.fscker.nl. IN TLSA 3 1 1 \
+#        a16c9445188d338674e4ec1c7642d01f \
+#        559802c824a885e797f6875398d583a3
+#
+# does not match the actual certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-03-15T10:11:09Z
+#     notAfter = 2018-06-13T10:11:09Z
+#     Subject CommonName = mail.fscker.nl
+#     pkey sha256: 3 1 1 af62e2b0a42b9a2d549a87b2a28690df \
+#                        1f60469a1c737de9df07f5b8478e7355
+#
+glazen-sieraden.nl
+fscker.nl
+emulation.nl
