@@ -224,6 +224,39 @@ edgtslfcbngq6sk.top
 ## eumembers.stansoft.bg
 ## eufront.stansoft.bg
 # 20180323
+#
+# The TLSA record:
+#
+#    _25._tcp.eumembers.stansoft.bg. IN TLSA 3 1 1 \
+#        401ddd2cd27619cf5109b7327fc13c9a \
+#        c4cb9b0d371ddde91d7d8e506e617a30
+#
+# does not match the actual certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-02-12T05:06:25Z
+#     notAfter = 2018-05-13T05:06:25Z
+#     Subject CommonName = members.stansoft.bg
+#     pkey sha256: 3 1 1 b5b8f41bb57da313adc1e65c2a19ee7c \
+#                        fd4c3c876999dc0b3a3ee77889269bb5
+#
+# The TLSA record:
+#
+#    _25._tcp.eufront.stansoft.bg. IN TLSA 3 1 1 \
+#        dd4ab9390488b7e55185afc67807f55b \
+#        e4e19d54ddcd76b53a38e545ddb4c616
+#
+# does not match the actual certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-02-12T05:08:47Z
+#     notAfter = 2018-05-13T05:08:47Z
+#     Subject CommonName = eufront.stansoft.bg
+#     pkey sha256: 3 1 1 15d3c19b4eb77ed7b3e940d5b27f0a62 \
+#                        776a2409be7db1d98a7e934a59f5714d
+#
 stansoft.bg
 
 ## itaskmanager.ovh
