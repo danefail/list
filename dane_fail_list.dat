@@ -167,6 +167,53 @@ abantoyciervana.com
 abanto-zierbena.com
 
 ## mail.efflam.net
+#
+# The TLSA records:
+#
+#    _25._tcp.mail.efflam.net. IN TLSA 2 1 1 \
+#        60b87575447dcba2a36b7d11ac09fb24 \
+#        a9db406fee12d2cc90180517616e8a18
+#    _25._tcp.mail.efflam.net. IN TLSA 3 0 1 \
+#        ee3dbd5a3951b6145f3f4ebdfe8298e2 \
+#        43377438f789f3129bdf890b92010954
+#    _25._tcp.mail.efflam.net. IN TLSA 3 1 1 \
+#        e6241b230ad43e74f445eba0b88beb71 \
+#        928db95ce64f8522d091dd5b013b2663
+#    _25._tcp.mail.efflam.net. IN TLSA 3 0 2 \
+#        3c9a5f3603032e56981b9fb35b39f65c \
+#        7aa47e48d92c7c8714c8bbb9e7960df1 \
+#        06c790e065c68fb4bf0a3ef1172ae88f \
+#        86e44630aba392f6b130dd7fa02760ce
+#    _25._tcp.mail.efflam.net. IN TLSA 3 1 2 \
+#        cb1560e45e47aecf81fc0c126d646afb \
+#        c34c28776fa732958f65ce64ee9bed21 \
+#        c665650a70306c2f2ba7c50c2fb148b4 \
+#        447bcf87d2ee651b1f4c9331b395eab6
+#
+# do not match the actual certificate chain, which
+# does not include the intermediate LE CA certificate
+# as required by:
+#
+#       https://tools.ietf.org/html/rfc7671#section-5.2.2
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-04-10T21:59:56Z
+#     notAfter = 2018-07-09T21:59:56Z
+#     Subject CommonName = smtp.efflam.net
+#     cert sha256: 3 0 1 827c14559df11b42e6450ee5d25c261e \
+#                        6e1e981429e0781ca2f88348c7c0e711
+#     pkey sha256: 3 1 1 53e582dd739f0cb9236ccb6e684a6f11 \
+#                        ac0ca235657e6292c669065f2ecd9971
+#     cert sha512: 3 0 2 6bd424804a1ca4769feaf350d37cead6 \
+#                        76407a641fcc359704b50f71a9dce098 \
+#                        fa42b5bdb4ee3eab02e9c9510ac77051 \
+#                        4f9be2caeb7e41418f51b84712f124a7
+#     pkey sha512: 3 1 2 a776797f51fd71274b4c485fe65041e9 \
+#                        ad756ddc40d233e02102b91c4ecd8655 \
+#                        cd481ecd34a5137562e7ebaca977c11b \
+#                        6fdfe13f3bee15d0821df15b5166e454
+#
 efflam.ovh
 mail-jetable.ovh
 domaine-ala.com
