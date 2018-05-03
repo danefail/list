@@ -501,41 +501,6 @@ jpbe-network.de
 skauting.cz
 88oddil.cz
 
-## intranet.nctechcenter.com
-# 2018-04-15
-#
-# The TLSA record:
-#
-#    _25._tcp.intranet.nctechcenter.com. IN TLSA 2 0 1 \
-#        f477a556ff6bbea4363439053a640db5 \
-#        81c2867e2f21fbce35609c1601d84242
-#
-# could be a "3 0 1" record with the same digest, matching the server cert,
-# or a "2 0 1" record matching the CA cert, but with a different digest,
-# but the server certificate is expired, so that would to be renewed first:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2017-12-03T22:51:34Z
-#     notAfter = 2018-03-03T22:51:34Z
-#     Subject CommonName = intranet.nctechcenter.com
-#     cert sha256: 3 0 1 f477a556ff6bbea4363439053a640db5 \
-#                        81c2867e2f21fbce35609c1601d84242
-#
-#     Issuer CommonName = DST Root CA X3
-#     Issuer Organization = Digital Signature Trust Co.
-#     notBefore = 2016-03-17T16:40:46Z
-#     notAfter = 2021-03-17T16:40:46Z
-#     Subject CommonName = Let's Encrypt Authority X3
-#     Subject Organization = Let's Encrypt
-#     cert sha256: 2 0 1 25847d668eb4f04fdd40b12b6b0740c5 \
-#                        67da7d024308eb6c2c96fe41d9de218d
-#
-nctechcenter.com
-4nettech.com
-kkeane.com
-tntmonitoring.com
-
 ## mail.0mail.xyz
 # 2018-04-22
 #
