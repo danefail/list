@@ -573,3 +573,62 @@ welcomefoodlovers.nl
 glazen-sieraden.nl
 fscker.nl
 emulation.nl
+
+## smtp.hoggins.fr
+# 2018-05-03
+#
+# The TLSA records:
+#
+#    _25._tcp.smtp.hoggins.fr. IN TLSA 3 1 2 \
+#        be3050d5e6c906b463d8b2df96e023bb \
+#        205fdd157fea9374a89bc36918c544ee \
+#        5545b20f8a2f31f34d4f245c8dd162ee \
+#        8118107f21c8ff7a54bd4ca1af5816cb ; NoError AD=1
+#    _25._tcp.smtp.hoggins.fr. IN TLSA 3 1 2 \
+#        d3ee2ba99a1c104d1212d0a8cd74eefc \
+#        d97ac21c064229b815c4388a4b8fa84a \
+#        42bade83de51de5f2144010996b37a8f \
+#        9c72150fa3d1f65623fe981f5268df54
+#
+# do not match the actual certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-04-27T12:00:40Z
+#     notAfter = 2018-07-26T12:00:40Z
+#     Subject CommonName = www.hoggins.fr
+#     pkey sha512: 3 1 2 32d2f213e97da7e4a3e2cf7937a62748 \
+#                        d6c9a0865b3c255bf4beb6da1dd8345f \
+#                        d06db159910eb83f1a7787d3faebbbe5 \
+#                        377c0792bb1f9f6494730814a4c3b1f2
+#
+atelierpanel.com
+davidduphil.com
+davidduphil.fr
+diaporama.photo
+diaporama.photos
+geleeroyalestudio.com
+gites-vielmont.com
+hoggins.eu
+hoggins.fr
+instant-clic.fr
+instant-clip.com
+instant-clip.fr
+instant-clips.com
+instant-clips.fr
+instantclic.fr
+instantclip.fr
+instantclips.fr
+jeban.de
+lavilladuparc.fr
+louisduphil.com
+mondiaporama.fr
+placebouffard.be
+poney-city.com
+porncultu.re
+romlamour.com
+romlamour.fr
+rougetrompette.com
+rougetrompette.fr
+vialas.org
+wheres5.com
