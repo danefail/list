@@ -313,33 +313,6 @@ rk-mail.net
 rk-mail.ovh
 skyneaker.ovh
 
-## mail.lsd.is
-# 2018-04-12
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.lsd.is. IN TLSA 3 0 1 \
-#        1b86c597ecd911edb44249be187206d3 \
-#        941a83012cd25169892946dc2fff2afb
-#
-# does not match the actual certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-03-12T23:09:13Z
-#     notAfter = 2018-06-10T23:09:13Z
-#     Subject CommonName = mail.lsd.is
-#     cert sha256: 3 0 1 a08b77d285453347c66d68ce6c39e963 \
-#                        a8ce238d726a0c17b9450746f0f25551
-#
-bi9.de
-kraus.global
-kraus.is
-smartmx.ch
-smartmx.de
-smartmx.eu
-xenobite.eu
-
 ## vm-1.eveng.de
 # 2018-04-13
 #
