@@ -76,29 +76,6 @@ tre-rj.jus.br
 tre-sc.jus.br
 tre-sp.jus.br
 
-## _25._tcp.mx1.marketconservative.com
-# Bogus response from all nameservers
-#
-# Failure to include non-existence proof for the relevant wildcard:
-#
-#   @ns1.psyclonecontacts.net.[52.1.81.184]
-#   @ns2.psyclonecontacts.net.[52.1.132.80]
-#   ;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN
-#   ;; flags: qr aa; QUERY: 1, ANSWER: 0, AUTHORITY: 6, ADDITIONAL: 5
-#   ;_25._tcp.mx1.marketconservative.com. IN	TLSA
-#
-#   marketconservative.com. SOA [...]
-#   marketconservative.com. NSEC _dmarc.marketconservative.com. [...]
-#   dk._domainkey.mx1.marketconservative.com. NSEC mx2.marketconservative.com. [...]
-#
-# The NSEC chain also has:
-#
-#    mx1.marketconservative.com. NSEC _dmarc.mx1.marketconservative.com. [...]
-#
-# but this is left out of the response.
-#
-marketconservative.com
-
 ## http://dnsviz.net/d/_25._tcp.denimx.nl/Wtujww/dnssec/
 # ServFail from all nameservers:
 #
