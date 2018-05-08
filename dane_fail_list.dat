@@ -598,3 +598,26 @@ machkovi.cz
 advokat-kladensko.cz
 pocitace-pribram.cz
 pocitacepraha.cz
+
+## securemail.gosebrink.de
+# 2018-05-07
+#
+# The TLSA record:
+#
+#    _25._tcp.securemail.gosebrink.de. IN TLSA 3 1 1 \
+#        e892068d80f1f3c16c2f3b4373d585f5 \
+#        93300c8a452eff1e7b313c2725c79fe4
+#
+# does not match the actual certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-04-29T21:09:14Z
+#     notAfter = 2018-07-28T21:09:14Z
+#     Subject CommonName = padmin.gosebrink.de
+#     pkey sha256: 3 1 1 67787e7cdf041f0b657bc820f988425e \
+#                        2b302e03aa54cefe5c27c38f7fc7620a
+#
+gosebrink.de
+drk-burscheid.de
+hexy-toys.de
