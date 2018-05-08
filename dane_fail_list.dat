@@ -574,3 +574,27 @@ rougetrompette.com
 rougetrompette.fr
 vialas.org
 wheres5.com
+
+## mail.machkovi.cz
+# 2018-05-07
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.machkovi.cz. IN TLSA 3 1 1 \
+#        790df7063609ab6e6d72535d730715e1 \
+#        f50c93c6efd843b071343e1938eadb33
+#
+# does not match the actual certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-05-01T09:51:45Z
+#     notAfter = 2018-07-30T09:51:45Z
+#     Subject CommonName = mail.machkovi.cz
+#     pkey sha256: 3 1 1 c3f7362f690af3397d8e46cae2901036 \
+#                        ca0301849e86e35955b7208803a3e7ab
+#
+machkovi.cz
+advokat-kladensko.cz
+pocitace-pribram.cz
+pocitacepraha.cz
