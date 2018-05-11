@@ -383,46 +383,6 @@ seiserkurve.ch
 skatesins.ch
 skateverein-hitzkirch.ch
 
-## homer.jpbe.de
-## milhouse.jpbe.de
-# 2018-04-13
-#
-# The TLSA records:
-#
-#    _25._tcp.homer.jpbe.de. IN TLSA 3 1 1 \
-#        60b87575447dcba2a36b7d11ac09fb24 \
-#        a9db406fee12d2cc90180517616e8a18
-#    _25._tcp.milhouse.jpbe.de. IN TLSA 3 1 1 \
-#        60b87575447dcba2a36b7d11ac09fb24 \
-#        a9db406fee12d2cc90180517616e8a18
-#
-# could be "2 1 1" records with the same digest, matching the issuer CA,
-# or "3 1 1" records matching the server cert, but with a different digest:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-03-15T07:56:23Z
-#     notAfter = 2018-06-13T07:56:23Z
-#     Subject CommonName = jpbe.de
-#     pkey sha256: 3 1 1 e5a71de156df9434ee59480be035a4b5 \
-#                        a070827426828273016f5517aaa8b15c
-#
-#     Issuer CommonName = DST Root CA X3
-#     Issuer Organization = Digital Signature Trust Co.
-#     notBefore = 2016-03-17T16:40:46Z
-#     notAfter = 2021-03-17T16:40:46Z
-#     Subject CommonName = Let's Encrypt Authority X3
-#     pkey sha256: 2 1 1 60b87575447dcba2a36b7d11ac09fb24 \
-#                        a9db406fee12d2cc90180517616e8a18
-#
-jpbe.de
-6in4.de
-as206479.net
-inboxcheck.de
-jnpl.de
-jpbe-apps.de
-jpbe-network.de
-
 ## skauting.cz
 # 2018-04-14
 #
