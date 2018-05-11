@@ -623,32 +623,24 @@ gosebrink.de
 drk-burscheid.de
 hexy-toys.de
 
-## mail.monitorulsv.ro
-## mail.itconnect.ro
 ## mx.itconnect.ro
+## mail.itconnect.ro
+## mail.monitorulsv.ro
 # 2018-05-07
 #
 # The TLSA records
 #:
-#    _25._tcp.mail.monitorulsv.ro. IN TLSA 3 0 1 \
-#        5e16fc79fd9874e7c3c50015825661b9 \
-#        f1d4b0c674265696371b3116c8184706
-#    _25._tcp.mail.itconnect.ro. IN TLSA 3 0 1 \
-#        592b32ce45a0c6be0e980d80a5ceb4db \
-#        aefd60dee9299fbdcfd5260578704dfa
 #    _25._tcp.mx.itconnect.ro. IN TLSA 3 0 1 \
 #        592b32ce45a0c6be0e980d80a5ceb4db \
 #        aefd60dee9299fbdcfd5260578704dfa
+#    _25._tcp.mail.itconnect.ro. IN TLSA 3 0 1 \
+#        592b32ce45a0c6be0e980d80a5ceb4db \
+#        aefd60dee9299fbdcfd5260578704dfa
+#    _25._tcp.mail.monitorulsv.ro. IN TLSA 3 0 1 \
+#        5e16fc79fd9874e7c3c50015825661b9 \
+#        f1d4b0c674265696371b3116c8184706
 #
 # do not match the actual certificates:
-#
-#     Issuer CommonName = RapidSSL SHA256 CA - G2
-#     Issuer Organization = GeoTrust Inc.
-#     notBefore = 2017-07-25T00:00:00Z
-#     notAfter = 2019-02-24T23:59:59Z
-#     Subject CommonName = *.monitorulsv.ro
-#     cert sha256: 3 0 1 3986862144562eb10c121201bacc3e7b \
-#                        a4e89e53057e20242cca976f823adb12
 #
 #     Issuer CommonName = Let's Encrypt Authority X3
 #     Issuer Organization = Let's Encrypt
@@ -657,6 +649,14 @@ hexy-toys.de
 #     Subject CommonName = mail.itconnect.ro
 #     cert sha256: 3 0 1 49ae13282339328d374bbb60a4d7dc8f \
 #                        a8649c1bb9fe0290f6f3746936fb7ecf
+#
+#     Issuer CommonName = RapidSSL SHA256 CA - G2
+#     Issuer Organization = GeoTrust Inc.
+#     notBefore = 2017-07-25T00:00:00Z
+#     notAfter = 2019-02-24T23:59:59Z
+#     Subject CommonName = *.monitorulsv.ro
+#     cert sha256: 3 0 1 3986862144562eb10c121201bacc3e7b \
+#                        a4e89e53057e20242cca976f823adb12
 #
 itconnect.ro
 monitorulsv.ro
