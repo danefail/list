@@ -487,7 +487,7 @@ emulation.nl
 #        be3050d5e6c906b463d8b2df96e023bb \
 #        205fdd157fea9374a89bc36918c544ee \
 #        5545b20f8a2f31f34d4f245c8dd162ee \
-#        8118107f21c8ff7a54bd4ca1af5816cb ; NoError AD=1
+#        8118107f21c8ff7a54bd4ca1af5816cb
 #    _25._tcp.smtp.hoggins.fr. IN TLSA 3 1 2 \
 #        d3ee2ba99a1c104d1212d0a8cd74eefc \
 #        d97ac21c064229b815c4388a4b8fa84a \
@@ -622,3 +622,26 @@ hexy-toys.de
 itconnect.ro
 monitorulsv.ro
 monitoruldesuceava.ro
+
+## mail.pasion.ro
+# 2018-05-14
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.pasion.ro. IN TLSA 3 1 1 \
+#        8a9fafd676424803581c0adc1fcdbfaa \
+#        dcb9af79d2abdd0f0e5e55c4edccea0c
+#
+# does not match the actual certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-05-03T14:41:54Z
+#     notAfter = 2018-08-01T14:41:54Z
+#     Subject CommonName = mail.pasion.ro
+#     pkey sha256: 3 1 1 4042a98ff5b0532873bb425bfdc2c811 \
+#                        d073a6e68113f56ce4b27d9c9abc084c
+#
+pasion.ro
+damicris.ro
+testgeomed.ro
