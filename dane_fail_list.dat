@@ -148,44 +148,6 @@ arbogard.cz
 masout.cz
 skodapetr.cz
 
-## mail.abanto-zierbena.org
-#
-#   abanto-zierbena.com. IN MX 5 mail.abanto-zierbena.org.
-#   abanto-zierbena.com. IN MX 10 gate1.kender.com.
-#   abanto-zierbena.org. IN MX 5 mail.abanto-zierbena.org.
-#   abanto-zierbena.org. IN MX 10 gate1.kender.com.
-#   abantoyciervana.com. IN MX 5 mail.abanto-zierbena.org.
-#   abantoyciervana.com. IN MX 10 gate1.kender.com.
-#   abantoyciervana.org. IN MX 5 mail.abanto-zierbena.org.
-#   abantoyciervana.org. IN MX 10 gate1.kender.com.
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.abanto-zierbena.org. IN TLSA 3 0 1 \
-#        be12876ffd0391c9ee40b371bcf2a475 \
-#        2aa9850be4280c70d315a52535174412
-#
-# does not match the primary MX host's certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-02-13T09:44:49Z
-#     notAfter = 2018-05-14T09:44:49Z
-#     Subject CommonName = mail.abanto-zierbena.eus
-#     cert sha256: 3 0 1 b1a044314e7a314e1cfcc9b91ca83a2a \
-#                        e6f7db582a7f1a67688743051908ef0d
-#
-# The backup MX host's TLSA record is OK:
-#
-#    _25._tcp.gate1.kender.com. IN TLSA 3 0 1 \
-#        1c42fbff60ae64047219ae73ee2e3cd3 \
-#        d176ad6dbd5f962a4ef43fe018ef44c8
-#
-abantoyciervana.org
-abanto-zierbena.org
-abantoyciervana.com
-abanto-zierbena.com
-
 ## mail.efflam.net
 #
 # The TLSA records:
