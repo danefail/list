@@ -82,6 +82,9 @@ kanai.nl
 # tre-sc.jus.br.          IN      MX      10 dexter.tse.jus.br.
 # tre-sp.jus.br.          IN      MX      5 mandark.tse.jus.br.
 # tre-sp.jus.br.          IN      MX      10 dexter.tse.jus.br.
+# tse.jus.br.             IN      MX      5 lalavava.tse.jus.br.
+# tse.jus.br.             IN      MX      10 dexter.tse.jus.br.
+# tse.jus.br.             IN      MX      10 mandark.tse.jus.br.
 #
 tre-ap.jus.br
 tre-ce.jus.br
