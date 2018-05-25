@@ -558,3 +558,87 @@ monitoruldesuceava.ro
 pasion.ro
 damicris.ro
 testgeomed.ro
+
+## drv-in2.emailhost.de
+## drv-in3.emailhost.de
+## mail3.emailhost.de
+## mail6.emailhost.de
+#
+# 2018-05-25
+#
+# The common TLSA rdata of the above MX hosts:
+#
+#   3 0 1 dd95d0a183585098e3b6949e6d858916779bd66d20c07f458e6d1fc67760b489
+#   3 1 1 a49155a685966585ac825185af7b4d26c8e0ce8cd8c551d73b60f80083ee6f98
+#   2 1 1 a49155a685966585ac825185af7b4d26c8e0ce8cd8c551d73b60f80083ee6f98
+#
+# does not match the actual certificate chain:
+#
+#   depth = 0
+#     Issuer CommonName = COMODO RSA Domain Validation Secure Server CA
+#     Issuer Organization = COMODO CA Limited
+#     notBefore = 2018-05-19T00:00:00Z
+#     notAfter = 2019-08-17T23:59:59Z
+#     Subject CommonName = *.emailhost.de
+#     cert sha256: 3 0 1 34f872440ef968d3803d281c1eb21ad4 \
+#                        8f7e25d5c6ae9c01fb09d64b328b8f65
+#     pkey sha256: 3 1 1 f9f8c714323b435c131c06de2b5581fb \
+#                        ae79c3f9c323e576bd70f50ee07bbff3
+#   depth = 1
+#     Issuer CommonName = COMODO RSA Certification Authority
+#     Issuer Organization = COMODO CA Limited
+#     notBefore = 2014-02-12T00:00:00Z
+#     notAfter = 2029-02-11T23:59:59Z
+#     Subject CommonName = COMODO RSA Domain Validation Secure Server CA
+#     Subject Organization = COMODO CA Limited
+#     pkey sha256: 2 1 1 9253b6de74f67a11435c27f1dde1d30d \
+#                        1112333ddab23d66b8efb86887638ae6
+#   depth = 2
+#     Issuer CommonName = AddTrust External CA Root
+#     Issuer Organization = AddTrust AB
+#     notBefore = 2000-05-30T10:48:38Z
+#     notAfter = 2020-05-30T10:48:38Z
+#     Subject CommonName = COMODO RSA Certification Authority
+#     Subject Organization = COMODO CA Limited
+#     pkey sha256: 2 1 1 82b5f84daf47a59c7ab521e4982aefa4 \
+#                        0a53406a3aec26039efa6b2e0e7244c1
+#   depth = 3
+#     Issuer CommonName = AddTrust External CA Root
+#     Issuer Organization = AddTrust AB
+#     notBefore = 2000-05-30T10:48:38Z
+#     notAfter = 2020-05-30T10:48:38Z
+#     Subject CommonName = AddTrust External CA Root
+#     Subject Organization = AddTrust AB
+#     pkey sha256: 2 1 1 942a6916a6e4ae527711c5450247a2a7 \
+#                        4fb8e156a8254ca66e739a11493bb445
+#
+amperetta.ch
+amperetta.com
+amperetta.de
+berufsschullehrertagung.de
+bibliothekarisch.de
+collet-seidel.de
+confighost.de
+deutscherreisebuerotag.de
+deutscherreiseverband.de
+dns-dns.de
+drv-service.de
+drv.de
+drvi.de
+exotischreisen.de
+guenstig-reisen-online.de
+hausarzt-dresden-nord.de
+internet-concierge.de
+maikatze.de
+proreisebuero.de
+reisebuerotag.de
+sauberfliegen.de
+sms-assist.de
+smsassist.de
+sysdoc.de
+touristikazubi.de
+touristikfit.de
+urlauberia.de
+voigtweb.de
+zukunft-buchen.de
+zukunftbuchen.de
