@@ -123,6 +123,24 @@ denimx.nl
 #
 dgtf.nl
 
+## http://dnsviz.net/d/_25._tcp.smtp.psb1.org/WwmxGA/dnssec/
+# 2018-05-26
+#
+# The NSEC chain is manged the link from last to first bypasses
+# the zone apex:
+#
+#    smtp.psb1.org. NSEC medvidek.psb1.org. A AAAA RRSIG NSEC
+#
+psb1.org
+autostodulky.cz
+bifrost.cz
+figan.cz
+galle.cz
+gamekeepers.cz
+psb.cloud
+viridis-milites.cz
+zlatakus.cz
+
 # -----------------
 # STARTTLS problems: TLSA records that don't match the server certificate
 # chain, or no STARTTLS support at all
