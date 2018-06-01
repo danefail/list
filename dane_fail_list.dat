@@ -397,7 +397,8 @@ skateverein-hitzkirch.ch
 #     cert sha256: 3 0 1 981eadc9033f3fd256c27a1d085007d1 \
 #                        f865810de19d62c3f1ac6ea8108000e5
 #
-#    Note, nameserver synchronization issue:
+#    Note, nameserver synchronization issue, missing wildcard CNAME
+#    on the "ns2" secondary nameserver.
 #
 #        @ns1.skauting.cz.[81.31.46.138]
 #        ;_25._tcp.skauting.cz.  IN TLSA
@@ -414,6 +415,7 @@ skateverein-hitzkirch.ch
 #
 skauting.cz
 88oddil.cz
+zvonopava.cz
 
 ## mail.0mail.xyz
 # 2018-04-22
