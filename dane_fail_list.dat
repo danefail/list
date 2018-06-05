@@ -264,34 +264,6 @@ edgtslfcbngq6sk.top
 #
 stansoft.bg
 
-## itaskmanager.ovh
-# 2018-04-12
-#
-# The TLSA record:
-#
-#    _25._tcp.itaskmanager.ovh. IN TLSA 3 1 1 \
-#        8e6d6a4f85df96577370d70430640ebd \
-#        4e33218383e1df20f9c37dd9fd729d40
-#
-# does not match the actual certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-03-29T09:29:19Z
-#     notAfter = 2018-06-27T09:29:19Z
-#     Subject CommonName = itaskmanager.ovh
-#     pkey sha256: 3 1 1 f786e9777137397602f44d0fbfc7f288 \
-#                        cee7a6748a49fb324e2dfeef48d4f1e8
-#
-itaskmanager.ovh
-gedankenausbruch.com
-googlemail.ovh
-outlook.ovh
-rk-mail.net
-rk-mail.ovh
-skyneaker.ovh
-t-online.ovh
-
 ## vm-1.eveng.de
 # 2018-04-13
 #
