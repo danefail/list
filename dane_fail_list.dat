@@ -2,17 +2,6 @@
 # DNS problems: TLSA record lookup failure, dropped queries, incorrect denial
 # of existence proofs, looping CNAMEs, ...
 
-## autoweerd.nl
-## http://dnsviz.net/d/_25._tcp.mail.autoweerd.nl/dnssec/
-# Host _25._tcp.mail.autoweerd.nl not found: 2(SERVFAIL). (error)
-#
-# All denial of existence fails for this domain, there seems to be
-# neither an NSEC nor an NSEC3 chain, even though NSEC3PARAM is
-# present at the zone apex.  The SERFVAIL is returned by the
-# authoritative servers.
-#
-autoweerd.nl
-
 ## Sites hosted at enavn.dk / dotserv.com
 ## http://dnsviz.net/d/_25._tcp.mail.aktiv-varme.dk/dnssec/
 ## http://dnsviz.net/d/_25._tcp.mail.falckwaehrens.dk/dnssec/
