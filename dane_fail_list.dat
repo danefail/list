@@ -546,3 +546,37 @@ monitoruldesuceava.ro
 pasion.ro
 damicris.ro
 testgeomed.ro
+
+## cinnamon.nl
+# 2018-06-09
+#
+# The TLSA record:
+#
+#    _25._tcp.cinnamon.nl. IN TLSA 3 1 1 \
+#        32882589b17f05cd4a093586551f7696 \
+#        6fa4b314807712d779d7af11c86b44c3
+#
+# does not match the actual certificate:
+#
+#     Issuer CommonName = COMODO RSA Organization Validation Secure Server CA
+#     Issuer Organization = COMODO CA Limited
+#     notBefore = 2018-05-22T00:00:00Z
+#     notAfter = 2019-05-22T23:59:59Z
+#     Subject CommonName = www.cinnamon.nl
+#     Subject Organization = Cinnamon Interactive
+#     pkey sha256: 3 1 1 1bf0b33dc4c0591843f6d0799311ef6e \
+#                        58c258e3212758f06891007849f40e7c
+#
+cinnamon.nl
+awaskaki.com
+divosa-congres.nl
+divosacongres.nl
+etfi.eu
+kolonienvanweldadigheid.eu
+podoloogfriesland.nl
+restaurantpaal13.nl
+rijkvoorarm.nl
+samenvoordeklant.nl
+sptdrenthe.nl
+trots-op-je-vak.nl
+wortelmerksplaskolonie.be
