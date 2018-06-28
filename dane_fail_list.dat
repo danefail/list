@@ -121,17 +121,26 @@ kanai.nl
 # tse.jus.br.             IN      MX      10 dexter.tse.jus.br.
 # tse.jus.br.             IN      MX      10 mandark.tse.jus.br.
 #
+justicaeleitoral.jus.br
+tre-ac.jus.br
+tre-al.jus.br
+tre-am.jus.br
 tre-ap.jus.br
+tre-ba.jus.br
 tre-ce.jus.br
+tre-es.jus.br
+tre-go.jus.br
+tre-mg.jus.br
+tre-ms.jus.br
 tre-pb.jus.br
 tre-pr.jus.br
 tre-rj.jus.br
+tre-rn.jus.br
+tre-ro.jus.br
 tre-sc.jus.br
 tre-sp.jus.br
+tre-to.jus.br
 tse.jus.br
-tre-rn.jus.br
-tre-go.jus.br
-tre-es.jus.br
 
 ## http://dnsviz.net/d/_25._tcp.denimx.nl/Wtujww/dnssec/
 # ServFail from all nameservers:
