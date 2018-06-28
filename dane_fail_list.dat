@@ -637,31 +637,3 @@ wortelmerksplaskolonie.be
 #
 penguinsproject.cz
 completeconsulting.cz
-
-## leibniz.dexalo.de
-# 2018-06-09
-#
-# The TLSA record:
-#
-#    _25._tcp.leibniz.dexalo.de. IN TLSA 3 0 2 \
-#        6d57f48b88be5a0f661fd75927e518ca \
-#        3723fb58b3a7e86905c911a9d98f111f \
-#        2c843da1d7d890b3853824229e2cb1b1 \
-#        55e6e30f7bf126be5e7a00df08ccb872
-#
-# does not match the actual certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-05-31T21:31:55Z
-#     notAfter = 2018-08-29T21:31:55Z
-#     Subject CommonName = leibniz.dexalo.de
-#     cert sha512: 3 0 2 f8982f514465c2119e946a801071c1a0 \
-#                        27d99dfe2f1ff0b0078fce0adf33b2c5 \
-#                        381033fe681d41bbb2425bbab7c9b8d3 \
-#                        850702ff6b6bbe1948650d84b8c50298
-#
-dexalo.de
-dexalo.eu
-daallexx.eu
-maximilian-greger.com
