@@ -172,11 +172,6 @@ tse.jus.br
 #
 denimx.nl
 
-## http://dnsviz.net/d/_25._tcp.mail.dgtf.nl/WtWMnA/dnssec/
-# SOA RRSIG fails, likely serial bump after signing.
-#
-dgtf.nl
-
 ## http://dnsviz.net/d/_25._tcp.smtp.psb1.org/WwmxGA/dnssec/
 # 2018-05-26
 #
