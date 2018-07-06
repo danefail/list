@@ -73,14 +73,14 @@ xn--toksvrdhallen-7fb.dk
 # Host _25._tcp.mail2.it-ateljee.nl not found: 3(NXDOMAIN). (BOGUS (security failure))
 # validation failure <_25._tcp.mail2.it-ateljee.nl. TLSA IN>: signature crypto failed from 89.146.11.51 for <it-ateljee.nl. SOA IN>
 # 
-it-ateljee.nl
-basmaasfotografie.nl
-kanai.nl
 123golfles.nl
-showkorpsov.nl
-imae.nl
+basmaasfotografie.nl
 festivalchart.nl
+imae.nl
+it-ateljee.nl
+kanai.nl
 mdevree.nl
+showkorpsov.nl
 
 ## http://dnsviz.net/d/_25._tcp.mandark.tse.jus.br/WtwGtA/dnssec/
 ## http://dnsviz.net/d/_25._tcp.dexter.tse.jus.br/WtwGvg/dnssec/
