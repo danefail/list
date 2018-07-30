@@ -553,36 +553,6 @@ skauting.cz
 88oddil.cz
 zvonopava.cz
 
-## mail.0mail.xyz
-# 2018-04-22
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.0mail.xyz. IN TLSA 3 1 1 \
-#        dd547ad6f2fb5c2a674cbccc06e10bcb \
-#        63b008aa2f5fc5874fa0725a721ba981
-#
-# does not match the actual certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-04-15T11:39:12Z
-#     notAfter = 2018-07-14T11:39:12Z
-#     Subject CommonName = mail.0mail.xyz
-#     pkey sha256: 3 1 1 6b467011270e209120ec5059b9fc9794 \
-#                        b82b050c9b061250266969c55be38cd4
-#
-0mail.xyz
-beej.xyz
-jarofdirt.com
-krab19.nl
-kukler.eu
-la-rame.fr
-pseudomail.eu
-rietv.nl
-vakantiewoningblesdijke.nl
-welcomefoodlovers.nl
-
 ## mail.fscker.nl
 # 2018-04-27
 #
