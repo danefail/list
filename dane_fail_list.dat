@@ -764,7 +764,7 @@ secufon.net
 sigtest.com
 
 ## leibniz.dexalo.de
-# 2018-06-09
+# 2018-08-01
 #
 # The TLSA record:
 #
@@ -812,3 +812,35 @@ maximilian-greger.com
 #
 hmserver.de
 notsan-mol.de
+
+## mail.antoineducret.eu
+## relay.antoineducret.eu
+# 2018-08-05
+#
+#    _25._tcp.mail.antoineducret.eu. IN TLSA 3 1 1 \
+#        d2dca8a3042a6a5bc649dc3c36e36fb4 \
+#        90c81f195ecf1768e7efdf89bfa4aabc
+#    _25._tcp.relay.antoineducret.eu. IN TLSA 3 1 1 \
+#        5f77ff28da07cee19de658bcef8053a1 \
+#        c2dbff6aa4dbb9df782dab85613defdf
+#
+# do not match the actual certificates:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-07-06T09:04:36Z
+#     notAfter = 2018-10-04T09:04:36Z
+#     Subject CommonName = mail.antoineducret.eu
+#     pkey sha256: 3 1 1 2c8b44de547ab5239c9f4427e4c55bd1 \
+#                        cdf93c88162deb0bf931951bcf9b639f
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-08-01T21:00:13Z
+#     notAfter = 2018-10-30T21:00:13Z
+#     Subject CommonName = relay.antoineducret.eu
+#     pkey sha256: 3 1 1 71f5025882710307c5dee42dbbea8489 \
+#                        482021964c451732ea2f8f89127cdbf0
+#
+antoineducret.eu
+ducret.sh
