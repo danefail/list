@@ -749,3 +749,25 @@ dexalo.de
 dexalo.eu
 daallexx.eu
 maximilian-greger.com
+
+## hmserver.de
+# 2018-08-03
+#
+# The TLSA record:
+#
+#    _25._tcp.hmserver.de. IN TLSA 3 1 1 \
+#        858b4eee1a01818af80debd0cc528ad7 \
+#        f7016dca409f2fe9e7c65cfd3eee38a2
+#
+# does not match the actual certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-08-02T17:59:48Z
+#     notAfter = 2018-10-31T17:59:48Z
+#     Subject CommonName = hmserver.de
+#     pkey sha256: 3 1 1 17a3bd954d240b34a5752b2dfb42d57e \
+#                        1e161a516c202569634ff8401a96caa2
+#
+hmserver.de
+notsan-mol.de
