@@ -722,6 +722,47 @@ wortelmerksplaskolonie.be
 penguinsproject.cz
 completeconsulting.cz
 
+## mail.diplomatic.email
+## mail.secufon.de
+# 2018-08-05
+#
+#    _25._tcp.mail.diplomatic.email. IN TLSA 3 1 1 \
+#         0ce6b6abd8f3c63a97cfa6e30476681d \
+#         cf2d3dab8bb4fb13f4a6cdd450eefcc7
+#    _25._tcp.mail.secufon.de. IN TLSA 3 1 1 \
+#         e3b0c44298fc1c149afbf4c8996fb924 \
+#         27ae41e4649b934ca495991b7852b855
+#
+# do not match the actual certificates:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-07-01T10:38:08Z
+#     notAfter = 2018-09-29T10:38:08Z
+#     Subject CommonName = diplomatic.email
+#     pkey sha256: 3 1 1 8e6ddc1504838b25ca91d2fc11fc09b4 \
+#                        dd14b170b1227135ba2808584097e92b
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-06-23T23:35:43Z
+#     notAfter = 2018-09-21T23:35:43Z
+#     Subject CommonName = secufon.de
+#     pkey sha256: 3 1 1 d2dbef75dc41ffbcb6ced47dd51a691e \
+#                        bdb125e3af2ac875f4b12b491128a2ce
+#
+cutspin.com
+diplomatic.email
+fonsecu.de
+kommle.de
+secmatic.com
+secmatic.net
+secu.expert
+secufon.com
+secufon.de
+secufon.net
+sigtest.com
+
 ## leibniz.dexalo.de
 # 2018-06-09
 #
