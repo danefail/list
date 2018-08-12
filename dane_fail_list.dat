@@ -797,3 +797,23 @@ blackhorselabs.info
 blackhorselabs.org
 gordonewasiuk.com
 gordonewasiuk.net
+
+## mx.studiobrandano.com
+# 2018-08-12
+#
+# The TLSA record:
+#
+#    _25._tcp.mx.studiobrandano.com IN TLSA 3 1 1 \
+#        39B8FECD54BA574EB144E17CD47C6985 \
+#        19D73FBC46028BC36AAC940A89BE1027
+#
+# does not match the actual certificate:
+#
+#     Issuer Organization = Let's Encrypt Authority X3
+#     notBefore = 2018-07-04T08:54:58Z
+#     notAfter = 2018-10-02T08:54:58Z
+#     Subject CommonName = studiobrandano.com
+#     pkey sha256: 3 1 1 aa48f35ad5db3ac700529e6a690a89fb \
+#                        91ca333298317b6901d69bdd44efffa6
+#
+madreacqua.com
