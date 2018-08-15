@@ -57,26 +57,6 @@ xn--drej-i-tr-o3a.dk
 xn--romse-yua.dk
 xn--toksvrdhallen-7fb.dk
 
-## Sites hosted at mijnhostingpartner.nl
-## http://dnsviz.net/d/_25._tcp.mail2.it-ateljee.nl/dnssec/
-## http://dnsviz.net/d/_25._tcp.mail.it-ateljee.nl/dnssec/
-# 
-# $ unbound-host -f /etc/unbound/root.key -v -t TLSA _25._tcp.mail.it-ateljee.nl
-# Host _25._tcp.mail.it-ateljee.nl not found: 3(NXDOMAIN). (BOGUS (security failure))
-# validation failure <_25._tcp.mail.it-ateljee.nl. TLSA IN>: signature crypto failed from 89.146.11.51 for <it-ateljee.nl. SOA IN>
-# 
-# $ unbound-host -f /etc/unbound/root.key -v -t TLSA _25._tcp.mail2.it-ateljee.nl
-# Host _25._tcp.mail2.it-ateljee.nl not found: 3(NXDOMAIN). (BOGUS (security failure))
-# validation failure <_25._tcp.mail2.it-ateljee.nl. TLSA IN>: signature crypto failed from 89.146.11.51 for <it-ateljee.nl. SOA IN>
-# 
-123golfles.nl
-daandebock.nl
-gezelligbabbelen.nl
-ht-ict.nl
-ik-anoniem.nl
-jouwleidraad.nl
-montageserviceroessink.nl
-
 ## http://dnsviz.net/d/_25._tcp.mandark.tse.jus.br/WtwGtA/dnssec/
 ## http://dnsviz.net/d/_25._tcp.dexter.tse.jus.br/WtwGvg/dnssec/
 ## http://dnsviz.net/d/_25._tcp.lalavava.tse.jus.br/Wux52A/dnssec/
