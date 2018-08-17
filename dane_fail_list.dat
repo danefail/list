@@ -746,3 +746,26 @@ mercadodmoda.com.br
 modatv.com.br
 tvmoda.com.br
 zesportes.com.br
+
+## prime.gushi.org
+# 2018-08-17
+#
+# The TLSA record:
+#
+#    _25._tcp.prime.gushi.org. IN TLSA 3 0 1 \
+#        13d7a5a353cb3ed58f3806b93bd6c4d7 \
+#        4eb1e0998bb061551279732203cdf7ed
+#
+# does not match the actual certificate:
+#
+#     Issuer CommonName = RapidSSL RSA CA 2018
+#     Issuer Organization = DigiCert Inc
+#     notBefore = 2018-06-28T00:00:00Z
+#     notAfter = 2019-01-05T12:00:00Z
+#     Subject CommonName = prime.gushi.org
+#     cert sha256: 3 0 1 840d270fa43ad6eeb0214ef2cf6d1f74 \
+#                        42fef5237eafc833c3314cf5b447cbbf
+#
+gushi.org
+biafrarepublic.me
+danmahoney.com
