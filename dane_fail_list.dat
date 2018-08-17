@@ -718,28 +718,3 @@ thielens.net
 variander.nl
 vierzorg.com
 westvoorne.net
-
-## mail.blackhorselabs.net
-# 2018-08-12
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.blackhorselabs.net. IN TLSA 3 1 1 \
-#        118c9b0724e820219352f9e36f90d6a2 \
-#        7f29790b1eda0cc31125dd84ead8a796
-#
-# does not match the actual certificate:
-#
-#     Issuer CommonName = Go Daddy Secure Certificate Authority - G2
-#     Issuer Organization = GoDaddy.com, Inc.
-#     notBefore = 2018-07-17T16:26:12Z
-#     notAfter = 2018-11-15T05:17:01Z
-#     Subject CommonName = mail.blackhorselabs.net
-#     pkey sha256: 3 1 1 0cc6f88e2540f14fd0e9d3c8f0228f93 \
-#                        154b48f4dbc8f48e4c7a31928bfc22a3
-#
-blackhorselabs.net
-blackhorselabs.info
-blackhorselabs.org
-gordonewasiuk.com
-gordonewasiuk.net
