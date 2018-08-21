@@ -607,32 +607,6 @@ maximilian-greger.com
 hmserver.de
 notsan-mol.de
 
-## fluxmidia.com.br
-# 2018-08-17
-#
-# The TLSA record:
-#
-#    _25._tcp.fluxmidia.com.br. IN TLSA 3 1 1 \
-#        7b759d2a773f5dd010b90bdfc54cd653\
-#        81f876fb5c1dfc61159c170d84b8509e
-#
-# does not match the actual certificate:
-#
-#     Issuer CommonName = web.fluxmidia.com.br
-#     Issuer Organization = Fluxmidia Solucoes Digitais
-#     notBefore = 2018-06-22T21:23:24Z
-#     notAfter = 2028-06-19T21:23:24Z
-#     Subject CommonName = web.fluxmidia.com.br
-#     Subject Organization = Fluxmidia Solucoes Digitais
-#     pkey sha256: 3 1 1 b977df875176bd5a75c78d9f743d07a7 \
-#                        230f0d0d52325e3dc04fd4537982610d
-#
-fluxmidia.com.br
-mercadodmoda.com.br
-modatv.com.br
-tvmoda.com.br
-zesportes.com.br
-
 ## prime.gushi.org
 # 2018-08-17
 #
