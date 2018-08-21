@@ -141,3 +141,27 @@ meircampe.nl
 strebsjig.com
 strebsjig.nl
 
+## mx2.mindrun.de
+# 2018-08-21
+#
+# The TLSA record:
+#
+#    _25._tcp.mx2.mindrun.de. IN TLSA 3 0 1 \
+#        ccea4f3f64d850e0366ae7e5ac02bb79 \
+#        8c7c22f1502fbb62b71389f50c84cd98
+#
+# does not match the actual certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-06-21T21:53:59Z
+#     notAfter = 2018-09-19T21:53:59Z
+#     Subject CommonName = mx2.mindrun.de
+#     cert sha256: 3 0 1 2a6cfe28a3a59090dc2b270c403b135d \
+#                        cf91a72528811dc77ffb42cea5e45b59
+#
+mindrun.de
+mindrun.net
+bailey-rud.de
+startcrypt.de
+
