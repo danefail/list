@@ -309,6 +309,8 @@ skateverein-hitzkirch.ch
 # The TLSA record:
 #
 #    _25._tcp.skauting.cz. IN CNAME skauting.cz.
+#    _25._tcp.88oddil.cz. IN CNAME lebeda.skauting.cz.
+#    lebeda.skauting.cz. IN CNAME skauting.cz.
 #
 #    skauting.cz. IN TLSA 3 0 1 \
 #        56ff406749aaff087c197fccc3f2a627 \
@@ -338,9 +340,10 @@ skateverein-hitzkirch.ch
 #        ;_25._tcp.skauting.cz.  IN TLSA
 #
 #     As a result, the error is intermittent for the skauting.cz domain,
-#     but persistent for zvonopava.cz.
+#     but persistent for 88oddil.cz and zvonopava.cz.
 #
 skauting.cz
+88oddil.cz
 zvonopava.cz
 
 ## mail.fscker.nl
