@@ -165,3 +165,24 @@ mindrun.net
 bailey-rud.de
 startcrypt.de
 
+## mail.misbegotten.net
+# 2018-08-26
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.misbegotten.net. IN TLSA 3 1 1 \
+#        80c099146806ca7e29ab7b1eed7704cd \
+#        3380a96670caad54491a5808a5f85d01
+#
+# does not match the actual certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-08-26T01:02:03Z
+#     notAfter = 2018-11-24T01:02:03Z
+#     Subject CommonName = mail.misbegotten.net
+#     pkey sha256: 3 1 1 4e5b08570e5985ed6c6a3b720365615d \
+#                        a7d68bd98d4ed5207b61087e1aed9caf
+#
+misbegotten.net
+
