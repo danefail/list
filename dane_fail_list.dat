@@ -653,3 +653,32 @@ bacrau.ro
 injectoare-turbocompresoare.ro
 dieselservicebosanci.ro
 
+## smtp3.sbroker.net
+# 2018-08-27
+#
+# The TLSA record (key of "StartCom Class 3 OV Server CA"):
+#
+#    _25._tcp.smtp3.sbroker.net. IN TLSA 2 1 1 \
+#        d765efb29fd40114afb1e830dbca8d12 \
+#        83e99086617ff18b07ad4ba58e7b0166
+#
+# does not match the actual certificate (issued by "Let's Encrypt Authority X3"):
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-05-28T05:52:22Z
+#     notAfter = 2018-08-26T05:52:22Z
+#     Subject CommonName = smtp3.sbroker.net
+#     pkey sha256: 3 1 1 5d62e7c5c19f74dbbcb20a27a545e3b9 \
+#                        1a18f58434416094311340a1040f95a5
+#
+#     Issuer CommonName = DST Root CA X3
+#     Issuer Organization = Digital Signature Trust Co.
+#     notBefore = 2016-03-17T16:40:46Z
+#     notAfter = 2021-03-17T16:40:46Z
+#     Subject CommonName = Let's Encrypt Authority X3
+#     Subject Organization = Let's Encrypt
+#     pkey sha256: 2 1 1 60b87575447dcba2a36b7d11ac09fb24 \
+#                        a9db406fee12d2cc90180517616e8a18
+#
+sbroker.de
