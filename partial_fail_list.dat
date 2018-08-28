@@ -10,28 +10,6 @@
 # "watch list" for further problems, and it should not surprising to find
 # transient DANE-related delivery issues to these domains in MTA logs.
 
-## mail2.puggan.se
-# 2018-08-20
-#
-# The TLSA record:
-#
-#    _25._tcp.mail2.puggan.se. IN TLSA 3 0 1 \
-#        de74c265f256008463289c5d6f91a0a6 \
-#        d458526ed182563073e68361c7b50570
-#
-# does not match the actual certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-08-20T09:05:09Z
-#     notAfter = 2018-11-18T09:05:09Z
-#     Subject CommonName = mail2.puggan.se
-#     cert sha256: 3 0 1 d040ce7cf35d9e43f9c1202185b84fdb303328685c20430c54c0980f6b66d08f
-#
-pippin.se
-bfis.se
-punkcat.se
-
 ## mailb.kamadu.eu
 # 2018-08-20
 #
