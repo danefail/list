@@ -579,6 +579,49 @@ sigtest.com
 hmserver.de
 notsan-mol.de
 
+## mx2-dev.provalue.nl
+# 2018-08-29
+#
+#  MX host has a TLSA record:
+#
+#    _25._tcp.mx2-dev.provalue.nl. IN TLSA 3 0 1 \
+#        2ec3127886e726112a0037a233134e03 \
+#        082f50fee96a0aa81cf41529279e65bb
+#
+# but does not support STARTTLS:
+#
+#    mx2-dev.provalue.nl[82.210.73.114]: STARTTLS 454 4.3.0 Try again later
+#
+3sec.nl
+bavariahouse.nl
+bavariahuis.nl
+bi-izu.nl
+bloozm.nl
+c-huybregts.nl
+coolboxx.nl
+giton.nl
+graficor.nl
+happyxs.nl
+itcool.nl
+kdzfoundation.org
+maxacon.com
+maxprojectsteams.nl
+meubelhome.nl
+mycrib.nl
+onlinevastgoedbeheer.com
+oricon.nl
+projectsteams.nl
+provalue.es
+psdn.nl
+sence4events.nl
+senceforevents.nl
+sportsmediation.nl
+sprintphoto.nl
+thielens.net
+variander.nl
+vierzorg.com
+westvoorne.net
+
 ## prime.gushi.org
 # 2018-08-17
 #
