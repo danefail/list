@@ -557,34 +557,6 @@ secufon.de
 secufon.net
 sigtest.com
 
-## leibniz.dexalo.de
-# 2018-08-01
-#
-# The TLSA record:
-#
-#    _25._tcp.leibniz.dexalo.de. IN TLSA 3 0 2 \
-#        f8982f514465c2119e946a801071c1a0 \
-#        27d99dfe2f1ff0b0078fce0adf33b2c5 \
-#        381033fe681d41bbb2425bbab7c9b8d3 \
-#        850702ff6b6bbe1948650d84b8c50298
-#
-# does not match the actual certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-07-30T21:49:06Z
-#     notAfter = 2018-10-28T21:49:06Z
-#     Subject CommonName = leibniz.dexalo.de
-#     cert sha512: 3 0 2 309e662d44fd95bfb985afbcd093efc6 \
-#                        ea3b17877670c4737199a229678ad209 \
-#                        db8d49c22e6a2fa9ecaea9daa7af02b1 \
-#                        d36bb9b47f12db41b9e51a5d2e83315c
-#
-dexalo.de
-dexalo.eu
-daallexx.eu
-maximilian-greger.com
-
 ## hmserver.de
 # 2018-08-03
 #
