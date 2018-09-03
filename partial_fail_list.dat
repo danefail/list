@@ -164,27 +164,3 @@ startcrypt.de
 #
 misbegotten.net
 
-## mail1.puggan.se
-# 2018-08-30
-#
-# The TLSA record:
-#
-#    _25._tcp.mail1.puggan.se. IN TLSA 3 0 1 \
-#        6e342d19c0ec4b05be4e3c8b3e2b2d58 \
-#        5322356ebbd52d68dc067640e3618958
-#
-# does not match the actual certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-08-29T09:05:07Z
-#     notAfter = 2018-11-27T09:05:07Z
-#     Subject CommonName = mail1.puggan.se
-#     pkey sha256: 3 1 1 9b94bc5e575c6c4bba29fe5d5156c970 \
-#                        2020b22e68c755037f2838ba76a8ad82
-#
-bfis.se
-dementhia.se
-pippin.se
-punkcat.se
-
