@@ -732,3 +732,27 @@ sbroker.de
 fmcna.com
 fmc-na.net
 
+## mail.hasno.info
+## mail2.hasno.info
+# 2018-09-05
+#
+# The TLSA records:
+#
+#    _25._tcp.mail.hasno.info. IN TLSA 3 1 1 \
+#        0f0707bf491fcd4516ca2929cc894ac0 \
+#        04513b714f1addb31df2f4fd75d27a12
+#    _25._tcp.mail2.hasno.info. IN TLSA 3 1 1 \
+#        0f0707bf491fcd4516ca2929cc894ac0 \
+#        04513b714f1addb31df2f4fd75d27a12
+#
+# do not match the actual certificate:
+#
+#     Issuer CommonName = AlphaSSL CA - SHA256 - G2
+#     Issuer Organization = GlobalSign nv-sa
+#     notBefore = 2017-08-04T22:17:06Z
+#     notAfter = 2020-08-04T22:17:06Z
+#     Subject CommonName = *.hasno.info
+#     pkey sha256 [nomatch] <- 3 1 1 c7e21893441322611ab16a66a6bf53d73068e12ca6b8af3cc6ce3208b20ca218
+#
+hasno.info
+
