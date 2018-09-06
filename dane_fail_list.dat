@@ -799,3 +799,32 @@ victorycity.com.hk
 #     cert sha256: 3 0 1 acacde5f3c8ad95f8cf6cc9a102a7498a9dcd3eda8329750cda82f4999a4afb1
 #
 qbitnet.com
+
+## lore.xmw.de
+# 2018-09-06
+#
+# The TLSA record:
+#
+#    _25._tcp.lore.xmw.de. IN CNAME _443._tcp.lore.xmw.de.
+#    _443._tcp.lore.xmw.de. IN TLSA 3 0 2 \
+#        bf814e2cf298d5240f9a4e2f05744eef \
+#        a3a8de343c0ee6f8bb72c2526488d172 \
+#        f387d3f128ed8b58cd796a586c97eb89 \
+#        ced155c8b15a8cd61799310bee56d7cd
+#
+# does not match the actual certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-08-19T07:47:03Z
+#     notAfter = 2018-11-17T07:47:03Z
+#     Subject CommonName = lore.xmw.de
+#     cert sha512: 3 0 2 07a9e0a0b8873385c8544e7dd9b277ad \
+#                        78fd2dbfa30c7b1db5c05cad6e38ea2c \
+#                        e219a32c601b3776d3bd4c3308d76dc4 \
+#                        1e70695f3d30be293544996ad062c6e2
+#
+xmw.de
+cbk-praxis-kompetenz.de
+fewopenzberg.de
+tehsuck.de
