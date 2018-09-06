@@ -780,3 +780,22 @@ hasno.info
 #
 victorycity.com.hk
 
+## ma.qbitnet.com
+# 2018-09-06
+#
+# The TLSA record:
+#
+#    _25._tcp.ma.qbitnet.com. IN TLSA 3 0 1 \
+#        C7398537022146C2D4CCD383B696012A \
+#        2D307BFEB67DA4A225440D6FE7355DDD
+#
+# does not match the actual certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-09-04T18:58:22Z
+#     notAfter = 2018-12-03T18:58:22Z
+#     Subject CommonName = qbitnet.com
+#     cert sha256: 3 0 1 acacde5f3c8ad95f8cf6cc9a102a7498a9dcd3eda8329750cda82f4999a4afb1
+#
+qbitnet.com
