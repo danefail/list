@@ -828,3 +828,27 @@ xmw.de
 cbk-praxis-kompetenz.de
 fewopenzberg.de
 tehsuck.de
+
+## mail6.vande-walle.eu
+## mail.vande-walle.eu
+# 2018-09-06
+#
+# The TLSA records (empty SHA2-512 digest value!):
+#
+#    _25._tcp.mail6.vande-walle.eu. IN TLSA 3 1 2
+#    _25._tcp.mail.vande-walle.eu. IN TLSA 3 1 2
+#
+# do cannot match the actual certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-08-24T08:32:24Z
+#     notAfter = 2018-11-22T08:32:24Z
+#     Subject CommonName = vande-walle.eu
+#     pkey sha512: 3 1 2 f00f5f7474f911b26c217372d0ed2a6a \
+#                        e0299186e6ade82eb56502a99fce4f83 \
+#                        16f5ddd0a9b8506dccf617c7028b9dc5 \
+#                        ad3dcfc06f5b040dd6ce71c87ea01a85
+#
+vande-walle.eu
+vennet.fr
