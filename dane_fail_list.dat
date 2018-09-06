@@ -838,7 +838,7 @@ tehsuck.de
 #    _25._tcp.mail6.vande-walle.eu. IN TLSA 3 1 2
 #    _25._tcp.mail.vande-walle.eu. IN TLSA 3 1 2
 #
-# do cannot match the actual certificate:
+# cannot match the actual certificate:
 #
 #     Issuer CommonName = Let's Encrypt Authority X3
 #     Issuer Organization = Let's Encrypt
@@ -852,3 +852,26 @@ tehsuck.de
 #
 vande-walle.eu
 vennet.fr
+
+## mail.ruebezahl.cc
+# 2018-09-06
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.ruebezahl.cc. IN TLSA 3 0 1 \
+#        db54d3f2607dfb64d5503181286e87d5 \
+#        3b6b4bbe41e9fefc75a1d5c6f040c1a2
+#
+# does not match the actual certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-08-23T07:42:56Z
+#     notAfter = 2018-11-21T07:42:56Z
+#     Subject CommonName = mail.ruebezahl.cc
+#     cert sha256: 3 0 1 ca0c199230089cfbb7e6ff49097bf9b3 \
+#                        2bb5cda1cc8bd049e1ea2aaf1051f0f9
+#
+ruebezahl.cc
+fnordkap.de
+dezentralrat.org
