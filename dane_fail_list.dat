@@ -845,3 +845,25 @@ dezentralrat.org
 #                        0d8fdc983069a05e5fafd5a2fb3b565a
 #
 smia-automotive.com
+
+## mail.virnet.ch
+# 2018-09-08
+#
+# The TLSA records:
+#
+#    _25._tcp.mail.virnet.ch. IN TLSA 3 1 1 \
+#        1dcbee59db0a118b7ee4f19bc7a6107c \
+#        f9ccdcc9da2ef6a374247f2a2be9c0e1
+#
+# do not match the actual certificates:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-07-08T21:40:17Z
+#     notAfter = 2018-10-06T21:40:17Z
+#     Subject CommonName = mail.virnet.ch
+#     pkey sha256: 3 1 1 d993c48df314c81ea60e50216536ba96 \
+#                        4eeb78350eb4190e0d90735f5aa63c88
+#
+virnet.ch
+hb9aya.ch
