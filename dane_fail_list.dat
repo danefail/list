@@ -808,13 +808,13 @@ smia-automotive.com
 ## mail.virnet.ch
 # 2018-09-08
 #
-# The TLSA records:
+# The TLSA record:
 #
 #    _25._tcp.mail.virnet.ch. IN TLSA 3 1 1 \
 #        1dcbee59db0a118b7ee4f19bc7a6107c \
 #        f9ccdcc9da2ef6a374247f2a2be9c0e1
 #
-# do not match the actual certificates:
+# does not match the actual certificate:
 #
 #     Issuer CommonName = Let's Encrypt Authority X3
 #     Issuer Organization = Let's Encrypt
@@ -826,3 +826,26 @@ smia-automotive.com
 #
 virnet.ch
 hb9aya.ch
+
+## mx.promail.saarland
+# 2018-09-17
+#
+# The TLSA record:
+#
+#    _25._tcp.mx.promail.saarland. IN TLSA 3 0 1 \
+#        6832c49f6b999bf4d52b48c0a88be4a9 \
+#        989266d319c433704b4f5f86e3f42cf6
+#
+# does not match the actual certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-09-07T02:40:12Z
+#     notAfter = 2018-12-06T02:40:12Z
+#     Subject CommonName = mx.promail.saarland
+#     cert sha256: 3 0 1 5a3636971d92d258bc90f408bcb13179 \
+#                        6d4479e67c292aa5cb39e6f02520221b
+#
+promail.saarland
+dynni.com
+fserver.org
