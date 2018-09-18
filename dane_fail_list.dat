@@ -78,32 +78,6 @@ zlatakus.cz
 # STARTTLS problems: TLSA records that don't match the server certificate
 # chain, or no STARTTLS support at all
 
-## mail.zionbit.cz
-# 2018-01-16
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.zionbit.cz. IN TLSA 3 1 1 \
-#        38271351511903262fd442ea57940a13 \
-#        cd8a21319d2aaa6467bf39b2175f03b7
-#
-# does not match the actual certificate:
-#
-#      Issuer CommonName = Let's Encrypt Authority X3
-#      Issuer Organization = Let's Encrypt
-#      notBefore = 2018-04-02T00:02:10Z
-#      notAfter = 2018-07-01T00:02:10Z
-#      Subject CommonName = mail.zionbit.cz
-#      pkey sha256: 3 1 1 d29f77fae8b5a8d4393e09d796bb827f \
-#                         1d4a6da97beec66ca84e77d64f532548
-#
-ilustrat.cz
-pointaart.cz
-zionbit.cz
-arbogard.cz
-masout.cz
-skodapetr.cz
-
 ## eumembers.stansoft.bg
 ## eufront.stansoft.bg
 # 20180323
