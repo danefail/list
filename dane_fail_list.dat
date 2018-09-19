@@ -845,3 +845,29 @@ fserver.org
 #
 maverickvalves.eu
 maverickvalves-hq.com
+
+## mminetto.com.br
+# 2018-09-19
+#
+# The TLSA records:
+#
+#    _25._tcp.mminetto.com.br. IN TLSA 3 1 1 \
+#        f8739b5de64a7f0127e31aa4b4ee0b7f \
+#        4c3db103a4e3091d305c2368ea81227a
+#    _25._tcp.heberminetto.com.br. IN TLSA 3 1 1 \
+#        f8739b5de64a7f0127e31aa4b4ee0b7f \
+#        4c3db103a4e3091d305c2368ea81227a
+#
+# do not match the (shared) certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-07-27T02:01:46Z
+#     notAfter = 2018-10-25T02:01:46Z
+#     Subject CommonName = mminetto.com.br
+#     pkey sha256: 3 1 1 883d5473323fc5b443ec9b4675f1d978 \
+#                        3c4537b00dd6106c13d82021953b83b3
+#
+mminetto.com.br
+devhood.com.br
+heberminetto.com.br
