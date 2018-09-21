@@ -870,3 +870,25 @@ maverickvalves-hq.com
 mminetto.com.br
 devhood.com.br
 heberminetto.com.br
+
+## mail.hartbecke.net
+# 2018-09-20
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.hartbecke.net. IN TLSA 3 1 1 \
+#        7e593ee6c43be09f85513af96a96dff2 \
+#        9cff38ae2494fc57555d6873596fe60f
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-07-16T20:24:33Z
+#     notAfter = 2018-10-14T20:24:33Z
+#     Subject CommonName = mail.hartbecke.net
+#     pkey sha256: 3 1 1 52f99bd88a4f82ca239c61edf9fa18ed \
+#                        4be7a0d9414283f6d2b1b937005216cb
+#
+hartbecke.net
+untethered.org
