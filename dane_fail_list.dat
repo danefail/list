@@ -413,7 +413,6 @@ completeconsulting.cz
 
 ## mail.diplomatic.email
 ## mail.secufon.de
-## mail.kommle.de
 # 2018-08-05
 #
 # The TLSA records:
@@ -424,9 +423,6 @@ completeconsulting.cz
 #    _25._tcp.mail.secufon.de. IN TLSA 3 1 1 \
 #        e3b0c44298fc1c149afbf4c8996fb924 \
 #        27ae41e4649b934ca495991b7852b855
-#    _25._tcp.mail.kommle.de. IN TLSA 3 1 1 \
-#        e8cc8a1b89bcef5d04f623678e1937cc \
-#        9e543e6cab9f4663e97a1a3d4166b40b
 #
 # do not match the actual certificates:
 #
@@ -445,14 +441,6 @@ completeconsulting.cz
 #     Subject CommonName = secufon.de
 #     pkey sha256: 3 1 1 82024edbc302236d8fb5a9f237a7185f \
 #                        e4369c7880e56185d28173f6eed95588
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-09-16T09:43:27Z
-#     notAfter = 2018-12-15T09:43:27Z
-#     Subject CommonName = kommle.de
-#     pkey sha256: 3 1 1 7502824e2b383d29faebe8defb5ca03a \
-#                        dc341925727d971b1ee4f10f7253df65
 #
 cutspin.com
 diplomatic.email
