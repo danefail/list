@@ -521,41 +521,6 @@ danmahoney.com
 bacrau.ro
 injectoare-turbocompresoare.ro
 
-## mv10.fmcna.com
-## mv11.fmcna.com
-## mv12.fmcna.com
-## mv13.fmcna.com
-# 2018-09-02
-#
-# The TLSA records:
-#
-#    _25._tcp.mv10.fmcna.com. IN TLSA 3 1 1 \
-#        d2bd006d1fe8d73b2f6718d13a8ebf38 \
-#        a590c4d43973131f94119b44396a6bba
-#    _25._tcp.mv11.fmcna.com. IN TLSA 3 1 1 \
-#        c4533dd2816ddb54a85d1f8fc8cf3781 \
-#        d8cd3b864c1147bb3b5deee248186389
-#    _25._tcp.mv12.fmcna.com. IN TLSA 3 1 1 \
-#        1105d109205d69e853b8cf7f15f5ea22 \
-#        bbcd3b162e063195727ed6f8f2badcd8
-#    _25._tcp.mv13.fmcna.com. IN TLSA 3 1 1 \
-#        d2fac08687dfbcf839704a32294b5ef6 \
-#        f1bbda40fb9283b426dcaf9bab779f5b
-#
-# do not match the actual (shared) certificate:
-#
-#     Issuer CommonName = Entrust Certification Authority - L1K
-#     Issuer Organization = Entrust, Inc.
-#     notBefore = 2017-12-20T14:24:32Z
-#     notAfter = 2018-12-20T14:54:31Z
-#     Subject CommonName = *.fmc-na.com
-#     Subject Organization = Fresenius Medical Care
-#     pkey sha256: 3 1 1 5973084dc09df8b89e1aa02bdf03af9d \
-#                        10b712552ae8c0a112e1da0cf0c4db9e
-#
-fmcna.com
-fmc-na.net
-
 ## mail.hasno.info
 ## mail2.hasno.info
 # 2018-09-05
