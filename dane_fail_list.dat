@@ -799,3 +799,30 @@ przychodzen.com
 przychodzen.eu
 recykling-lublin.pl
 walking-group.pl
+
+## leibniz.dexalo.de
+# 2018-09-29
+#
+# The TLSA record:
+#
+#    _25._tcp.leibniz.dexalo.de. IN TLSA 3 0 2 \
+#        309e662d44fd95bfb985afbcd093efc6 \
+#        ea3b17877670c4737199a229678ad209 \
+#        db8d49c22e6a2fa9ecaea9daa7af02b1 \
+#        d36bb9b47f12db41b9e51a5d2e83315c
+#
+# does not match the issuer certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-09-28T21:32:56Z
+#     notAfter = 2018-12-27T21:32:56Z
+#     Subject CommonName = leibniz.dexalo.de
+#     cert sha512: 3 0 2 c9d6e5a708639f1768dc8cb01a9677d3 \
+#                        ac958a21e64f1b9ec1924102e554159f \
+#                        bd57cc1d0d3bd009150f202847904405 \
+#                        78efe910d9cccf25b799f8453938cc19
+#
+dexalo.de
+daallexx.eu
+maximilian-greger.com
