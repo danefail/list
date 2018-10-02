@@ -771,35 +771,6 @@ heberminetto.com.br
 hartbecke.net
 untethered.org
 
-## comernet.pl
-# 2018-09-27
-#
-# The TLSA record:
-#
-#    _25._tcp.comernet.pl. IN TLSA 3 1 1 \
-#        55218cba21a4adf15af07fc608aa030a \
-#        319b579aca8ced96ed1a42a15671db21
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-09-16T07:41:59Z
-#     notAfter = 2018-12-15T07:41:59Z
-#     Subject CommonName = comernet.pl
-#     pkey sha256: 3 1 1 98702b00140071fa070a6ef8e9a58bb5 \
-#                        2358cba6ce4ba05cd9ea0e82b4142d78
-#
-comernet.pl
-comernet.eu
-easypap.eu
-easypap.pl
-introtec.pl
-przychodzen.com
-przychodzen.eu
-recykling-lublin.pl
-walking-group.pl
-
 ## leibniz.dexalo.de
 # 2018-09-29
 #
