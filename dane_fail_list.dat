@@ -770,3 +770,26 @@ heberminetto.com.br
 #
 hartbecke.net
 untethered.org
+
+## mx.greensec.de
+# 2018-11-01
+#
+# The TLSA record:
+#
+#    _25._tcp.mx.greensec.de. IN TLSA 3 0 1 \
+#        623b2593f6349e6c4f5f7d463954d1b8 \
+#        dd1b0f21820dc0801e58e0e15d11e536
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-10-28T22:00:17Z
+#     notAfter = 2019-01-26T22:00:17Z
+#     Subject CommonName = mx.greensec.de
+#     cert sha256: 3 0 1 590d273f5b6b4231071244b1b6946483 \
+#                        e11925155af509af42ca9ad1f62176df
+#
+greensec.de
+greensec.gmbh
+greensec.solutions
