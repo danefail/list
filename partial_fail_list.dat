@@ -10,45 +10,6 @@
 # "watch list" for further problems, and it should not surprising to find
 # transient DANE-related delivery issues to these domains in MTA logs.
 
-## astrid.strebsjig.net
-# 2018-08-21
-#
-# The TLSA record:
-#
-#    _25._tcp.astrid.strebsjig.net. IN CNAME mail._dane.astrid.strebsjig.net.
-#    mail._dane.astrid.strebsjig.net. IN TLSA 3 1 1 \
-#        09dd32b8830b8f12d410df78b1857d38 \
-#        27072b69a3e106e245a1fffda91fd84b
-#
-# does not match the actual certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-08-01T07:18:17Z
-#     notAfter = 2018-10-30T07:18:17Z
-#     Subject CommonName = astrid.strebsjig.net
-#     pkey sha256: 3 1 1 394f124a4301d1f447adfcb931a14926 \
-#                        835402adc7d9902556524bd2871e311a
-#
-strebsjig.net
-bimify.app
-ecdba.nl
-gijsberts.co.uk
-gijsberts.family
-gijsberts.farm
-gijsberts.me
-gijsberts.me.uk
-gijsberts.org
-gijsberts.uk
-gijsbertsholding.com
-gijsbertsholding.nl
-meircampe.com
-meircampe.eu
-meircampe.farm
-meircampe.nl
-strebsjig.com
-strebsjig.nl
-
 ## mail.misbegotten.net
 # 2018-10-28
 #

@@ -35,7 +35,6 @@ magaluf.dk
 mbkautolakering.dk
 nicolinelund.dk
 ppfurniture.dk
-ppmobler.dk
 ppmoebler.dk
 shoottothrill.dk
 siaddk.dk
@@ -55,24 +54,6 @@ xn--buplsydst-r8a.dk
 xn--drej-i-tr-o3a.dk
 xn--romse-yua.dk
 xn--toksvrdhallen-7fb.dk
-
-## http://dnsviz.net/d/_25._tcp.smtp.psb1.org/WwmxGA/dnssec/
-# 2018-05-26
-#
-# The NSEC chain is manged the link from last to first bypasses
-# the zone apex:
-#
-#    smtp.psb1.org. NSEC medvidek.psb1.org. A AAAA RRSIG NSEC
-#
-psb1.org
-autostodulky.cz
-bifrost.cz
-figan.cz
-galle.cz
-gamekeepers.cz
-psb.cloud
-viridis-milites.cz
-zlatakus.cz
 
 # -----------------
 # STARTTLS problems: TLSA records that don't match the server certificate
@@ -165,81 +146,7 @@ bavt.de
 lasernetwork.de
 haus-kathi.de
 iyuki.de
-pbea.de
 bp-allers.de
-
-## mail.netistan.ch
-# 2018-04-13
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.netistan.ch. IN TLSA 3 1 1 \
-#        c08dc6d20848820f6032fddc9cf63152 \
-#        2043c5eaac46c71046ce14f4a86eb34a
-#
-# does not match the actual certificate:
-#
-#     Issuer CommonName = mail.netistan.ch
-#     Issuer Organization = Zimbra Collaboration Server
-#     notBefore = 2018-03-11T20:49:37Z
-#     notAfter = 2023-03-10T20:49:37Z
-#     Subject CommonName = mail.netistan.ch
-#     pkey sha256: 3 1 1 2f21c23ee53fb8bec54d5c76e6c76baa \
-#                        4b959d2ce0b25fe5c78d8de565db730b
-#
-netistan.ch
-addservices.ch
-floridas.ch
-limap.ch
-mr-sins.ch
-pixocloud.ch
-pixograf.ch
-seiserkurve.ch
-skatesins.ch
-skateverein-hitzkirch.ch
-
-## skauting.cz
-# 2018-04-14
-#
-# The TLSA record:
-#
-#    _25._tcp.skauting.cz. IN CNAME skauting.cz.
-#    _25._tcp.88oddil.cz. IN CNAME lebeda.skauting.cz.
-#    lebeda.skauting.cz. IN CNAME skauting.cz.
-#
-#    skauting.cz. IN TLSA 3 0 1 \
-#        56ff406749aaff087c197fccc3f2a627 \
-#        fdffd1f796acd21715c9332db0964f49
-#
-# does not match the actual certificate:
-#
-#     Issuer CommonName = COMODO RSA Domain Validation Secure Server CA
-#     Issuer Organization = COMODO CA Limited
-#     notBefore = 2016-10-29T00:00:00Z
-#     notAfter = 2018-01-30T23:59:59Z
-#     Subject CommonName = *.skauting.cz
-#     cert sha256: 3 0 1 981eadc9033f3fd256c27a1d085007d1 \
-#                        f865810de19d62c3f1ac6ea8108000e5
-#
-#    Note, nameserver synchronization issue, missing wildcard CNAME
-#    on the "ns2" secondary nameserver.
-#
-#        @ns1.skauting.cz.[81.31.46.138]
-#        ;_25._tcp.skauting.cz.  IN TLSA
-#        ;; flags: qr aa; QUERY: 1, ANSWER: 4, AUTHORITY: 2, ADDITIONAL: 1
-#        skauting.cz. TLSA 3 0 1 ...
-#
-#        @ns2.skauting.cz.[81.31.46.137]
-#        ;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 61660
-#        ;; flags: qr aa; QUERY: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 1
-#        ;_25._tcp.skauting.cz.  IN TLSA
-#
-#     As a result, the error is intermittent for the skauting.cz domain,
-#     but persistent for 88oddil.cz and zvonopava.cz.
-#
-skauting.cz
-88oddil.cz
-zvonopava.cz
 
 ## mail.fscker.nl
 # 2018-04-27
@@ -346,14 +253,14 @@ monitoruldesuceava.ro
 #
 #     Issuer CommonName = Let's Encrypt Authority X3
 #     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-05-03T14:41:54Z
-#     notAfter = 2018-08-01T14:41:54Z
+#     notBefore = 2018-08-06T10:39:25Z
+#     notAfter = 2018-11-04T10:39:25Z
 #     Subject CommonName = mail.pasion.ro
 #     pkey sha256: 3 1 1 4042a98ff5b0532873bb425bfdc2c811 \
 #                        d073a6e68113f56ce4b27d9c9abc084c
 #
 pasion.ro
-damicris.ro
+testgeomed.ro
 
 ## cinnamon.nl
 # 2018-06-09
@@ -596,30 +503,6 @@ cbk-praxis-kompetenz.de
 fewopenzberg.de
 tehsuck.de
 
-## mail6.vande-walle.eu
-## mail.vande-walle.eu
-# 2018-09-06
-#
-# The TLSA records (empty SHA2-512 digest value!):
-#
-#    _25._tcp.mail6.vande-walle.eu. IN TLSA 3 1 2
-#    _25._tcp.mail.vande-walle.eu. IN TLSA 3 1 2
-#
-# cannot match the actual certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-08-24T08:32:24Z
-#     notAfter = 2018-11-22T08:32:24Z
-#     Subject CommonName = vande-walle.eu
-#     pkey sha512: 3 1 2 f00f5f7474f911b26c217372d0ed2a6a \
-#                        e0299186e6ade82eb56502a99fce4f83 \
-#                        16f5ddd0a9b8506dccf617c7028b9dc5 \
-#                        ad3dcfc06f5b040dd6ce71c87ea01a85
-#
-vande-walle.eu
-vennet.fr
-
 ## stmics01.smia-automotive.com
 ## stmics02.smia-automotive.com
 # 2018-09-06
@@ -656,28 +539,6 @@ vennet.fr
 #
 smia-automotive.com
 
-## mail.virnet.ch
-# 2018-09-08
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.virnet.ch. IN TLSA 3 1 1 \
-#        1dcbee59db0a118b7ee4f19bc7a6107c \
-#        f9ccdcc9da2ef6a374247f2a2be9c0e1
-#
-# does not match the actual certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-07-08T21:40:17Z
-#     notAfter = 2018-10-06T21:40:17Z
-#     Subject CommonName = mail.virnet.ch
-#     pkey sha256: 3 1 1 d993c48df314c81ea60e50216536ba96 \
-#                        4eeb78350eb4190e0d90735f5aa63c88
-#
-virnet.ch
-hb9aya.ch
-
 ## mx.promail.saarland
 # 2018-09-17
 #
@@ -698,8 +559,6 @@ hb9aya.ch
 #                        6d4479e67c292aa5cb39e6f02520221b
 #
 promail.saarland
-dynni.com
-fserver.org
 
 ## mx.maverickvalves.com
 # 2018-09-19
