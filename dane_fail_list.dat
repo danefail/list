@@ -539,27 +539,6 @@ tehsuck.de
 #
 smia-automotive.com
 
-## mx.promail.saarland
-# 2018-09-17
-#
-# The TLSA record:
-#
-#    _25._tcp.mx.promail.saarland. IN TLSA 3 0 1 \
-#        6832c49f6b999bf4d52b48c0a88be4a9 \
-#        989266d319c433704b4f5f86e3f42cf6
-#
-# does not match the actual certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-09-07T02:40:12Z
-#     notAfter = 2018-12-06T02:40:12Z
-#     Subject CommonName = mx.promail.saarland
-#     cert sha256: 3 0 1 5a3636971d92d258bc90f408bcb13179 \
-#                        6d4479e67c292aa5cb39e6f02520221b
-#
-promail.saarland
-
 ## mx.maverickvalves.com
 # 2018-09-19
 #
@@ -605,7 +584,6 @@ maverickvalves-hq.com
 #                        3c4537b00dd6106c13d82021953b83b3
 #
 mminetto.com.br
-devhood.com.br
 heberminetto.com.br
 
 ## mail.hartbecke.net
