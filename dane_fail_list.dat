@@ -55,6 +55,22 @@ xn--drej-i-tr-o3a.dk
 xn--romse-yua.dk
 xn--toksvrdhallen-7fb.dk
 
+## http://dnsviz.net/d/_25._tcp.mx1.blauwblaatje.nl/W_JxFA/dnssec/
+## http://dnsviz.net/d/_25._tcp.mx2.blauwblaatje.nl/W_Jxkw/dnssec/
+#
+# NSEC chain fails to match zone data
+#
+blauwblaatje.nl
+balwisseling.nl
+dutchdistortion.com
+dutchdistortion.nl
+kutgeluid.nl
+quagga.rocks
+randomfacepalm.nl
+spamaccount.nl
+virtunix.nl
+vivje.nl
+
 # -----------------
 # STARTTLS problems: TLSA records that don't match the server certificate
 # chain, or no STARTTLS support at all
