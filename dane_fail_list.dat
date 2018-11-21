@@ -71,6 +71,17 @@ spamaccount.nl
 virtunix.nl
 vivje.nl
 
+## http://dnsviz.net/d/_25._tcp.xwall2.fujilink.ca/W_Tz5Q/dnssec/
+#
+# Invalid SOA RRSIG, perhaps serial bump after signing
+# Also inadvisable 5 year RRSIG lifetimes
+#
+fujilink.ca
+1cocomo.com
+4sales.ca
+budhi.net
+collegefrancais.ca
+
 # -----------------
 # STARTTLS problems: TLSA records that don't match the server certificate
 # chain, or no STARTTLS support at all
