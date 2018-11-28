@@ -657,3 +657,30 @@ untethered.org
 greensec.de
 greensec.gmbh
 greensec.solutions
+
+## leibniz.dexalo.de
+# 2018-11-28
+#
+# The TLSA record:
+#
+#    _25._tcp.leibniz.dexalo.de. IN TLSA 3 0 2 \
+#        c9d6e5a708639f1768dc8cb01a9677d3 \
+#        ac958a21e64f1b9ec1924102e554159f \
+#        bd57cc1d0d3bd009150f202847904405 \
+#        78efe910d9cccf25b799f8453938cc19
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-11-27T22:24:36Z
+#     notAfter = 2019-02-25T22:24:36Z
+#     Subject CommonName = leibniz.dexalo.de
+#     cert sha512: 3 0 2 11c01ed0330b5b22bcc380a007f5a35b \
+#                        5b0825026e52d7db1ce35563774b3f31 \
+#                        dbb7f73b2351083480a4d35ff2eb7858 \
+#                        04db618233b4095a0ed8625ecb65d48f
+#
+dexalo.de
+daallexx.eu
+maximilian-greger.com
