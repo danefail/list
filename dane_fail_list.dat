@@ -710,3 +710,28 @@ maverickvalves-hq.com
 maverickvalves.eu
 minerva-investment.nl
 riggers-and-roustabouts.com
+
+## mamba.snake.nl
+# 2018-12-04
+#
+# The TLSA record:
+#
+#    _25._tcp.mamba.snake.nl. IN TLSA 3 0 1 \
+#        0f69e8df46ae04a3b5078e31cf88ad92 \
+#        29ee2fce061279d6f41bd3bfce95fcd4
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = RapidSSL TLS RSA CA G1
+#     Issuer Organization = DigiCert Inc
+#     notBefore = 2018-11-23T00:00:00Z
+#     notAfter = 2021-02-21T12:00:00Z
+#     Subject CommonName = mamba.snake.nl
+#     cert sha256: 3 0 1 85bd580cacf6be9f35f66171e51cee4e \
+#                        63022744ad368ff6a286af0275da38df
+#
+snake.nl
+assenberg.info
+foodintotal.nl
+mauritssingel7.nl
+yr-diving.nl
