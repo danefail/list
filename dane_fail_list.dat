@@ -588,14 +588,11 @@ smia-automotive.com
 maverickvalves.eu
 maverickvalves-hq.com
 
-## mminetto.com.br
-# 2018-09-19
+## heberminetto.com.br
+# 2018-12-04
 #
 # The TLSA records:
 #
-#    _25._tcp.mminetto.com.br. IN TLSA 3 1 1 \
-#        f8739b5de64a7f0127e31aa4b4ee0b7f \
-#        4c3db103a4e3091d305c2368ea81227a
 #    _25._tcp.heberminetto.com.br. IN TLSA 3 1 1 \
 #        f8739b5de64a7f0127e31aa4b4ee0b7f \
 #        4c3db103a4e3091d305c2368ea81227a
@@ -604,13 +601,12 @@ maverickvalves-hq.com
 #
 #     Issuer CommonName = Let's Encrypt Authority X3
 #     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-07-27T02:01:46Z
-#     notAfter = 2018-10-25T02:01:46Z
+#     notBefore = 2018-11-25T01:05:17Z
+#     notAfter = 2019-02-23T01:05:17Z
 #     Subject CommonName = mminetto.com.br
-#     pkey sha256: 3 1 1 883d5473323fc5b443ec9b4675f1d978 \
-#                        3c4537b00dd6106c13d82021953b83b3
+#     pkey sha256: 3 1 1 5f1e0b249eed932bcb7aa66fa44ec13f \
+#                        e54d2a378cc5fb975b5ca949cf759339
 #
-mminetto.com.br
 heberminetto.com.br
 
 ## mail.hartbecke.net
