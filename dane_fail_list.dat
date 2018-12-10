@@ -735,49 +735,6 @@ foodintotal.nl
 mauritssingel7.nl
 yr-diving.nl
 
-## smtp1.spzl.nl
-## smtp2.spzl.nl
-# 2018-12-09
-#
-# The TLSA records:
-#
-#    _25._tcp.smtp1.spzl.nl. IN TLSA 3 1 1 \
-#        d743d2a9f9bac05dee485547268ed07a \
-#        88b63085e539bbc143d8d9258c65fe5e
-#    _25._tcp.smtp2.spzl.nl. IN TLSA 3 1 1 \
-#        e898f3bcadf81dbecb425738ed9649e3 \
-#        7eb0642c71edc177134b4a25e1964d8c
-#
-# do not match the (shared) certificate:
-#
-#     Issuer CommonName = QuoVadis PKIoverheid Organisatie Server CA - G3
-#     Issuer Organization = QuoVadis Trustlink B.V.
-#     notBefore = 2018-09-13T13:37:38Z
-#     notAfter = 2020-09-13T13:46:00Z
-#     Subject CommonName = smtp1.spzl.nl
-#     Subject Organization = Gemeente Maastricht
-#     pkey sha256: 3 1 1 1416ef5ac2fd19ee9f51dc571a9657a5 \
-#                        e86d976afea1946565c2e9b7c7bc25be
-#
-spzl.nl
-gemeenteraadmaastricht.nl
-jeugdhulpzuidlimburg.nl
-kaleidoscoop.net
-kumulus.nl
-maastricht.nl
-maastrichtbeleid.nl
-maastrichtsport.com
-maastrichtsport.nl
-nhmmaastricht.nl
-noreply-a2maastricht.nl
-podium24.nl
-sbm.nl
-svwzl.nl
-thuisinmaastricht.nl
-veiligebuurten.nl
-vvemaastricht.nl
-zichtopmaastricht.nl
-
 ## mail.vpsvz.net
 # 2018-12-09
 #
