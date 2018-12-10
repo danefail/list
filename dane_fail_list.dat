@@ -777,3 +777,25 @@ thuisinmaastricht.nl
 veiligebuurten.nl
 vvemaastricht.nl
 zichtopmaastricht.nl
+
+## mail.vpsvz.net
+# 2018-12-09
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.vpsvz.net. IN TLSA 3 1 1 \
+#        2ec600d703259867099b63ef278e2852 \
+#        ee2a4f7d9a90d39c47bd22858288a3bd
+#
+# commits to STARTTLS support, but:
+#
+#    mail.vpsvz.net[217.182.158.3]:
+#        STARTTLS 454 4.7.0 TLS not available due to local problem
+#    mail.vpsvz.net[2001:41d0:303:174::c0de]:
+#        STARTTLS 454 4.7.0 TLS not available due to local problem
+#
+vpsvz.net
+jamesrobertson.io
+twistedoak-treeservices.com
+vpsvzserverdev.com
+vpsvzserverdev.net
