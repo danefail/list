@@ -782,3 +782,55 @@ masout.cz
 pointaart.cz
 skodapetr.cz
 spiraltree.cz
+
+## mx11.bvo-ict.net
+## mx21.bvo-ict.net
+## mail.bvo-ict.net
+# 2018-12-13
+#
+# The TLSA records:
+#
+#    _25._tcp.mx11.bvo-ict.net. IN TLSA 3 1 1 \
+#        032ca0d465f14c4bb09c43f6634ca2e8 \
+#        b9d1b6549731dcef38b53892e7f934ea
+#
+#    _25._tcp.mx21.bvo-ict.net. IN TLSA 3 1 1 \
+#        ef3e7a925b06f679157867d4c5bcc19c \
+#        71f4a82dde102f8981456cadf76236fc
+#
+#    _25._tcp.mail.bvo-ict.net. IN TLSA 3 1 1 \
+#        757f57f38a5f03a299cab1a727334521 \
+#        3360a4ba574076812ee36278870e4f1f
+#
+# do not match the respective certificates:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-11-21T20:59:00Z
+#     notAfter = 2019-02-19T20:59:00Z
+#     Subject CommonName = bvo-ict.net
+#     pkey sha256: 3 1 1 66728fe9b091258ea31d2ec97ef99cd80dc1b0e261cdde707932545d28261108
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-11-28T01:00:24Z
+#     notAfter = 2019-02-26T01:00:24Z
+#     Subject CommonName = web21.bvo-ict.net
+#     pkey sha256: 3 1 1 91ff9c55f9a80c55a37bff9b2ed376c690a8ba6e0276813c658ebc2ebc5f3018
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-11-30T01:00:58Z
+#     notAfter = 2019-02-28T01:00:58Z
+#     Subject CommonName = web02.bvo-ict.net
+#     pkey sha256: 3 1 1 915cf4c45d99ffd0d44b08dc25c893991d6a3018a1ebf76accaa0b5e610bb1ec
+#
+#
+bvo-ict.net
+bvo-ict.nl
+cupencake.nl
+galleryhuis.nl
+giftbasket4you.nl
+lifecounselling.nl
+struis.org
+sweetpost.nl
