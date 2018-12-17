@@ -82,6 +82,18 @@ fujilink.ca
 budhi.net
 collegefrancais.ca
 
+## _25._tcp.art.org.tw.
+## _25._tcp.cra.org.tw.
+## _25._tcp.ham.org.tw.
+# 20181216
+#
+# Taiwan ham radio, no DANE TLSA records, but TLSA lookups often
+# fail, because some servers don't implement DNSSEC correctly.
+#
+art.org.tw
+cra.org.tw
+ham.org.tw
+
 # -----------------
 # STARTTLS problems: TLSA records that don't match the server certificate
 # chain, or no STARTTLS support at all
