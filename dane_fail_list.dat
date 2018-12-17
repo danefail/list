@@ -757,32 +757,6 @@ twistedoak-treeservices.com
 vpsvzserverdev.com
 vpsvzserverdev.net
 
-## mail.zionbit.cz
-# 2018-12-13
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.zionbit.cz. IN TLSA 3 1 1 \
-#        abc001ad0da558cceb3b6193018fef69 \
-#        f3bd670c8ed3c40108d38a80b5ecc8fa
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-12-10T01:00:58Z
-#     notAfter = 2019-03-10T01:00:58Z
-#     Subject CommonName = mail.zionbit.cz
-#     pkey sha256: 3 1 1 0d7ce91b8f385e971158dce99ee37813ba240610f8a7214b45590bfef7c31d12
-#
-zionbit.cz
-arbogard.cz
-ilustrat.cz
-masout.cz
-pointaart.cz
-skodapetr.cz
-spiraltree.cz
-
 ## mx11.bvo-ict.net
 ## mx21.bvo-ict.net
 ## mail.bvo-ict.net
