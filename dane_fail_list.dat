@@ -783,3 +783,27 @@ qusign.net
 sabine-buschbeck.de
 sportescort.com
 valid-mail.com
+
+## box.dobom.website
+# 2018-12-24
+#
+# The TLSA record:
+#
+#    _25._tcp.box.dobom.website. IN TLSA 3 1 1 \
+#        586264c988f1d5031d31ed14aa5c8e29 \
+#        7b7274f0d5ae4eec9767d5fa7366d6be
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Gandi Standard SSL CA 2
+#     Issuer Organization = Gandi
+#     notBefore = 2018-11-28T00:00:00Z
+#     notAfter = 2019-12-03T23:59:59Z
+#     Subject CommonName = box.dobom.website
+#     pkey sha256: 3 1 1 6b25e6d9f8b624061258dbe9e33d39a4 \
+#                        52557668e955fb924d2f976cb3d272db
+#
+dobom.hu
+dobom.website
+oliverdi.hu
+opitu.hu
