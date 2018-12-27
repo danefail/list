@@ -749,3 +749,30 @@ uteseny.eu
 ruebezahl.cc
 dezentralrat.org
 fnordkap.de
+
+## mail.dnsmadefree.com
+# 2018-12-27
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.dnsmadefree.com. IN TLSA 3 1 2 \
+#        88d37f16a35dcde0a086f08fa4904733 \
+#        a1c3e1e7e10e3b1d3745b3e966c8f251 \
+#        0a5f9f82d345b9127acf039495f26f39 \
+#        b434b401224a208ffc6924be2bbaf018
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-12-12T16:00:58Z
+#     notAfter = 2019-03-12T16:00:58Z
+#     Subject CommonName = mail.dnsmadefree.com
+#     pkey sha512: 3 1 2 af607c4415aefc195e8067c1975bdcdb \
+#                        10bd2422d6235781dcab5c287c95cc73 \
+#                        37466487e6e10dfeb32a55faad24662e \
+#                        b3c3c6ce11363a2ff1b485d364f40a9e
+#
+dnsmadefree.com
+startech-rd.io
+z0z0.me
