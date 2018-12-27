@@ -731,34 +731,6 @@ vpsvzserverdev.net
 #
 spotlightpatriot.com
 
-## mail.qusign.net
-# 2018-12-24
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.qusign.net. IN TLSA 3 0 1 \
-#        2cf0205c46a76b62189fcfdf744bd6a7 \
-#        e4320001ea2f00e650e2eeab4f912386
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-12-20T22:25:55Z
-#     notAfter = 2019-03-20T22:25:55Z
-#     Subject CommonName = mail.qusign.net
-#     cert sha256: 3 0 1 f6cb7104413bfca75e564dce9663d200 \
-#                        208707b2cdf29253faa0911ccdbdca4e
-#
-bemovely.de
-daqua.de
-energieoase-maintal.de
-quanz.me
-qusign.net
-sabine-buschbeck.de
-sportescort.com
-valid-mail.com
-
 ## box.dobom.website
 # 2018-12-24
 #
