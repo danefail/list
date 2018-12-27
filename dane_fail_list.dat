@@ -98,57 +98,6 @@ ham.org.tw
 # STARTTLS problems: TLSA records that don't match the server certificate
 # chain, or no STARTTLS support at all
 
-## vm-1.eveng.de
-# 2018-04-13
-#
-# The TLSA record:
-#
-#    _25._tcp.vm-1.eveng.de. IN TLSA 2 1 1 \
-#        563b3caf8cfef34c2335caf560a7a959 \
-#        06e8488462eb75ac59784830df9e5b2b
-#
-# does not match any of the issuer certificates in the server's certificate
-# chain:
-#
-#     Issuer CommonName = DST Root CA X3
-#     Issuer Organization = Digital Signature Trust Co.
-#     notBefore = 2016-03-17T16:40:46Z
-#     notAfter = 2021-03-17T16:40:46Z
-#     Subject CommonName = Let's Encrypt Authority X3
-#     Subject Organization = Let's Encrypt
-#     pkey sha256: 2 1 1 60b87575447dcba2a36b7d11ac09fb24 \
-#                        a9db406fee12d2cc90180517616e8a18
-#
-# In fact that digest matches the public key of the root CA, but that
-# certificate:
-#
-#     Issuer CommonName = DST Root CA X3
-#     Issuer Organization = Digital Signature Trust Co.
-#     notBefore = 2000-09-30T21:12:19Z
-#     notAfter = 2021-09-30T14:01:15Z
-#     Subject CommonName = DST Root CA X3
-#     pkey sha256: 2 1 1 563b3caf8cfef34c2335caf560a7a959 \
-#                        06e8488462eb75ac59784830df9e5b2b
-#
-# is not included in the server's chain, as required by:
-#
-#  https://tools.ietf.org/html/rfc7671#section-5.2.2
-#
-#  TLSA Publishers that publish TLSA certificate usage DANE-TA(2)
-#  associations with a selector of SPKI(1) or with a digest-based
-#  matching type (not Full(0)) MUST ensure that the corresponding server
-#  is configured to also include the TA certificate in its TLS handshake
-#  certificate chain, even if that certificate is a self-signed root CA
-#  and would have been optional in the context of the existing public
-#  CA PKI.
-#
-eveng.de
-bavt.de
-lasernetwork.de
-haus-kathi.de
-iyuki.de
-bp-allers.de
-
 ## mail.fscker.nl
 # 2018-04-27
 #
