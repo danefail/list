@@ -754,3 +754,26 @@ dobom.hu
 dobom.website
 oliverdi.hu
 opitu.hu
+
+## posta.studio-kiara.cz
+# 2018-12-27
+#
+# The TLSA record:
+#
+#    _25._tcp.posta.studio-kiara.cz. IN TLSA 3 1 1 \
+#        728909d1b662bfd34c49fa466e16ea42 \
+#        091f0bdc4437c518e17cb7e7b60a2a83
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-12-20T00:30:16Z
+#     notAfter = 2019-03-20T00:30:16Z
+#     Subject CommonName = posta.studio-kiara.cz
+#     pkey sha256: 3 1 1 d7f73f27b2e71968f7f3884f028554c9 \
+#                        ed9652c5a8838620dc59cc955a5bb149
+#
+studio-kiara.cz
+cloud-zero.cz
+uteseny.eu
