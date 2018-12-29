@@ -820,3 +820,25 @@ tethys-systems.com
 okaris.de
 klein-hitpass.net
 kleinhitpass.de
+
+## mail.ispfontela.es
+# 2018-12-28
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.ispfontela.es. IN TLSA 3 1 1 \
+#        0e17e193e3dc79b980f7ab6905629126 \
+#        69a769ca391aa63afcd17a09a0a29f43
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-12-22T16:05:52Z
+#     notAfter = 2019-03-22T16:05:52Z
+#     Subject CommonName = auth.ispfontela.es
+#     pkey sha256: 3 1 1 f969ce93e761853be20a4247f3acd41af637e6c0cf925e6273941374b3ca2cbf
+#
+ispfontela.es
+fontela.es
+globemusic.es
