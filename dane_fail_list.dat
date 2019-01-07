@@ -870,3 +870,25 @@ unixnerd.dk
 #
 familie-sander.rocks
 kaisers-backstube.com
+
+## mail.digitalwebpros.com
+# 2019-01-07
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.digitalwebpros.com. IN TLSA 3 0 1 \
+#        9aab98e417617f5d102e51f88eb930c0 \
+#        5eba77fcd00de638ec64db78c1910d20
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-08-03T20:51:50Z
+#     notAfter = 2018-11-01T20:51:50Z
+#     Subject CommonName = mail.digitalwebpros.com
+#     cert sha256: 3 0 1 e311da4270469e071d82a547ad1d43b6 \
+#                        6c47df1265953e7acacaeed6d397f8a8
+#
+digitalwebpros.com
+jeremyness.com
