@@ -841,3 +841,34 @@ greensec.gmbh
 #
 greenblood.fr
 saudin.me
+
+## showroom.tja-data.dk
+## unixnerd.dk
+# 2019-01-07
+#
+# The TLSA records:
+#
+#    _25._tcp.showroom.tja-data.dk. IN TLSA 3 1 1 \
+#        cff59a25c98198bb0eff843c34e7d985 \
+#        8232c480a33491e631cd2f3d86f6c7a1
+#
+#    _25._tcp.unixnerd.dk. IN TLSA 3 1 1 \
+#        cff59a25c98198bb0eff843c34e7d985 \
+#        8232c480a33491e631cd2f3d86f6c7a1
+#
+# do not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-12-28T16:18:38Z
+#     notAfter = 2019-03-28T16:18:38Z
+#     Subject CommonName = showroom.tja-data.dk
+#     pkey sha256: 3 1 1 98837ed0d2d3ed5ae2fcc7eba2eb8716 \
+#                        89c7c9082a6d127253c4c2c38c429485
+#
+adams.dk
+ouzo12.dk
+postal.dk
+tja-data.dk
+tjadata.dk
+unixnerd.dk
