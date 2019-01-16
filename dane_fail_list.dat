@@ -774,29 +774,6 @@ okaris.de
 klein-hitpass.net
 kleinhitpass.de
 
-## mx.greensec.de
-# 2018-12-30
-#
-# The TLSA record:
-#
-#    _25._tcp.mx.greensec.de. IN TLSA 3 0 1 \
-#        590d273f5b6b4231071244b1b6946483 \
-#        e11925155af509af42ca9ad1f62176df
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-12-30T22:00:17Z
-#     notAfter = 2019-03-30T22:00:17Z
-#     Subject CommonName = mx.greensec.de
-#     cert sha256: 3 0 1 5435645b3e9b37c69119e55247c09534 \
-#                        f27a1d2d62d42938c8d015a38f7b406f
-#
-greensec.de
-greensec.solutions
-greensec.gmbh
-
 ## mail.greenblood.fr
 # 2019-01-04
 #
