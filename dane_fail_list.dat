@@ -796,15 +796,10 @@ kleinhitpass.de
 greenblood.fr
 saudin.me
 
-## showroom.tja-data.dk
 ## unixnerd.dk
 # 2019-01-07
 #
 # The TLSA records:
-#
-#    _25._tcp.showroom.tja-data.dk. IN TLSA 3 1 1 \
-#        cff59a25c98198bb0eff843c34e7d985 \
-#        8232c480a33491e631cd2f3d86f6c7a1
 #
 #    _25._tcp.unixnerd.dk. IN TLSA 3 1 1 \
 #        cff59a25c98198bb0eff843c34e7d985 \
@@ -820,11 +815,6 @@ saudin.me
 #     pkey sha256: 3 1 1 98837ed0d2d3ed5ae2fcc7eba2eb8716 \
 #                        89c7c9082a6d127253c4c2c38c429485
 #
-adams.dk
-ouzo12.dk
-postal.dk
-tja-data.dk
-tjadata.dk
 unixnerd.dk
 
 ## mail.familie-sander.rocks
