@@ -632,28 +632,6 @@ maverickvalves.eu
 minerva-investment.nl
 riggers-and-roustabouts.com
 
-## mail.vpsvz.net
-# 2018-12-09
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.vpsvz.net. IN TLSA 3 1 1 \
-#        2ec600d703259867099b63ef278e2852 \
-#        ee2a4f7d9a90d39c47bd22858288a3bd
-#
-# commits to STARTTLS support, but:
-#
-#    mail.vpsvz.net[217.182.158.3]:
-#        STARTTLS 454 4.7.0 TLS not available due to local problem
-#    mail.vpsvz.net[2001:41d0:303:174::c0de]:
-#        STARTTLS 454 4.7.0 TLS not available due to local problem
-#
-vpsvz.net
-jamesrobertson.io
-twistedoak-treeservices.com
-vpsvzserverdev.com
-vpsvzserverdev.net
-
 ## mx1.spotlightpatriot.com
 ## mx2.spotlightpatriot.com
 # 2018-12-17
@@ -795,27 +773,6 @@ kleinhitpass.de
 #
 greenblood.fr
 saudin.me
-
-## unixnerd.dk
-# 2019-01-07
-#
-# The TLSA records:
-#
-#    _25._tcp.unixnerd.dk. IN TLSA 3 1 1 \
-#        cff59a25c98198bb0eff843c34e7d985 \
-#        8232c480a33491e631cd2f3d86f6c7a1
-#
-# do not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-12-28T16:18:38Z
-#     notAfter = 2019-03-28T16:18:38Z
-#     Subject CommonName = showroom.tja-data.dk
-#     pkey sha256: 3 1 1 98837ed0d2d3ed5ae2fcc7eba2eb8716 \
-#                        89c7c9082a6d127253c4c2c38c429485
-#
-unixnerd.dk
 
 ## mail.familie-sander.rocks
 # 2019-01-07
