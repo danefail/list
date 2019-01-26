@@ -927,3 +927,26 @@ laukas.lt
 lapenas.lt
 lius.lt
 magistras.lt
+
+## belgium.grids.be
+# 2019-01-26
+#
+# The TLSA record:
+#
+#    _25._tcp.belgium.grids.be. IN TLSA 3 1 1 \
+#        902578f7b26fd3869c65f9e376736d1a \
+#        147c95ebc92e56d6fddb6bbd403f24d7
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-12-12T22:04:22Z
+#     notAfter = 2019-03-12T22:04:22Z
+#     Subject CommonName = mail.nkhn.nl
+#     pkey sha256: 3 1 1 fecad16e865cb822c901ab185f810fba \
+#                        234ac777d96a674108c89f77b11d7745
+#
+dykhoeve.nl
+exxponent.nl
+nukanhetnog.net
