@@ -972,3 +972,25 @@ nukanhetnog.net
 #
 swatsmg.de
 eisenfaust-clan.de
+
+## postmark.flame.org
+# 2019-01-26
+#
+# The TLSA record:
+#
+#    _25._tcp.postmark.flame.org. IN TLSA 3 1 1 \
+#        3e1ec4c125848d8ea7e88430b7a94152 \
+#        6cebf7c05e4401cf8cbf36012c26c7e7
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-01-16T22:54:13Z
+#     notAfter = 2019-04-16T22:54:13Z
+#     Subject CommonName = postmark.flame.org
+#     pkey sha256: 3 1 1 ad4b65de29c171f764fdcd9e09380cbf \
+#                        e76ec4d3e83db0dbf3b1e77c6bd5ef15
+#
+flame.org
+xcdn.org
