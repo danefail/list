@@ -785,3 +785,97 @@ jeremyness.com
 #
 cdom.de
 adminforge.de
+
+## mx1.procurios.net
+## mx2.procurios.net
+# 2019-01-26
+#
+# The TLSA records:
+#
+#    _25._tcp.mx1.procurios.net. IN TLSA 3 1 2 \
+#        f78f1a73006c7fc5a4e433ba0ee01624 \
+#        0fd93cececc04b71900ff91236a39398 \
+#        c4c89813efc5a881f158af1e0e72ed86 \
+#        aaf9641d61710c3e870b1d424495ac52
+#    _25._tcp.mx2.procurios.net. IN TLSA 3 1 2 \
+#        f78f1a73006c7fc5a4e433ba0ee01624 \
+#        0fd93cececc04b71900ff91236a39398 \
+#        c4c89813efc5a881f158af1e0e72ed86 \
+#        aaf9641d61710c3e870b1d424495ac52
+#
+# do not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-01-13T09:55:47Z
+#     notAfter = 2019-04-13T09:55:47Z
+#     Subject CommonName = email.procurios.nl
+#     pkey sha512: 3 1 2 16e1c6a115ae178b9cf5086396dae3c1 \
+#                        6ff6d281adfef8a0d485f69031717b20 \
+#                        3bdabe916599a7d5c62992d72b2e36a9 \
+#                        b72bb8efd34ee842708365bb9b8d2a0c
+#
+procurios.net
+appeltjewouw.nl
+barbecueedam.nl
+barbecuesteenwijkerland.nl
+barbecuevanmarco.nl
+barbequevanmarco.nl
+bcx.nl
+bontehap.nl
+broodjesvanmarco.nl
+buffetvanmarco.nl
+c-vis.nl
+casperenannette.nl
+casperlangemeijer.nl
+cateringedam.nl
+cateringsteenwijkerland.nl
+cateringvanmarco.nl
+dagbestedingklimmen.nl
+de-osdorper.nl
+descheurslager.nl
+enricodekaasboer.nl
+fietsnjoy.nl
+fishenfood.net
+fruitmandlimburg.nl
+groenegeit.nl
+hapjesvanmarco.nl
+ijsmakerij-toscana.nl
+jeursengildeslager.nl
+julianlangemeijer.nl
+keurslager-jacobs.be
+keurslageramersfoort.nl
+keurslagerbouter.nl
+keurslagerrecepten.nl
+klantsite.net
+kmi-retail.com
+landwaartculinair.nl
+langemeijer.eu
+laurenslangemeijer.nl
+nujecaris.nl
+pensionalpengruss.eu
+pensionalpengruss.nl
+slagerijjanmaat.nl
+slagerijjongen.nl
+slagerijjoukeklijn.nl
+slagerijkoets.nl
+slagerijottens.nl
+slagerijruiter.nl
+slagerijvermeer.nl
+slavakto.com
+sterslager.nl
+sterslagers.nl
+takkie.nl
+toscana-ijsmakerij.nl
+toscanaijssalon.nl
+uwgroenteman.nl
+vers-vakdagen.nl
+verstandvanlekkervlees.com
+versvooru.nl
+vincentlangemeijer.nl
+visgilde-utrecht.nl
+vispiratiedag.nl
+visvandemaand.nl
+vlees2015.nl
+vleesvanmarco.nl
+wdmvending.nl
