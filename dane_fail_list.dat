@@ -950,3 +950,25 @@ magistras.lt
 dykhoeve.nl
 exxponent.nl
 nukanhetnog.net
+
+## mail.swatsmg.de
+# 2019-01-26
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.swatsmg.de. IN TLSA 3 1 1 \
+#        b92428a27a1edebd24d1241cf8202011 \
+#        527bc52eb2c907ec2532bef4acfa9afa
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-12-31T20:09:37Z
+#     notAfter = 2019-03-31T20:09:37Z
+#     Subject CommonName = mail.swatsmg.de
+#     pkey sha256: 3 1 1 0f664db07ccf021166008f2716fffab6 \
+#                        ab682a4f14b5c6da8c11eb11cd1677c1
+#
+swatsmg.de
+eisenfaust-clan.de
