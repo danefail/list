@@ -903,3 +903,27 @@ syrettegroup.com
 h-dent.hu
 i-gluc.hu
 syrettegroup.hu
+
+## mail.laukas.lt
+# 2019-01-26
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.laukas.lt. IN TLSA 3 1 1 \
+#        271f500518ce13eb24d96aacfa30fcbc \
+#        0f23bf9ec452aa5e55442a7b813f526f
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-01-18T17:33:05Z
+#     notAfter = 2019-04-18T17:33:05Z
+#     Subject CommonName = admin.laukas.lt
+#     pkey sha256: 3 1 1 8b54abd0cb4f0b089266f49eb124e145
+#                        9f56ee0b99208bbe5db979b981138e30
+#
+laukas.lt
+lapenas.lt
+lius.lt
+magistras.lt
