@@ -232,28 +232,6 @@ sptdrenthe.nl
 trots-op-je-vak.nl
 wortelmerksplaskolonie.be
 
-## mail.davidbodnar.cz
-# 2018-06-09
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.davidbodnar.cz. IN TLSA 3 0 1 \
-#        6d5743cf49578323f23bb97342129426 \
-#        78e373e3e6d17abab681410238092d8b
-#
-# does not match the actual certificate:
-#
-#     Issuer CommonName = StartCom Class 1 DV Server CA
-#     Issuer Organization = StartCom Ltd.
-#     notBefore = 2016-12-15T15:34:20Z
-#     notAfter = 2019-12-15T15:34:20Z
-#     Subject CommonName = mail.davidbodnar.cz
-#     cert sha256: 3 0 1 56515d459c65b7166e48b6d819316394 \
-#                        acb56406bf519788f73a77b942894270
-#
-penguinsproject.cz
-completeconsulting.cz
-
 ## mail.diplomatic.email
 ## mail.secufon.de
 # 2018-08-05
