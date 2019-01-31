@@ -7,19 +7,19 @@
 # to a complete outage.
 #
 # DANE support should not be disabled for these domains, but they are on a
-# "watch list" for further problems, and it should not surprising to find
+# "watch list" for further problems, and it should not be surprising to find
 # transient DANE-related delivery issues to these domains in MTA logs.
 
 ## mail.bvo-ict.net
 # 2018-12-13
 #
-# The TLSA records:
+# The TLSA record:
 #
 #    _25._tcp.mail.bvo-ict.net. IN TLSA 3 1 1 \
 #        757f57f38a5f03a299cab1a727334521 \
 #        3360a4ba574076812ee36278870e4f1f
 #
-# do not match the respective certificates:
+# does not match the respective certificate:
 #
 #     Issuer CommonName = Let's Encrypt Authority X3
 #     Issuer Organization = Let's Encrypt
@@ -30,3 +30,25 @@
 #
 #
 galleryhuis.nl
+
+## relay.antoineducret.eu
+# 2019-01-30
+#
+# The TLSA record:
+#
+#    _25._tcp.relay.antoineducret.eu. IN TLSA 3 1 1 \
+#        0316c95acc778f2f4fef7035f1788814 \
+#        b2deeddda08f7b23369b55e4b1e71a19
+#
+# does not match the respective certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-01-29T10:00:10Z
+#     notAfter = 2019-04-29T10:00:10Z
+#     Subject CommonName = relay.antoineducret.eu
+#     pkey sha256: 3 1 1 5a1be26e4ce7bd02fe01f3ade45f79a7
+#                        b86537785525adb4e8ce69cb129e65c2
+#
+antoineducret.eu
+ducret.sh
