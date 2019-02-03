@@ -233,35 +233,35 @@ trots-op-je-vak.nl
 wortelmerksplaskolonie.be
 
 ## mail.diplomatic.email
-## mail.secufon.de
-# 2018-08-05
+## mail.kommle.de
+# 2019-02-02
 #
 # The TLSA records:
 #
 #    _25._tcp.mail.diplomatic.email. IN TLSA 3 1 1 \
-#        1295fd077c5c640d02048dd7a0f3733e \
-#        e57595b1fb424955e41c66805f4bff9d
-#    _25._tcp.mail.secufon.de. IN TLSA 3 1 1 \
-#        e3b0c44298fc1c149afbf4c8996fb924 \
-#        27ae41e4649b934ca495991b7852b855
+#        4e933170df981dc187f0659b30eb424f \
+#        8a21e2edfd2813e8ff523812d4fc2998
+#    _25._tcp.mail.kommle.de. IN TLSA 3 1 1 \
+#        042cae2ef09a27b7424f1a9f544e6731 \
+#        1f9b49e6fe90168042a48c0d6f6d9750
 #
 # do not match the actual certificates:
 #
 #     Issuer CommonName = Let's Encrypt Authority X3
 #     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-09-01T23:33:20Z
-#     notAfter = 2018-11-30T23:33:20Z
+#     notBefore = 2019-01-27T00:33:16Z
+#     notAfter = 2019-04-27T00:33:16Z
 #     Subject CommonName = diplomatic.email
-#     pkey sha256: 3 1 1 baa4eef31a9c2a602103f539bd27a514 \
-#                        975b5b7380274b1b159f31200c63bcc4
+#     pkey sha256: 3 1 1 f8c971ba8cc7bf292ed0b54c7e703f88 \
+#                        b61c7f3a80b2225e119815419cb61bde
 #
 #     Issuer CommonName = Let's Encrypt Authority X3
 #     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-08-25T23:35:32Z
-#     notAfter = 2018-11-23T23:35:32Z
-#     Subject CommonName = secufon.de
-#     pkey sha256: 3 1 1 82024edbc302236d8fb5a9f237a7185f \
-#                        e4369c7880e56185d28173f6eed95588
+#     notBefore = 2019-01-28T17:10:54Z
+#     notAfter = 2019-04-28T17:10:54Z
+#     Subject CommonName = kommle.de
+#     pkey sha256: 3 1 1 897d62f26c88024eabdf5c1a3df73ead \
+#                        959f985818c65d28a58ac9c7030bfa20
 #
 cutspin.com
 diplomatic.email
