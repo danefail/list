@@ -1016,3 +1016,29 @@ stussi.name
 #                        baa2dc74ee2c246dd5a7b624f7dcbe98
 #
 hmserver.de
+
+## engl-server.de
+# 2019-02-02
+#
+# The TLSA record:
+#
+#    _25._tcp.engl-server.de. IN TLSA 3 0 2 \
+#        318b9831dfa655a1c465242abeb85a09 \
+#        dbe3d30642364af85894a032a78437eb \
+#        d086f92e5dd3ca4ae0103e28fb084e1b \
+#        bd3ddbfc7bdbc1203e0c460375aa7e8d
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = COMODO RSA Domain Validation Secure Server CA
+#     Issuer Organization = COMODO CA Limited
+#     notBefore = 2018-06-12T00:00:00Z
+#     notAfter = 2020-06-12T23:59:59Z
+#     Subject CommonName = engl-server.de
+#     cert sha512: 3 0 2 7825d233027b8f09c48c8c374e6e73ad \
+#                        b6e90d646bb71395c7e2da43342f09ae \
+#                        eb813cc25f6f5ab5d0fb48b38cf3ae50 \
+#                        feaa9e03914fa7fc6510f74623582393
+#
+engl-server.de
+engl-mail.de
