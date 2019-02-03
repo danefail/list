@@ -754,27 +754,6 @@ kaisers-backstube.com
 digitalwebpros.com
 jeremyness.com
 
-## mailfilter2.cdom.de
-# 2019-01-07
-#
-# The TLSA record:
-#
-#    _25._tcp.mailfilter2.cdom.de. IN TLSA 3 0 1 \
-#        dfc5f17007a922fa1f42fe645f0174d1 \
-#        cfc2ba68fa0570d876b8f48b22548071
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-11-24T22:00:01Z
-#     notAfter = 2019-02-22T22:00:01Z
-#     Subject CommonName = mailfilter2.cdom.de
-#     cert sha256: 3 0 1 d7db742e9c7bf47f6312ca5c499ed07177386761e0e21b73b4d705ea2ba4b378
-#
-cdom.de
-adminforge.de
-
 ## mx1.procurios.net
 ## mx2.procurios.net
 # 2019-01-26
