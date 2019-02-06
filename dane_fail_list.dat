@@ -666,29 +666,6 @@ z0z0.me
 tethys-systems.ch
 tethys-systems.com
 
-## mail.okaris.de
-# 2018-12-28
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.okaris.de. IN TLSA 3 1 1 \
-#        fb1493a73306e69d318d097ee34cef76 \
-#        a4d2e28c0d1b40ea4476e3f2ccfb039e
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-11-27T15:35:52Z
-#     notAfter = 2019-02-25T15:35:52Z
-#     Subject CommonName = mail.okaris.de
-#     pkey sha256: 3 1 1 2bdb100686ba0f2ef68ee98fe0ba46c8 \
-#                        ecb71364f326898df994b09e9fd1338b
-#
-okaris.de
-klein-hitpass.net
-kleinhitpass.de
-
 ## mail.greenblood.fr
 # 2019-01-04
 #
@@ -731,28 +708,6 @@ saudin.me
 #
 familie-sander.rocks
 kaisers-backstube.com
-
-## mail.digitalwebpros.com
-# 2019-01-07
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.digitalwebpros.com. IN TLSA 3 0 1 \
-#        9aab98e417617f5d102e51f88eb930c0 \
-#        5eba77fcd00de638ec64db78c1910d20
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-08-03T20:51:50Z
-#     notAfter = 2018-11-01T20:51:50Z
-#     Subject CommonName = mail.digitalwebpros.com
-#     cert sha256: 3 0 1 e311da4270469e071d82a547ad1d43b6 \
-#                        6c47df1265953e7acacaeed6d397f8a8
-#
-digitalwebpros.com
-jeremyness.com
 
 ## mx1.procurios.net
 ## mx2.procurios.net
