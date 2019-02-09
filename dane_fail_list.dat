@@ -976,3 +976,25 @@ kuh-information-manager.eu
 kuh-information-manager.org
 mtvw.de
 mtvw.org
+
+## mail.swords.solutions
+# 2019-02-09
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.swords.solutions. IN TLSA 3 1 1 \
+#        c93f45b546eb6e89f89a995a79d6dfd5 \
+#        b3562ff982957b3c3ecae412c9877040
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-01-29T18:02:59Z
+#     notAfter = 2019-04-29T18:02:59Z
+#     Subject CommonName = mail.swords.solutions
+#     pkey sha256: 3 1 1 5ba2fdf0fa90c5bb2a9f123cdff39ec3 \
+#                        c0f888e01211afeeb3dc4d5455c1ab5a
+#
+swords.solutions
+stadtchaeller.ch
