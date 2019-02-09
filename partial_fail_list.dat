@@ -52,3 +52,40 @@ galleryhuis.nl
 #
 antoineducret.eu
 ducret.sh
+
+## mx1.mtexx.com
+## mx1.mtexx.email
+# 2019-02-09
+#
+# DNS replication failure, one nameserver returns incorrect TLSA records.
+#
+# Good:
+#
+#   @ns1.totaldns.de.[212.224.81.8]
+#   @ns3.totaldns.be.[93.190.68.228]
+#   _25._tcp.mx1.mtexx.email. TLSA 3 1 2 \
+#       1FDBE5993E99EFAB8B7DF0EF254AF72F \
+#       A512697787EEA622591000141F8B9836 \
+#       154D600812B306C842524F6B5B747D0 \
+#       24A3EBA8337C71538C158AAD4BCDDDCFA
+#   _25._tcp.mx1.mtexx.com. TLSA 3 1 2  \
+#       1FDBE5993E99EFAB8B7DF0EF254AF72F \
+#       A512697787EEA622591000141F8B9836 \
+#       154D600812B306C842524F6B5B747D02 \
+#       4A3EBA8337C71538C158AAD4BCDDDCFA
+#
+# Bad:
+#
+#   @ns2.totaldns.eu.[78.47.63.220]
+#   _25._tcp.mx1.mtexx.email. TLSA  3 1 1  \
+#       21DF011460CF75244534EC7E04F7EFB2 \
+#       A980106C7B44EE0997FC5F86A23D7DD1
+#   _25._tcp.mx1.mtexx.com. TLSA 3 1 1 \
+#       FF3169E4EC3009BDC91677B3E6A63464 \
+#       2FFCEEFADF97A1DF47B6A3C4B94F8BC5
+#
+# Affected domains:
+#
+mtexx.email
+niklas.pro
+mtexx.com
