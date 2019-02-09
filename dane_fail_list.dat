@@ -942,3 +942,36 @@ xcdn.org
 #
 engl-server.de
 engl-mail.de
+
+## server.ztweb.de
+# 2019-02-09
+#
+# The TLSA record:
+#
+#    _25._tcp.server.ztweb.de. IN TLSA 3 0 1 \
+#        faba1dc9a90d13fb202fac9e93a4149 \
+#        2f3e9818c56e067c3896665f1b53cf330
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-02-02T17:12:03Z
+#     notAfter = 2019-05-03T17:12:03Z
+#     Subject CommonName = mail.ztweb.de
+#     cert sha256: 3 0 1 25ac6b9d8bd6ff51d4b7ff382cd81160738fe326212c77f30610a1706329b455
+#
+ztweb.de
+171w4th.com
+ab1pv.com
+bavarians-most-wanted.de
+bavariansmostwanted.de
+dl1mwg.de
+ebg-vaterstetten.de
+kb1vey.com
+kuh-information-management.de
+kuh-information-manager.de
+kuh-information-manager.eu
+kuh-information-manager.org
+mtvw.de
+mtvw.org
