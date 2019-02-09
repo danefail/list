@@ -917,39 +917,6 @@ eisenfaust-clan.de
 flame.org
 xcdn.org
 
-## mail.snarked.org
-## mail.snarked.net
-## mail.stussi.name
-# 2019-01-26
-#
-# TLSA records published:
-#
-#    _25._tcp.mail.stussi.name. IN CNAME _smtps._tcp.stussi.name.
-#    _25._tcp.mail.snarked.net. IN CNAME _smtps._tcp.snarked.net.
-#    _25._tcp.mail.snarked.org. IN CNAME _smtps._tcp.snarked.org.
-#    _smtps._tcp.stussi.name. IN TLSA 3 1 1 ...
-#    _smtps._tcp.stussi.name. IN TLSA 3 1 2 ...
-#    _smtps._tcp.snarked.net. IN TLSA 3 1 1 ...
-#    _smtps._tcp.snarked.net. IN TLSA 3 1 2 ...
-#    _smtps._tcp.snarked.org. IN TLSA 3 1 1 ...
-#    _smtps._tcp.snarked.org. IN TLSA 3 1 2 ...
-#
-# but STARTTLS not offered, e.g.:
-#
-#    posttls-finger: < 250-mail.snarked.org ...
-#    posttls-finger: < 250-ENHANCEDSTATUSCODES
-#    posttls-finger: < 250-PIPELINING
-#    posttls-finger: < 250-EXPN
-#    posttls-finger: < 250-8BITMIME
-#    posttls-finger: < 250-SIZE 33554432
-#    posttls-finger: < 250-DSN
-#    posttls-finger: < 250-DELIVERBY
-#    posttls-finger: < 250 HELP
-#
-snarked.org
-snarked.net
-stussi.name
-
 ## hmserver.de
 # 2019-02-02
 #
