@@ -233,17 +233,13 @@ trots-op-je-vak.nl
 wortelmerksplaskolonie.be
 
 ## mail.diplomatic.email
-## mail.kommle.de
-# 2019-02-02
+# 2019-02-10
 #
 # The TLSA records:
 #
 #    _25._tcp.mail.diplomatic.email. IN TLSA 3 1 1 \
 #        4e933170df981dc187f0659b30eb424f \
 #        8a21e2edfd2813e8ff523812d4fc2998
-#    _25._tcp.mail.kommle.de. IN TLSA 3 1 1 \
-#        042cae2ef09a27b7424f1a9f544e6731 \
-#        1f9b49e6fe90168042a48c0d6f6d9750
 #
 # do not match the actual certificates:
 #
@@ -254,14 +250,6 @@ wortelmerksplaskolonie.be
 #     Subject CommonName = diplomatic.email
 #     pkey sha256: 3 1 1 f8c971ba8cc7bf292ed0b54c7e703f88 \
 #                        b61c7f3a80b2225e119815419cb61bde
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-01-28T17:10:54Z
-#     notAfter = 2019-04-28T17:10:54Z
-#     Subject CommonName = kommle.de
-#     pkey sha256: 3 1 1 897d62f26c88024eabdf5c1a3df73ead \
-#                        959f985818c65d28a58ac9c7030bfa20
 #
 cutspin.com
 diplomatic.email
