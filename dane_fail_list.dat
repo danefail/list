@@ -754,7 +754,6 @@ casperlangemeijer.nl
 cateringedam.nl
 cateringsteenwijkerland.nl
 cateringvanmarco.nl
-dagbestedingklimmen.nl
 de-osdorper.nl
 descheurslager.nl
 enricodekaasboer.nl
@@ -1000,25 +999,3 @@ mtvw.org
 swords.solutions
 stadtchaeller.ch
 highdrive.me
-
-## mail.myzt.nl
-# 2019-02-09
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.myzt.nl. IN TLSA 3 1 1 \
-#        f9f904f74af9dee0c1a4bf0bbec2d58b \
-#        0743613b54fc639c1381d240d3c2c9ac
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-01-03T09:44:44Z
-#     notAfter = 2019-04-03T09:44:44Z
-#     Subject CommonName = myzt.nl
-#     pkey sha256: 3 1 1 51db84ef9508c83a2a047e40bc10cdfe \
-#                        617bbfae6ba2d808d50ccb7cedda5388
-#
-myzt.nl
-kamikazekippetjes.nl
