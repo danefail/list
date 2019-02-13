@@ -1004,8 +1004,8 @@ highdrive.me
 #     notBefore = 2019-02-08T01:01:32Z
 #     notAfter = 2019-05-09T01:01:32Z
 #     Subject CommonName = mail.zionbit.cz
-#     pkey sha256 [nomatch] <- 3 1 1 e4a1f98375acb465a93f342c9cf3a9ba \
-#                                    fbf42b590ba2496a2b62c1097bccdd3e
+#     pkey sha256: 3 1 1 e4a1f98375acb465a93f342c9cf3a9ba \
+#                        fbf42b590ba2496a2b62c1097bccdd3e
 #
 zionbit.cz
 arbogard.cz
@@ -1014,3 +1014,34 @@ masout.cz
 pointaart.cz
 skodapetr.cz
 spiraltree.cz
+
+## mta1.musiikkikoulut.fi
+# 2019-02-13
+#
+# The TLSA records:
+#
+#    _25._tcp.mta1.musiikkikoulut.fi. IN TLSA 3 1 1 \
+#        18ce8fda5b6e4748dc4911283f0266d7 \
+#        9c75c0d7d093039acf5d7d6c60fb4793
+#    _25._tcp.mta1.musiikkikoulut.fi. IN TLSA 3 1 2 \
+#        3e1892a0740a0328fcfa33ce779c1547 \
+#        27bd2b43c6df9c4ac6699554e544fec1 \
+#        36040a0caff8b8dd41d9128d75709b6b \
+#        86a7e6fbed0cda645fd73fb87e55fb42
+#
+# do not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-02-06T16:34:07Z
+#     notAfter = 2019-05-07T16:34:07Z
+#     Subject CommonName = mta1.musiikkikoulut.fi
+#     pkey sha256: 3 1 1 ea85f05f1137333ba07f3c8c55f5b8ad \
+#                        66d374f03b8e4c47881ee90e2f6aca4f
+#     pkey sha512: 3 1 2 556ea89c8eb7fa1b547c638e92a6e613 \
+#                        1677a82ec82cfa0feb0c8cc6f12d45ed \
+#                        09907e134f537d25cc40023a05971d2b \
+#                        82e56f3d2299db00938c8259dd4d7bdc
+#
+musiikkikoulut.fi
+jamkicks.fi
