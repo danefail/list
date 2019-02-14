@@ -654,28 +654,6 @@ z0z0.me
 tethys-systems.ch
 tethys-systems.com
 
-## mail.greenblood.fr
-# 2019-01-04
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.greenblood.fr. IN TLSA 3 1 1 \
-#        608d958ecbf6a7753e45a3221db8ea5f \
-#        1be102f63d213218efe1cccc86beb1c6
-#
-# does not match the certificate:
-#
-#     Issuer Organization = mailcow
-#     notBefore = 2016-12-13T10:11:00Z
-#     notAfter = 2019-11-28T10:11:00Z
-#     Subject CommonName = mail.example.org
-#     Subject Organization = mailcow
-#     pkey sha256: 3 1 1 2ec600d703259867099b63ef278e2852 \
-#                        ee2a4f7d9a90d39c47bd22858288a3bd
-#
-greenblood.fr
-saudin.me
-
 ## mail.familie-sander.rocks
 # 2019-01-07
 #
