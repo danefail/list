@@ -440,28 +440,6 @@ tehsuck.de
 #
 smia-automotive.com
 
-## mx.maverickvalves.com
-# 2018-09-19
-#
-# The TLSA record:
-#
-#    _25._tcp.mx.maverickvalves.com. IN TLSA 3 0 1 \
-#        c86ad2bace684d14e1df6bef4ca5fce3 \
-#        ec174ad70b664b48aea902ddc58ee03b
-#
-# does not match the actual certificate:
-#
-#     Issuer CommonName = COMODO RSA Domain Validation Secure Server CA
-#     Issuer Organization = COMODO CA Limited
-#     notBefore = 2018-07-16T00:00:00Z
-#     notAfter = 2019-07-31T23:59:59Z
-#     Subject CommonName = *.maverickvalves.com
-#     cert sha256: 3 0 1 d3e9764ea034724a7a536fa37c29c5f8 \
-#                        4318204869307b0f4520994f6c8eec8f
-#
-maverickvalves.eu
-maverickvalves-hq.com
-
 ## heberminetto.com.br
 # 2018-12-04
 #
