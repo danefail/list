@@ -30,25 +30,3 @@
 #
 #
 galleryhuis.nl
-
-## relay.antoineducret.eu
-# 2019-01-30
-#
-# The TLSA record:
-#
-#    _25._tcp.relay.antoineducret.eu. IN TLSA 3 1 1 \
-#        0316c95acc778f2f4fef7035f1788814 \
-#        b2deeddda08f7b23369b55e4b1e71a19
-#
-# does not match the respective certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-01-29T10:00:10Z
-#     notAfter = 2019-04-29T10:00:10Z
-#     Subject CommonName = relay.antoineducret.eu
-#     pkey sha256: 3 1 1 5a1be26e4ce7bd02fe01f3ade45f79a7
-#                        b86537785525adb4e8ce69cb129e65c2
-#
-antoineducret.eu
-ducret.sh
