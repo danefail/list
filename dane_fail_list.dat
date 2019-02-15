@@ -817,33 +817,6 @@ swords.solutions
 stadtchaeller.ch
 highdrive.me
 
-## mail.zionbit.cz
-# 2019-02-13
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.zionbit.cz. IN TLSA 3 1 1 \
-#        0d7ce91b8f385e971158dce99ee37813 \
-#        ba240610f8a7214b45590bfef7c31d12
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-02-08T01:01:32Z
-#     notAfter = 2019-05-09T01:01:32Z
-#     Subject CommonName = mail.zionbit.cz
-#     pkey sha256: 3 1 1 e4a1f98375acb465a93f342c9cf3a9ba \
-#                        fbf42b590ba2496a2b62c1097bccdd3e
-#
-zionbit.cz
-arbogard.cz
-ilustrat.cz
-masout.cz
-pointaart.cz
-skodapetr.cz
-spiraltree.cz
-
 ## mta1.musiikkikoulut.fi
 # 2019-02-13
 #
