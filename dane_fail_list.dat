@@ -892,3 +892,29 @@ tomazzi.nl
 vandeveninvestments.nl
 veerkrachtgroep.nl
 vincenzere.nl
+
+## mx1.dk-hostmaster.dk
+## mx2.dk-hostmaster.dk
+# 2019-02-15
+#
+# Inadvertent deployment of snake-oil cert breaks extant TLSA RRs
+# (would equally break MTA-STS, ...).  Some monitoring seems prudent.
+#
+#    _25._tcp.mx1.dk-hostmaster.dk. IN TLSA 3 0 1 \
+#        30b9f7606198a2b2bff55451f843aff3 \
+#        2f8d221bbb6088050cfa6d292a175b22
+#    _25._tcp.mx2.dk-hostmaster.dk. IN TLSA 3 0 1 \
+#        30b9f7606198a2b2bff55451f843aff3 \
+#        2f8d221bbb6088050cfa6d292a175b22
+#
+#     Issuer CommonName = Cisco Appliance Demo Certificate
+#     Issuer Organization = Cisco Systems, Inc
+#     notBefore = 2014-04-25T10:02:06Z
+#     notAfter = 2024-04-25T10:02:06Z
+#     Subject CommonName = Cisco Appliance Demo Certificate
+#     Subject Organization = Cisco Systems, Inc
+#     cert sha256 [nomatch] <- 3 0 1 9566af258d3e5b2e252f9025b694573766f9bfc1390bdb37428796ccdcb2b9fa
+#
+dk-hostmaster.dk
+difo.dk
+domaeneklager.dk
