@@ -30,3 +30,43 @@
 #
 #
 galleryhuis.nl
+
+# server.ztweb.de
+# 2019-02-15
+#
+# Inconsistent nameserver TLSA lookup replies (2H TTL):
+#
+#   @server.ztweb.de.[188.165.217.123]
+#     _25._tcp.server.ztweb.de. TLSA  3 0 1 \
+#       25AC6B9D8BD6FF51D4B7FF382CD81160 \
+#       738FE326212C77F30610A1706329B455
+#
+#   @ns.kimsufi.com.[213.186.33.199]
+#     _25._tcp.server.ztweb.de. TLSA  3 0 1 \
+#       FABA1DC9A90D13FB202FAC9E93A41492 \
+#       F3E9818C56E067C3896665F1B53CF330
+#
+# Associated certificate fails to match 50% of the time.
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-02-02T17:12:03Z
+#     notAfter = 2019-05-03T17:12:03Z
+#     Subject CommonName = mail.ztweb.de
+#     cert sha256: 3 0 1 25ac6b9d8bd6ff51d4b7ff382cd81160 \
+#                        738fe326212c77f30610a1706329b455
+#
+ztweb.de
+171w4th.com
+ab1pv.com
+bavarians-most-wanted.de
+bavariansmostwanted.de
+dl1mwg.de
+ebg-vaterstetten.de
+kb1vey.com
+kuh-information-management.de
+kuh-information-manager.de
+kuh-information-manager.eu
+kuh-information-manager.org
+mtvw.de
+mtvw.org
