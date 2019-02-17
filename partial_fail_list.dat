@@ -19,7 +19,7 @@
 #        757f57f38a5f03a299cab1a727334521 \
 #        3360a4ba574076812ee36278870e4f1f
 #
-# does not match the respective certificate:
+# does not match the corresponding certificate:
 #
 #     Issuer CommonName = Let's Encrypt Authority X3
 #     Issuer Organization = Let's Encrypt
@@ -70,3 +70,27 @@ kuh-information-manager.eu
 kuh-information-manager.org
 mtvw.de
 mtvw.org
+
+## mail2.puggan.se
+# 2019-02-16
+#
+# The TLSA record:
+#
+#    _25._tcp.mail2.puggan.se. IN TLSA 3 0 1 \
+#        b8df542b0d095be760698ba92a21cd05 \
+#        99959dd2e9985f6edebea062772b6578
+#
+# does not match the corresponding certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-02-16T10:05:07Z
+#     notAfter = 2019-05-17T10:05:07Z
+#     Subject CommonName = mail2.puggan.se
+#     cert sha256: 3 0 1 0bc8f0a3a052de70ce03ea2a788b246f \
+#                        bc66657e545864334f0a5082d403faf6
+#
+bfis.se
+ibn19.se
+pippin.se
+punkcat.se
