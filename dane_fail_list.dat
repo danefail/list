@@ -327,7 +327,8 @@ injectoare-turbocompresoare.ro
 #     notBefore = 2017-08-04T22:17:06Z
 #     notAfter = 2020-08-04T22:17:06Z
 #     Subject CommonName = *.hasno.info
-#     pkey sha256 [nomatch] <- 3 1 1 c7e21893441322611ab16a66a6bf53d73068e12ca6b8af3cc6ce3208b20ca218
+#     pkey sha256: 3 1 1 c7e21893441322611ab16a66a6bf53d7 \
+#                        3068e12ca6b8af3cc6ce3208b20ca218
 #
 hasno.info
 
@@ -351,7 +352,8 @@ hasno.info
 #     notBefore = 2018-02-09T16:07:05Z
 #     notAfter = 2018-05-10T16:07:05Z
 #     Subject CommonName = mail.victorycity.com.hk
-#     pkey sha256 [nomatch] <- 3 1 1 c4dbb860b815dc4bf09ddd262e7c631426cbbe5244dd73c3e6c839393eecb78e
+#     pkey sha256: 3 1 1 c4dbb860b815dc4bf09ddd262e7c6314 \
+#                        26cbbe5244dd73c3e6c839393eecb78e
 #
 victorycity.com.hk
 
@@ -371,7 +373,8 @@ victorycity.com.hk
 #     notBefore = 2018-09-04T18:58:22Z
 #     notAfter = 2018-12-03T18:58:22Z
 #     Subject CommonName = qbitnet.com
-#     cert sha256: 3 0 1 acacde5f3c8ad95f8cf6cc9a102a7498a9dcd3eda8329750cda82f4999a4afb1
+#     cert sha256: 3 0 1 acacde5f3c8ad95f8cf6cc9a102a7498 \
+#                        a9dcd3eda8329750cda82f4999a4afb1
 #
 qbitnet.com
 
@@ -627,7 +630,8 @@ z0z0.me
 #     notBefore = 2018-10-07T00:00:00Z
 #     notAfter = 2019-10-12T12:00:00Z
 #     Subject CommonName = *.tethys-systems.com
-#     cert sha256: 3 0 1 278bd16d419b56a6c7e281c68d9ac2ba05de67a83ba98423439d4211a4d447a7
+#     cert sha256: 3 0 1 278bd16d419b56a6c7e281c68d9ac2ba \
+#                        05de67a83ba98423439d4211a4d447a7
 #
 tethys-systems.ch
 tethys-systems.com
@@ -648,7 +652,8 @@ tethys-systems.com
 #     notBefore = 2018-12-16T21:57:59Z
 #     notAfter = 2019-03-16T21:57:59Z
 #     Subject CommonName = familie-sander.rocks
-#     pkey sha256 [nomatch] <- 3 1 1 09ffd507926b9f3234456dffd3afce7dcba350fba800541ba4e0ed030905455d
+#     pkey sha256: 3 1 1 09ffd507926b9f3234456dffd3afce7d \
+#                        cba350fba800541ba4e0ed030905455d
 #
 familie-sander.rocks
 kaisers-backstube.com
@@ -693,7 +698,7 @@ syrettegroup.hu
 #     notBefore = 2019-01-18T17:33:05Z
 #     notAfter = 2019-04-18T17:33:05Z
 #     Subject CommonName = admin.laukas.lt
-#     pkey sha256: 3 1 1 8b54abd0cb4f0b089266f49eb124e145
+#     pkey sha256: 3 1 1 8b54abd0cb4f0b089266f49eb124e145 \
 #                        9f56ee0b99208bbe5db979b981138e30
 #
 laukas.lt
@@ -913,7 +918,8 @@ vincenzere.nl
 #     notAfter = 2024-04-25T10:02:06Z
 #     Subject CommonName = Cisco Appliance Demo Certificate
 #     Subject Organization = Cisco Systems, Inc
-#     cert sha256 [nomatch] <- 3 0 1 9566af258d3e5b2e252f9025b694573766f9bfc1390bdb37428796ccdcb2b9fa
+#     cert sha256: 3 0 1 9566af258d3e5b2e252f9025b6945737 \
+#                        66f9bfc1390bdb37428796ccdcb2b9fa
 #
 dk-hostmaster.dk
 difo.dk

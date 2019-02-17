@@ -26,7 +26,8 @@
 #     notBefore = 2018-11-30T01:00:58Z
 #     notAfter = 2019-02-28T01:00:58Z
 #     Subject CommonName = web02.bvo-ict.net
-#     pkey sha256: 3 1 1 915cf4c45d99ffd0d44b08dc25c893991d6a3018a1ebf76accaa0b5e610bb1ec
+#     pkey sha256: 3 1 1 915cf4c45d99ffd0d44b08dc25c89399 \
+#                        1d6a3018a1ebf76accaa0b5e610bb1ec
 #
 #
 galleryhuis.nl
