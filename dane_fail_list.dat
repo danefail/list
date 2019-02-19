@@ -577,29 +577,6 @@ riggers-and-roustabouts.com
 #
 spotlightpatriot.com
 
-## mail.ruebezahl.cc
-# 2018-12-27
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.ruebezahl.cc. IN TLSA 3 1 1 \
-#        186408ea720e1bf297a53ae9b687ac8a \
-#        7ba12b606818469e39f29f292e05a4bd
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-11-21T09:12:56Z
-#     notAfter = 2019-02-19T09:12:56Z
-#     Subject CommonName = mail.ruebezahl.cc
-#     pkey sha256: 3 1 1 a6094423bb70d319e5c1e08d445dadcd \
-#                        648b535ac775cd32ed39662f174e6d85
-#
-ruebezahl.cc
-dezentralrat.org
-fnordkap.de
-
 ## mail.dnsmadefree.com
 # 2018-12-27
 #
