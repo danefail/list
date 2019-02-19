@@ -80,6 +80,20 @@ art.org.tw
 cra.org.tw
 ham.org.tw
 
+## _25._tcp.esgrybm05.sauditelecom.com.sa
+## _25._tcp.esgrybm06.sauditelecom.com.sa
+## _25._tcp.esgrybm07.sauditelecom.com.sa
+## _25._tcp.esgrybm08.sauditelecom.com.sa
+## _25._tcp.esgrybm09.sauditelecom.com.sa
+# 2019-02-18
+#
+# Middlebox drops TLSA queries, but not A queries for the same qname.
+# Typically an unpatched Arbor Networks appliance.
+#
+#   http://imrryr.org/~viktor/dnsviz/sauditelecom.com.sa.html
+#
+sauditelecom.com.sa
+
 # -----------------
 # STARTTLS problems: TLSA records that don't match the server certificate
 # chain, or no STARTTLS support at all
