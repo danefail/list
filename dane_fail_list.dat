@@ -842,3 +842,27 @@ highdrive.me
 #
 musiikkikoulut.fi
 jamkicks.fi
+
+## posta.studio-kiara.cz
+# 2019-02-25
+# (previously 2018-12-27)
+#
+# The TLSA record:
+#
+#    _25._tcp.posta.studio-kiara.cz. IN TLSA 3 1 1 \
+#        d7f73f27b2e71968f7f3884f028554c9 \
+#        ed9652c5a8838620dc59cc955a5bb149
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-02-18T00:34:00Z
+#     notAfter = 2019-05-19T00:34:00Z
+#     Subject CommonName = posta.studio-kiara.cz
+#     pkey sha256: 3 1 1 d0fd142d674437d6ca3180130911a27f \
+#                        b84becc719f22cc8368f2ac1e85d5f4e
+#
+studio-kiara.cz
+cloud-zero.cz
+uteseny.eu
