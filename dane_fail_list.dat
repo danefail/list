@@ -806,3 +806,34 @@ uteseny.eu
 #
 foxglobe.net
 foxglo.be
+
+## mail.bodixite.com
+# 2019-03-02
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.bodixite.com. IN TLSA 3 1 2 \
+#        8805a5d34c02e550a5e3120202aa782d \
+#        84b90120aba10e21fee5268dad867e44 \
+#        38c447d791c64534d0755c419ede1d6d \
+#        ba07a16dec9002154137c40c115a1dd6
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-02-22T22:33:08Z
+#     notAfter = 2019-05-23T22:33:08Z
+#     Subject CommonName = mail.bodixite.com
+#     pkey sha512: 3 1 2 00145e53ca4f20f7a8c26748f0680985 \
+#                        6287aab3ca97f72d9c4feb7e45a677db \
+#                        e72a2930ffe707e7a593b9bbbe525453 \
+#                        f4cd20e561f9a8d46158c4bbfd362858
+#
+bodixite.com
+avanco.fr
+filsinger.fr
+innoteil.com
+kremer-sas.com
+kremer-sas.fr
+qualydis.fr
