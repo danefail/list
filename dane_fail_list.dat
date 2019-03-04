@@ -837,3 +837,45 @@ innoteil.com
 kremer-sas.com
 kremer-sas.fr
 qualydis.fr
+
+## mail.aprendere.se
+# 2019-03-04
+#
+# DANE-TA(2) trust-anchor-based verification:
+#
+#    _25._tcp.mail.aprendere.se. IN TLSA 2 1 1 \
+#        60b87575447dcba2a36b7d11ac09fb24 \
+#        a9db406fee12d2cc90180517616e8a18
+#
+# But the leaf certificate has expired:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2018-12-01T22:53:10Z
+#     notAfter = 2019-03-01T22:53:10Z
+#     Subject CommonName = mail.aprendere.se
+#     pkey sha256: 3 1 1 8e4a6ccf12bffd02986fac205e77755fc8560b22a3f3ae85efc412127f1d98fc
+#
+#     Issuer CommonName = DST Root CA X3
+#     Issuer Organization = Digital Signature Trust Co.
+#     notBefore = 2016-03-17T16:40:46Z
+#     notAfter = 2021-03-17T16:40:46Z
+#     Subject CommonName = Let's Encrypt Authority X3
+#     Subject Organization = Let's Encrypt
+#     pkey sha256: 2 1 1 60b87575447dcba2a36b7d11ac09fb24a9db406fee12d2cc90180517616e8a18
+#
+aprendere.se
+aprendereskolor.se
+aspdammskolan.se
+elafskolan.se
+kajanfriskola.se
+magitaskolan.se
+min-skola.se
+motorsportgymnasiet.se
+odengymnasiet.se
+odenplansgymnasiet.se
+skarings.se
+skolgrunden.se
+varkullen.se
+vinkeln.nu
+vtg.nu
