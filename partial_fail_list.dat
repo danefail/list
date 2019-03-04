@@ -31,3 +31,24 @@
 #
 #
 galleryhuis.nl
+
+## mail.misbegotten.net
+# 2019-03-04
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.misbegotten.net. IN TLSA 3 1 1 \
+#        b6009ebcbb17eb204af77ec0d9633063 \
+#        3c85f7c1a002044843ccdd4353d70c49
+#
+# does not match the corresponding certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-03-03T01:06:00Z
+#     notAfter = 2019-06-01T01:06:00Z
+#     Subject CommonName = mail.misbegotten.net
+#     pkey sha256: 3 1 1 facb70c89977d5f5c6c4eb5487cfa147 \
+#                        83cd8b0fb9768ce841611a2a06eb7edc
+#
+misbegotten.net
