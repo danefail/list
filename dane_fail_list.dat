@@ -904,3 +904,25 @@ vtg.nu
 #
 gietl.com
 e-admin.de
+
+## mail.dehtak.cz
+# 2019-03-05
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.dehtak.cz. IN TLSA 3 1 1 \
+#        97316944d4134540a18d63ab44ccadf1 \
+#        88620193314bd6d90dbc160f8a037d87
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-02-22T22:48:09Z
+#     notAfter = 2019-05-23T22:48:09Z
+#     Subject CommonName = mail.dehtak.cz
+#     pkey sha256: 3 1 1 e677be41ffc0229a22509d1d6d9a359b \
+#                        345825c321a743a3155ec64a55fb99fd
+#
+dehtak.cz
+abcdoprava.cz
