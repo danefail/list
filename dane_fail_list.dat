@@ -879,3 +879,28 @@ skolgrunden.se
 varkullen.se
 vinkeln.nu
 vtg.nu
+
+## gietl.com
+# 2019-03-05
+#
+# The TLSA records:
+#
+#    _25._tcp.gietl.com. IN TLSA 3 1 1 \
+#        925dc952fc2d6626c08829846d1ecd59 \
+#        b4374d7240b758754b819e8d3515317d
+#    _25._tcp.gietl.com. IN TLSA 3 1 1 \
+#        eff990d1195bac9be3ab6b9c6e0aec9f \
+#        1c6cf67abe78a1d9e994e18deaab7b46
+#
+# do not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-03-01T10:05:34Z
+#     notAfter = 2019-05-30T10:05:34Z
+#     Subject CommonName = gietl.com
+#     pkey sha256: 3 1 1 6c000f670296bb5def3fa16bcdc88f2e \
+#                        26d1aa39c0c56519328f4d7211b4c790
+#
+gietl.com
+e-admin.de
