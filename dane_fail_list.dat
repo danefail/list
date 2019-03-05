@@ -926,3 +926,19 @@ e-admin.de
 #
 dehtak.cz
 abcdoprava.cz
+
+## box.youhacked.us
+# 2019-03-05
+#
+# TLSA records published:
+#
+#    _25._tcp.box.youhacked.us. IN TLSA 3 1 1 \
+#        145c4772b57d0aff5393d94d9e7e6e42 \
+#        34b2132232966e13085377513f2bfd5a
+#
+# but STARTTLS broken:
+#
+#  box.youhacked.us[165.227.99.13]:
+#    STARTTLS 454 4.7.0 TLS not available due to local problem
+#
+youhacked.us
