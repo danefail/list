@@ -958,3 +958,30 @@ waterwegcentrum.nl
 freebsd.la
 freebsd.cool
 freebsd.one
+
+## uriports.com
+## mail.report-endpoint.com
+# 2019-03-11
+#
+# The TLSA records:
+#
+#    _25._tcp.uriports.com. IN TLSA 3 1 1 \
+#        0b86f0a46afa3e6699a2778bd0a3d50a \
+#        7cf11cdd8db6b1fe281e9fbfe979a2cb
+#    _25._tcp.mail.report-endpoint.com. IN TLSA 3 1 1 \
+#        d6b36fb9884ee1f6d5137fd73ad0225b \
+#        0e15a5c213da9a262b0dff2210112505
+#
+# do not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-03-03T06:09:49Z
+#     notAfter = 2019-06-01T06:09:49Z
+#     Subject CommonName = *.uriports.com
+#     pkey sha256: 3 1 1 0b8816e7c9c0921994ad078bc8c562a2 \
+#                        9305b439aa8d721b5a106afc0143d216
+#
+uriports.com
+uriport.com
+report-endpoint.com
