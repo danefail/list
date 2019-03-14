@@ -949,3 +949,24 @@ report-endpoint.com
 #
 aprit.jp
 6joma.jp
+
+## mx.wendell.dk
+# 2019-03-14
+#
+# The TLSA record:
+#
+#    _25._tcp.mx.wendell.dk. IN TLSA 3 1 1 \
+#        e6f2b1db5c27f57e52376a390c8a7ea2 \
+#        201777312fb2b1c99dc3ceca6c39fe15
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-03-09T07:00:59Z
+#     notAfter = 2019-06-07T07:00:59Z
+#     Subject CommonName = mx.wendell.dk
+#     pkey sha256: 3 1 1 ed2dd8dc4fb3fa56c77f6ad856e2db13 \
+#                        c8f5fbd3af8214e8d4790db0b234cc4e
+#
+wendell.dk
