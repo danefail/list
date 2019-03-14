@@ -891,52 +891,6 @@ aikq.net
 aikq.nl
 aikq.us
 
-## mail.rotterdam.nl
-# 2019-03-11
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.rotterdam.nl. IN TLSA 3 1 1 \
-#        7701b6cd7b74bd880305043dec9076e5 \
-#        5e209d63028b9b48f4e9f17ab75652a5
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = KPN BV PKIoverheid Organisatie Server CA - G3
-#     Issuer Organization = KPN B.V.
-#     notBefore = 2019-02-27T08:10:07Z
-#     notAfter = 2021-03-17T08:10:07Z
-#     Subject CommonName = mail.rotterdam.nl
-#     Subject Organization = Gemeente Rotterdam
-#     pkey sha256: 3 1 1 689d14115e7621dc7ff54ed47f84c527 \
-#                        f1c982fd0317bbffeb0243d7f3acc45d
-#
-rotterdam.nl
-0800-1545.nl
-08001545.nl
-fietspunt-rotterdam.nl
-grafidirectgroep.nl
-hslcombzhm.nl
-ibvp.nl
-ikbenrotterdammer.nl
-ikbentochrotterdammer.nl
-katendrecht.nl
-kenniskringmentoringrotterdam.nl
-latenweerwatvanmaken.nl
-multi-it.nl
-ondernemen010.nl
-parkereninrotterdam.nl
-parkzestienhoven.nl
-restmaasvlakte.nl
-robedrijf.nl
-roteblease.nl
-rotterdamcentraal.nl
-rotterdamdurft.nl
-rotterdamrijnmond.nl
-soc-raadslieden-rdam.nl
-teamgalatee7.nl
-waterwegcentrum.nl
-
 ## we.using.freebsd.la
 # 2019-03-11
 #
