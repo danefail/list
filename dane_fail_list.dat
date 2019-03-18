@@ -1043,3 +1043,23 @@ gourmettomater.dk
 #
 hoekzemasecurity.nl
 rainversteeg.nl
+
+## mail.three2.one
+# 2019-03-17
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.three2.one. IN TLSA 3 1 1 \
+#        2ec600d703259867099b63ef278e2852 \
+#        ee2a4f7d9a90d39c47bd22858288a3bd
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-01-10T08:53:41Z
+#     notAfter = 2019-04-10T08:53:41Z
+#     Subject CommonName = mail.three2.one
+#     pkey sha256 [nomatch] <- 3 1 1 e122899c8d3ad3a202a2a3aefafc552f065c02df1f6459c12fb2106d4726ccaf
+#
+three2.one
