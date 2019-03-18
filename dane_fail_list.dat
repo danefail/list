@@ -1010,29 +1010,3 @@ mobilehomesupply.us
 movemyhome.us
 nrccg.org
 voteforguerra.com
-
-## kap.pe
-# 2019-03-15
-#
-# The TLSA record:
-#
-#    _25._tcp.kap.pe. IN TLSA 3 0 2 \
-#        a2e87c45b3a0c97410555cd458715213 \
-#        4152cb3cf2d28ee5db4e3abb0fb891f3 \
-#        9a776a4d841cd6021e4b1c43fdbce3fb \
-#        4da6121f6ae1cef5d12e23525393f581
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-03-10T14:44:34Z
-#     notAfter = 2019-06-08T14:44:34Z
-#     Subject CommonName = kap.pe
-#     cert sha512: 3 0 2 7233562086f11a9f775c00e023f44555 \
-#                        70e86c66cac96f79754a9d66a3d706d3 \
-#                        324feac4de674abd40d26a66bf3a23f3 \
-#                        6f4892b5728a513cb18a3ab0507c925d
-#
-kap.pe
-ntlabs.org
