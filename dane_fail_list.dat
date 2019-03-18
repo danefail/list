@@ -57,17 +57,6 @@ spamaccount.nl
 virtunix.nl
 vivje.nl
 
-## http://dnsviz.net/d/_25._tcp.xwall2.fujilink.ca/W_Tz5Q/dnssec/
-#
-# Invalid SOA RRSIG, perhaps serial bump after signing
-# Also inadvisable 5 year RRSIG lifetimes
-#
-fujilink.ca
-1cocomo.com
-4sales.ca
-budhi.net
-collegefrancais.ca
-
 ## _25._tcp.art.org.tw.
 ## _25._tcp.cra.org.tw.
 ## _25._tcp.ham.org.tw.
