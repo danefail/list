@@ -1091,3 +1091,34 @@ three2.one
 #    < 250 HELP
 #
 steelyard.nl
+
+## mail.sixow.com
+## mail.so-isi.fr
+## mail.ruglio.fr
+# 2019-03-17
+#
+# The TLSA records:
+#
+#    _25._tcp.mail.sixow.com. IN TLSA 3 1 1 \
+#        d1892d66e3929008442d4039df3bc23d \
+#        c01bcefc857d1c25bdb388be9db01ba3
+#    _25._tcp.mail.so-isi.fr. IN TLSA 3 1 1 \
+#        d1892d66e3929008442d4039df3bc23d \
+#        c01bcefc857d1c25bdb388be9db01ba3
+#    _25._tcp.mail.ruglio.fr. IN TLSA 3 1 1 \
+#        d1892d66e3929008442d4039df3bc23d \
+#        c01bcefc857d1c25bdb388be9db01ba3
+#
+# do not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-01-08T12:16:39Z
+#     notAfter = 2019-04-08T12:16:39Z
+#     Subject CommonName = *.sixow.com
+#     pkey sha256: 3 1 1 78e1d3234739ac3fb3f4c52559ae3ab0 \
+#                        226fbf82bde59e46e4f9c3e8218ba280
+#
+so-isi.fr
+sixow.com
+ruglio.fr
