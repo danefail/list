@@ -823,41 +823,6 @@ abcdoprava.cz
 #
 youhacked.us
 
-## mail.aikq.de
-# 2019-03-08
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.aikq.de. IN TLSA 3 1 1 \
-#        19f46dd4f95d289a485207a604396efb \
-#        6c6e228088c5e47d8aabc88e71d391e3
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = COMODO RSA Domain Validation Secure Server CA
-#     Issuer Organization = COMODO CA Limited
-#     notBefore = 2018-03-04T00:00:00Z
-#     notAfter = 2020-06-05T23:59:59Z
-#     Subject CommonName = *.aikq.de
-#     pkey sha256: 3 1 1 df76a04de57677fb4da2530240c244c0 \
-#                        f3380c7a3a9f64a7232222c49a0a7755
-#
-aikq.at
-aikq.be
-aikq.biz
-aikq.cloud
-aikq-kids.de
-aikq-mg.de
-aikq.email
-aikq.eu
-emailadmin.eu
-aikq.info
-aikq.net
-aikq.nl
-aikq.us
-mailbox.info
-mails.info
-
 ## we.using.freebsd.la
 # 2019-03-11
 #
