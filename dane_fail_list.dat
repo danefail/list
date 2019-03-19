@@ -987,28 +987,6 @@ voteforguerra.com
 neland.dk
 gourmettomater.dk
 
-## www.hoekzemasecurity.nl
-# 2019-03-17
-#
-# The TLSA record:
-#
-#    _25._tcp.www.hoekzemasecurity.nl. IN TLSA 3 1 1  \
-#        06ff155e4eb7af49a2607a635f263492 \
-#        a021af21a6fbe301e6a810189bae72ef
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-03-11T06:46:06Z
-#     notAfter = 2019-06-09T06:46:06Z
-#     Subject CommonName = hoekzemasecurity.nl
-#     pkey sha256: 3 1 1 5fe38df6c897d698aab5983779ca2512 \
-#                        8221ba1e8ab3ffcd33d19b5b42911d89
-#
-hoekzemasecurity.nl
-rainversteeg.nl
-
 ## mail.three2.one
 # 2019-03-17
 #
