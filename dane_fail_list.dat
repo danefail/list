@@ -1065,3 +1065,31 @@ steelyard.nl
 so-isi.fr
 sixow.com
 ruglio.fr
+
+## mail.truong.fi
+# 2019-03-20
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.truong.fi. IN CNAME _dane-mail.truong.fi.
+#    _dane-mail.truong.fi. IN TLSA 3 1 1 \
+#        b1790803021cf018a63b3c0cc878a122 \
+#        58ecc4ae070d126e5f62a5677160a74f
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-03-18T04:41:08Z
+#     notAfter = 2019-06-16T04:41:08Z
+#     Subject CommonName = mail.truong.fi
+#     pkey sha256: 3 1 1 f5346b2006a483fe5c08aa31365b6c75 \
+#                        10316207c30c1b300e550f5a5dbe866b
+#
+truong.fi
+kuusitunneli.fi
+mt-tech.fi
+mtnet.fi
+olkitu.com
+olkitu.fi
+taisto.org
