@@ -727,28 +727,6 @@ abcdoprava.cz
 #
 youhacked.us
 
-## we.using.freebsd.la
-# 2019-03-11
-#
-# The TLSA record:
-#
-#    _25._tcp.we.using.freebsd.la. IN TLSA 3 1 1 \
-#        c5bb124cd1720da716b80e2f4a9f2354 \
-#        5dbc020532f2fe9dbb3ba54925e9b6df
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = *
-#     notBefore = 2019-02-09T06:23:35Z
-#     notAfter = 2021-02-08T06:23:35Z
-#     Subject CommonName = *
-#     pkey sha256: 3 1 1 966d7824fa81bf8dc662e1635af001a3 \
-#                        815b8c2ac8b2484615409aadabc33063
-#
-freebsd.la
-freebsd.cool
-freebsd.one
-
 ## mail.report-endpoint.com
 # 2019-03-11
 #
