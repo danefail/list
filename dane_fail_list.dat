@@ -611,28 +611,6 @@ nukanhetnog.net
 flame.org
 xcdn.org
 
-## mail.foxglobe.net
-# 2019-02-25
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.foxglobe.net. IN TLSA 3 1 1 \
-#        bf59e2ca5f45423f47231f65b741f897 \
-#        8f57c9997f315267fd6bf2891627169a
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-02-13T18:17:38Z
-#     notAfter = 2019-05-14T18:17:38Z
-#     Subject CommonName = mail.foxglobe.net
-#     pkey sha256: 3 1 1 0522187b74e271a37e28c04bf4d13262 \
-#                        f3051028e230c14ffb0ca088501a07f4
-#
-foxglobe.net
-foxglo.be
-
 ## mail.bodixite.com
 # 2019-03-02
 #
