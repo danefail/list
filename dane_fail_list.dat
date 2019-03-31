@@ -1046,3 +1046,23 @@ dpc.re
 #
 quentindavid.fr
 familledavid.fr
+
+## fredvogels.nl
+# 2019-03-30
+#
+# A TLSA record is published for the CNAME-expanded MX hostname
+#
+#    _25._tcp.fredvogels.nl. IN TLSA 2 1 1  \
+#        60b87575447dcba2a36b7d11ac09fb24 \
+#        a9db406fee12d2cc90180517616e8a18
+#
+# but the certificate does not match that name:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-02-28T16:51:06Z
+#     notAfter = 2019-05-29T16:51:06Z
+#     Subject CommonName = rtm0.fredvogels.nl
+#
+fredvogels.nl
+backtonormandy.org
