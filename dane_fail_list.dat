@@ -1066,3 +1066,24 @@ familledavid.fr
 #
 fredvogels.nl
 backtonormandy.org
+
+## swamp.snulvin.org
+# 2019-03-30
+#
+# The TLSA record:
+#
+#    _25._tcp.swamp.snulvin.org. IN TLSA 3 1 1  \
+#        d05d2d0eb714b0ae968d8e92ed554a84 \
+#        8afc787a1ae85c775985e193338bc61d
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-01-12T01:30:40Z
+#     notAfter = 2019-04-12T01:30:40Z
+#     Subject CommonName = swamp.snulvin.org
+#     pkey sha256: 3 1 1 b249ccd495e34eabd094b1f0b1d2e9f4 \
+#                        040006ce0f12fdca3c3ea0815e75dfe4
+#
+0e.dk
