@@ -947,3 +947,31 @@ mtnet.fi
 olkitu.com
 olkitu.fi
 taisto.org
+
+## mail.interlan.cz
+# 2019-03-30
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.interlan.cz. IN TLSA 3 1 1  \
+#        84e314568d3c4ee440fd312559a6ae8d \
+#        3b61dd66ec737e4efe2870efe96a218c
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-03-04T19:52:38Z
+#     notAfter = 2019-06-02T19:52:38Z
+#     Subject CommonName = mail.interlan.cz
+#     pkey sha256: 3 1 1 d51808f28de39e92565d452623807107 \
+#                        f202eac12873e94f6fea5176addf0922
+#
+bluegate.cz
+dosveta.cz
+koinonia.cz
+mikesmusic.cz
+plha.cz
+sluchpost-plzen.cz
+speedpro.eu
+strongnutritions.cz
