@@ -958,29 +958,6 @@ horror-forum.de
 karel-dingeldey.de
 praxis-dingeldey.de
 
-## mail.ctl.email
-# 2019-03-30
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.ctl.email. IN TLSA 3 1 1  \
-#        e0fa005b24b57b9c7365b98de0fb6da3 \
-#        1cbd77b741b26ab5e3ddf65735f2dd62
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-03-12T19:15:07Z
-#     notAfter = 2019-06-10T19:15:07Z
-#     Subject CommonName = mail.ctl.email
-#     pkey sha256: 3 1 1 6b257c1b4c199f6a24f88a3d11a2494c \
-#                        38517dec7f2c3beaf2dfcbee3d1f1adc
-#
-ctl.dedyn.io
-ctl.email
-dpc.re
-
 ## mx.quentindavid.fr
 # 2019-03-30
 #
