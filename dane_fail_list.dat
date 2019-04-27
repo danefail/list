@@ -842,16 +842,12 @@ three2.one
 #
 steelyard.nl
 
-## mail.sixow.com
 ## mail.so-isi.fr
 ## mail.ruglio.fr
 # 2019-03-17
 #
 # The TLSA records:
 #
-#    _25._tcp.mail.sixow.com. IN TLSA 3 1 1 \
-#        d1892d66e3929008442d4039df3bc23d \
-#        c01bcefc857d1c25bdb388be9db01ba3
 #    _25._tcp.mail.so-isi.fr. IN TLSA 3 1 1 \
 #        d1892d66e3929008442d4039df3bc23d \
 #        c01bcefc857d1c25bdb388be9db01ba3
@@ -870,7 +866,6 @@ steelyard.nl
 #                        226fbf82bde59e46e4f9c3e8218ba280
 #
 so-isi.fr
-sixow.com
 ruglio.fr
 
 ## mail.truong.fi
