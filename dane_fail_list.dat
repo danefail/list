@@ -984,3 +984,46 @@ backtonormandy.org
 #                        040006ce0f12fdca3c3ea0815e75dfe4
 #
 0e.dk
+
+## mx.handelsbanken.se
+## mx2.handelsbanken.se
+# 2019-04-29
+#
+# The (new as of 2019-04-29) TLSA records
+#
+#    _25._tcp.mx.handelsbanken.se. IN TLSA 3 1 1  \
+#        06b9c302ba2ea46a5955155790f31936 \
+#        412ca5ca931f46fbff8a2cbf5a714578
+#    _25._tcp.mx2.handelsbanken.se. IN TLSA 3 1 1  \
+#        f76ec85359dee9b3f19f07295341a435 \
+#        5ec4a7368f96e52ddd24340306ab7823
+#
+# do not match the (long-standing since 2018-05-22) certificates:
+#
+#     Issuer CommonName = DigiCert SHA2 Extended Validation Server CA
+#     Issuer Organization = DigiCert Inc
+#     notBefore = 2018-05-07T00:00:00Z
+#     notAfter = 2019-05-15T12:00:00Z
+#     Subject CommonName = mx.handelsbanken.se
+#     Subject Organization = Svenska Handelsbanken AB
+#     pkey sha256: 3 1 1 9b653dbb6b0d36bbc596f28c0e4da237 \
+#                        4bda3541d0cbe3297580956ded21f68c
+#
+#     Issuer CommonName = DigiCert SHA2 Extended Validation Server CA
+#     Issuer Organization = DigiCert Inc
+#     notBefore = 2018-05-07T00:00:00Z
+#     notAfter = 2019-05-15T12:00:00Z
+#     Subject CommonName = mx2.handelsbanken.se
+#     Subject Organization = Svenska Handelsbanken AB
+#     pkey sha256: 3 1 1 e20dfd48d849dbeb376991dbcab2724a \
+#                        74293842a3cabb64f541fa42b35e642e
+#
+handelsbanken.se
+handelsbanken.no
+handelsbanken.com
+handelsbanken.co.uk
+handelsbanken.es
+handelsbanken.fr
+handelsbanken.us
+ecster.se
+stadshypotekbank.se
