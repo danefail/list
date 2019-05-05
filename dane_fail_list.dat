@@ -707,7 +707,6 @@ aprit.jp
 #
 wendell.dk
 
-## mail.zonkhost.net
 ## mail.agiient.com
 ## mail.nrccg.org
 ## mail.voteforguerra.com
@@ -715,9 +714,6 @@ wendell.dk
 #
 # The TLSA records:
 #
-#    _25._tcp.mail.zonkhost.net. IN TLSA 3 0 1 \
-#        228e16416cb14423c0661b3cb0f3676d \
-#        4aa55151f2e205dae6a6e2c19eb3a89e
 #    _25._tcp.mail.agiient.com. IN TLSA 3 0 1 \
 #        228e16416cb14423c0661b3cb0f3676d \
 #        4aa55151f2e205dae6a6e2c19eb3a89e
@@ -738,11 +734,8 @@ wendell.dk
 #     cert sha256: 3 0 1 deb8d4371de7724f88eeddf7ad5cbee3 \
 #                        a3cc2b7aaead7eda63dbaff4072433c1
 #
-zonkhost.net
 agiient.com
-elpasoinvestigations.us
 guerrafarm.com
-mobilehomesupply.us
 movemyhome.us
 nrccg.org
 voteforguerra.com
