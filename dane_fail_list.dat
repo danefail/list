@@ -837,32 +837,6 @@ olkitu.com
 olkitu.fi
 taisto.org
 
-## hv-mail-01.cyg.cloud
-# 2019-03-30
-#
-# DANE-TA(2) TLSA record published:
-#
-#    _25._tcp.hv-mail-01.cyg.cloud. IN TLSA 2 1 2  \
-#        774fad8c9a6afc2bdb44faba8390d213 \
-#        ae592fb0d56c5dfab152284e334d7cd6 \
-#        abd05799236e7aa6266edf81907c6040 \
-#        4c57ee54c10a3a82fcc2a9146629b140
-#
-# but the EE certificacte has expired:
-#
-#      Issuer CommonName = Let's Encrypt Authority X3
-#      Issuer Organization = Let's Encrypt
-#      notBefore = 2018-12-16T23:54:23Z
-#      notAfter = 2019-03-16T23:54:23Z
-#      Subject CommonName = hv-mail-01.cyg.cloud
-#
-criena.com
-criena.net
-cyg.cloud
-horror-forum.de
-karel-dingeldey.de
-praxis-dingeldey.de
-
 ## mx.quentindavid.fr
 # 2019-03-30
 #
