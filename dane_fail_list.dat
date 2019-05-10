@@ -12,7 +12,6 @@
 # Host _25._tcp.mail.falckwaehrens.dk not found: 3(NXDOMAIN). (BOGUS (security failure))
 # validation failure <_25._tcp.mail.falckwaehrens.dk. TLSA IN>: nameerror proof failed from 91.215.162.155
 #
-carlsbergluckyday.dk
 casanielsen.dk
 dukkebutikken.dk
 flying-gizmo.dk
@@ -38,7 +37,6 @@ terranautica.dk
 thysygeplejevikarbureau.dk
 xn--buplsydst-r8a.dk
 xn--drej-i-tr-o3a.dk
-xn--romse-yua.dk
 xn--toksvrdhallen-7fb.dk
 
 ## http://dnsviz.net/d/_25._tcp.mx1.blauwblaatje.nl/W_JxFA/dnssec/
