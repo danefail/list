@@ -880,3 +880,25 @@ familledavid.fr
 #                        040006ce0f12fdca3c3ea0815e75dfe4
 #
 0e.dk
+
+## coeur.calaad.net
+# 2019-05-15
+#
+# The TLSA record:
+#
+#    _25._tcp.coeur.calaad.net. IN CNAME _tlsa.coeur.calaad.net.
+#    _tlsa.coeur.calaad.net. IN TLSA 3 1 1 \
+#        6200c2b91755a62bb1eac8526a04e05b \
+#        fb5bc0cc2766a87dc73e8fc59da777d7
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-05-13T18:42:17Z
+#     notAfter = 2019-08-11T18:42:17Z
+#     Subject CommonName = calaad.net
+#     pkey sha256: 3 1 1 5ce1349c9db0f5fe437509db581b686b \
+#                        0afa48e5befa1dd82b0fe6d689eef01f
+#
+calaad.net
