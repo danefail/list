@@ -30,26 +30,3 @@
 #                        51ec4871dbf44a7ee686b7ac04945a6a
 #
 misbegotten.net
-
-## mx.veelenturf.email
-# 2019-05-24
-#
-# The TLSA record:
-#
-#    _25._tcp.mx.veelenturf.email. IN CNAME _25._tcp.veelenturf.email.
-#    _25._tcp.veelenturf.email. IN TLSA 3 0 1 \
-#        425bf86152a64a267c6f073b493d7fb7 \
-#        ca38111e54d164409d311448e16f249a
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-05-24T15:44:02Z
-#     notAfter = 2019-08-22T15:44:02Z
-#     Subject CommonName = mx.veelenturf.email
-#     cert sha256: 3 0 1 966e768329d46d1bd45f32e22ad297db \
-#                        45acaa5759116bc95584cf32af2eb25f
-#
-veelenturf.email
-speelweeknieuwerbrug.nl

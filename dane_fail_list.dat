@@ -917,3 +917,46 @@ dochelper.net
 dochelper.se
 punktdesign.se
 wieo.se
+
+## mx.veelenturf.email
+# 2019-05-24
+## mx2.veelenturf.email
+# 2019-05-30
+#
+# The TLSA records:
+#
+#    _25._tcp.mx.veelenturf.email. IN CNAME _25._tcp.veelenturf.email.
+#    _25._tcp.veelenturf.email. IN TLSA 3 0 1 \
+#        425bf86152a64a267c6f073b493d7fb7 \
+#        ca38111e54d164409d311448e16f249a
+#
+#    mail2.vouteva.nl. IN CNAME mx2.veelenturf.email.
+#    mx2.maelstrom.ninja. IN CNAME mx2.veelenturf.email.
+#    mx2.kroon.email. IN CNAME mx2.veelenturf.email.
+#    _25._tcp.mx2.veelenturf.email. IN TLSA 3 0 1 \
+#        d50e126e2144acdab3b12fb77ab50cf5 \
+#        2e7e923de8da78aa526e4cefd283d2ed
+#
+# do not match the certificates:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-05-24T15:44:02Z
+#     notAfter = 2019-08-22T15:44:02Z
+#     Subject CommonName = mx.veelenturf.email
+#     cert sha256: 3 0 1 966e768329d46d1bd45f32e22ad297db \
+#                        45acaa5759116bc95584cf32af2eb25f
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-05-29T17:37:46Z
+#     notAfter = 2019-08-27T17:37:46Z
+#     Subject CommonName = mx2.veelenturf.email
+#     cert sha256: 3 0 1 db5459f81e3a65a156d91853cc77b05b \
+#                        5df4266863e849ac7b52098be6367021
+#
+veelenturf.email
+speelweeknieuwerbrug.nl
+vouteva.nl
+kroon.email
+maelstrom.ninja
