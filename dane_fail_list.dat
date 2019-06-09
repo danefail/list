@@ -884,3 +884,31 @@ p0wershell.de
 #                        65be60c5fdfb1a7c823fba99278d21c2
 #
 hmserver.de
+
+##  entrante.svnt.com
+# 2019-06-08
+#
+# The TLSA record:
+#
+#    _25._tcp.entrante.svnt.com. IN TLSA 3 1 1 \
+#        4a47aa8b8b4f7eeb7941e206a31577e6 \
+#        c5a0f41925f3f5f688a7ea953c9e06a6
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-06-03T18:50:33Z
+#     notAfter = 2019-09-01T18:50:33Z
+#     Subject CommonName = *.mail.svnt.com
+#     pkey sha256: 3 1 1 7acfa73ac5cdd31fd1ebf299e4e80bbe \
+#                        884f87799d7991d5dfc1320a64bee029
+#
+anayda.com
+servitec.com
+servitecnet.com
+svnt.com
+tusnuevoshorizontes.com
+monteagudo.email
+ferrer.net
+servitec.net
