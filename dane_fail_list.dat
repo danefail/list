@@ -865,7 +865,7 @@ connecti0n.com
 p0wershell.de
 
 ## hmserver.de
-# 2019-06-03
+# 2019-06-08
 #
 # The TLSA record:
 #
@@ -877,10 +877,10 @@ p0wershell.de
 #
 #     Issuer CommonName = Let's Encrypt Authority X3
 #     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-06-03T14:16:09Z
-#     notAfter = 2019-09-01T14:16:09Z
+#     notBefore=2019-06-07T09:29:58Z
+#     notAfter=2019-09-05T09:29:58Z
 #     Subject CommonName = hmserver.de
-#     pkey sha256: 3 1 1 73c7636187a39d5464ef757488673363 \
-#                        715f0022ab7f605bcd33a42c76637345
+#     pkey sha256: 3 1 1 0852a04d3979975d62fa6afcb975e26a \
+#                        65be60c5fdfb1a7c823fba99278d21c2
 #
 hmserver.de
