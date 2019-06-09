@@ -1003,3 +1003,27 @@ sonapekova.cz
 #
 mecca.cz
 omgparty.cz
+
+## xyz.abcdefghijklmnoopqrstuvw.xyz
+# 2019-06-08
+#
+# The TLSA record:
+#
+#    _25._tcp.xyz.abcdefghijklmnoopqrstuvw.xyz. IN TLSA 3 1 1 \
+#        4d83775947ceab994879c6e701d5504c \
+#        9cd9df65924cf85e6dfa322c582dec72
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = communigate.com
+#     Issuer Organization = CommuniGate Systems, Inc.
+#     notBefore = 1998-02-02T00:00:00Z
+#     notAfter = 2028-02-02T00:00:00Z
+#     Subject CommonName = 
+#     Subject Organization = CommuniGate Systems Customer
+#     pkey sha256: 3 1 1 116ccf86dbe6d744948bbae325bb234b \
+#                        44e02a485d703054b6a5c74f1b412c4c
+#
+rndc.dev
+rndc.io
+abcdefghijklmnoopqrstuvw.xyz
