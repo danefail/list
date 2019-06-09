@@ -912,3 +912,27 @@ tusnuevoshorizontes.com
 monteagudo.email
 ferrer.net
 servitec.net
+
+## mail.binaryscapes.com
+# 2019-06-08
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.binaryscapes.com. IN TLSA 3 1 1 \
+#        d6e2dd774a4dca00e520e52cafe6b55e \
+#        2be54bf7a2c9fa4396c31585d0a5843b
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-05-20T19:18:08Z
+#     notAfter = 2019-08-18T19:18:08Z
+#     Subject CommonName = mail.binaryscapes.com
+#     pkey sha256: 3 1 1 f6b19f38e60daeb67206578a6cca3a3f \
+#                        06294c7e3fab4c5e182267ec7954efa6
+#
+aptgetshirt.com
+binaryscapes.com
+dhanyoshiatsu.nl
+thepooproject.org
