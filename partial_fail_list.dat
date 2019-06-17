@@ -159,3 +159,25 @@ xstore.cz
 youfish.cz
 zivaradost.cz
 bluesrv.eu
+
+## mail.antoineducret.eu
+# 2019-06-15
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.antoineducret.eu. IN TLSA 3 1 1 \
+#        7adc25b992f7a2d7f17bd20f25131606 \
+#        73774f25f9e94526b0b015fb25ede5eb
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = mail.antoineducret.eu
+#     Issuer Organization = CA
+#     notBefore = 2019-06-09T14:52:36Z
+#     notAfter = 2024-06-07T14:52:36Z
+#     Subject CommonName = mail.antoineducret.eu
+#     pkey sha256: 3 1 1 66f9afcff06567987b5072670796c212 \
+#                        eda3fb272e6711e6f3ce4478c34be1bd
+#
+antoineducret.eu
+ducret.sh
