@@ -1076,3 +1076,70 @@ valkyrie.run
 elpasoinvestigations.us
 mobilehomesupply.us
 zonkhost.net
+
+## mailin.hrz.tu-darmstadt.de
+# 2019-06-15
+#
+# The TLSA record:
+#
+#    _25._tcp.mailin.hrz.tu-darmstadt.de. IN TLSA 2 1 1 \
+#        5732fe16d00abf36f83798a0985272bf \
+#        cdc60fb0812bb632c3e47a5dd4517e68
+#
+# does not match any of the CA certificates (new CA chain):
+#
+#     Issuer CommonName = DFN-Verein Certification Authority 2
+#     Issuer Organization = Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.
+#     notBefore = 2016-05-24T11:38:40Z
+#     notAfter = 2031-02-22T23:59:59Z
+#     Subject CommonName = DFN-Verein Global Issuing CA
+#     Subject Organization = Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.
+#     pkey sha256: 2 1 1 da995610549b8dae53cf4a4446396be0 \
+#                        52f67ebd07e0be3c46dd19177b0a0444
+#
+#     Issuer CommonName = T-TeleSec GlobalRoot Class 2
+#     Issuer Organization = T-Systems Enterprise Services GmbH
+#     notBefore = 2016-02-22T13:38:22Z
+#     notAfter = 2031-02-22T23:59:59Z
+#     Subject CommonName = DFN-Verein Certification Authority 2
+#     Subject Organization = Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.
+#     pkey sha256: 2 1 1 9ca0021eb1882bb636462a76e3bbd69c \
+#                        e11f6a917fbfc1fcadec1dfccce56bc5
+#
+#     Issuer CommonName = T-TeleSec GlobalRoot Class 2
+#     Issuer Organization = T-Systems Enterprise Services GmbH
+#     notBefore = 2008-10-01T10:40:14Z
+#     notAfter = 2033-10-01T23:59:59Z
+#     Subject CommonName = T-TeleSec GlobalRoot Class 2
+#     Subject Organization = T-Systems Enterprise Services GmbH
+#     pkey sha256: 2 1 1 6106c0e3a0a299831875127bd7d3cc18 \
+#                        59803d511cac11eb6e0840dd166fc10e
+#
+tu-darmstadt.de
+bembel.eu
+conference-ce.de
+darmstaedter-haus.de
+e-learning-hessen.de
+ecodicology.org
+eisenbahnbetriebsfeld.de
+fs-ist.de
+fsp-workshop.org
+gamm-juniors.de
+global-hot.eu
+grk1657.de
+hpc-hessen.de
+icume.de
+landuseacademy.org
+mukno.de
+nustar.eu
+r3b-nustar.de
+raillab.de
+reliably-secure-software-systems.de
+rhein-main-unis.de
+schlossorgel.de
+smartergame.de
+software-factory-4-0.de
+spp-rs3.de
+st-darmstadt.de
+trr150.de
+unwortdesjahres.net
