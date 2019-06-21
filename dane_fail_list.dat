@@ -658,33 +658,6 @@ aprit.jp
 #
 wendell.dk
 
-## mail.agiient.com
-## mail.nrccg.org
-## mail.voteforguerra.com
-# 2019-03-15
-#
-# The TLSA records:
-#
-#    _25._tcp.mail.nrccg.org. IN TLSA 3 0 1 \
-#        228e16416cb14423c0661b3cb0f3676d \
-#        4aa55151f2e205dae6a6e2c19eb3a89e
-#    _25._tcp.mail.voteforguerra.com. IN TLSA 3 0 1 \
-#        228e16416cb14423c0661b3cb0f3676d \
-#        4aa55151f2e205dae6a6e2c19eb3a89e
-#
-# do not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-03-09T01:19:22Z
-#     notAfter = 2019-06-07T01:19:22Z
-#     Subject CommonName = zonkhost.net
-#     cert sha256: 3 0 1 deb8d4371de7724f88eeddf7ad5cbee3 \
-#                        a3cc2b7aaead7eda63dbaff4072433c1
-#
-nrccg.org
-voteforguerra.com
-
 ## ovh.neland.dk
 # 2019-03-17
 #
@@ -1050,32 +1023,6 @@ abcdefghijklmnoopqrstuvw.xyz
 aegisnet.eu
 aegissec.net
 valkyrie.run
-
-## mail.zonkhost.net
-# 2019-06-08
-#
-# The TLSA records:
-#
-#    _25._tcp.mail.zonkhost.net. IN TLSA 3 0 1 \
-#        deb8d4371de7724f88eeddf7ad5cbee3 \
-#        a3cc2b7aaead7eda63dbaff4072433c1
-#    _25._tcp.mail.elpasoinvestigations.us. IN TLSA 3 0 1 \
-#        deb8d4371de7724f88eeddf7ad5cbee3 \
-#        a3cc2b7aaead7eda63dbaff4072433c1
-#
-# do not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-05-08T01:25:18Z
-#     notAfter = 2019-08-06T01:25:18Z
-#     Subject CommonName = zonkhost.net
-#     cert sha256: 3 0 1 ec7e06e39ac963f71940d84ed0f31b57 \
-#                        8f3e10d7ef330c828771c5e3640dd0a7
-#
-elpasoinvestigations.us
-mobilehomesupply.us
-zonkhost.net
 
 ## mailin.hrz.tu-darmstadt.de
 # 2019-06-15
