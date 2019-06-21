@@ -1152,3 +1152,28 @@ certs.wtf
 crypto.wtf
 openpgp.wtf
 x509.wtf
+
+## mail.notoffline.se
+# 2019-06-20
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.notoffline.se. IN TLSA 3 1 1 \
+#        2ec600d703259867099b63ef278e2852 \
+#        ee2a4f7d9a90d39c47bd22858288a3bd
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-06-14T04:27:17Z
+#     notAfter = 2019-09-12T04:27:17Z
+#     Subject CommonName = mail.notoffline.se
+#     pkey sha256: 3 1 1 7ce4952ce26ee3ddb929f26f656ed33e0772123b20b18b37462094f58ba62a27
+#
+notoffline.se
+190803.se
+dochelper.net
+dochelper.se
+punktdesign.se
+wieo.se
