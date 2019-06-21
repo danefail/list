@@ -1152,31 +1152,3 @@ certs.wtf
 crypto.wtf
 openpgp.wtf
 x509.wtf
-
-## mail.lsd.is
-# 2019-06-18
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.lsd.is. IN TLSA 3 0 1 \
-#        450456b05822a6f1921e982be8b3fbe9 \
-#        4444d21a4663b795b372b53157f84eb0
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-06-06T08:48:37Z
-#     notAfter = 2019-09-04T08:48:37Z
-#     Subject CommonName = mail.bi9.de
-#     cert sha256: 3 0 1 44b17817bf7b3b37ded7fe5e1066d928 \
-#                        82b9b32e94fb73a1a354e05bee026f22
-#
-lsd.is
-smartmx.ch
-bi9.de
-smartmx.de
-smartmx.eu
-xenobite.eu
-kraus.global
-kraus.is
