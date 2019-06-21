@@ -1169,7 +1169,8 @@ x509.wtf
 #     notBefore = 2019-06-14T04:27:17Z
 #     notAfter = 2019-09-12T04:27:17Z
 #     Subject CommonName = mail.notoffline.se
-#     pkey sha256: 3 1 1 7ce4952ce26ee3ddb929f26f656ed33e0772123b20b18b37462094f58ba62a27
+#     pkey sha256: 3 1 1 7ce4952ce26ee3ddb929f26f656ed33e \
+#                        0772123b20b18b37462094f58ba62a27
 #
 notoffline.se
 190803.se
@@ -1177,3 +1178,183 @@ dochelper.net
 dochelper.se
 punktdesign.se
 wieo.se
+
+## smtp.dma.nl
+# 2019-06-20
+#
+# The TLSA record:
+#
+#    _25._tcp.smtp.dma.nl. IN TLSA 3 1 1 \
+#        371f174d1bd7bbf943519517042b6c2d \
+#        3e228b949ce83f7d410306525d1f37ac
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-06-17T07:58:57Z
+#     notAfter = 2019-09-15T07:58:57Z
+#     Subject CommonName = smtp.dma.nl
+#     pkey sha256: 3 1 1 fe11c276489b84bee358ddb741df012d \
+#                        cb320ad9bc3a593a158c5a331a2a5acb
+#
+dmainternet.com
+dmainternet.nl
+dma.amsterdam
+dma.nl
+hetnieuwe.com
+imps-elfs.com
+impselfs.com
+denkmeemetrijnland.net
+4happy-kidz.nl
+aaa-labelservices.nl
+aaalabelservices.nl
+aanmeldenwoerden.nl
+acktechnology.nl
+actieframe.nl
+afterdivorcecoaching.nl
+aktieframe.nl
+annetreisblog.nl
+appjelater.nl
+babyvandaag.nl
+bavzevenlindenloop.nl
+bizzeylive.nl
+bravoure-restaurant.nl
+brokkenaanhuis.nl
+buurtregie.nl
+catalyst-2960-switch.nl
+cbr-europe.nl
+changethegameacademy.nl
+chefspeciallive.nl
+colfac.nl
+debbys-beautyshop.nl
+debbys-skinshop.nl
+degelukkigemedewerker.nl
+dejeugdlive.nl
+designstores.nl
+designtoprint.nl
+dezignwalls.nl
+digital-media-arts.nl
+digitalmediaarts.nl
+dobroweightconsult.nl
+documentforlife.nl
+ds-recovery.nl
+dsrecovery.nl
+ebvloed.nl
+eentijdelijkehuurder.nl
+electravaganza.nl
+embleem-badge.nl
+ensemblemanagement.nl
+ernstadviesgroep.nl
+expointreclame.nl
+femmepatron.nl
+festivaldehof.nl
+ffuitwaaien.nl
+fractoring.nl
+frakken.nl
+fregat.nl
+fun4animals.nl
+funden.nl
+fysio-de-hoofdzaak.nl
+fysio-dehoofdzaak.nl
+fysiodehoofdzaak.nl
+gezond-eten-uit-de-natuur.nl
+goedkope-vliegtarieven.nl
+greendiversity.nl
+groeimetmij.nl
+havenberoepen.nl
+healthylives.nl
+hetaardhuis.nl
+hetdorpvernieuwd.nl
+hetnieuwe.nl
+hotknop.nl
+hoveniersbedrijfgelderland.nl
+humanrightstulip.nl
+hypnosepraktijkzeeland.nl
+icategelprojecten.nl
+icategels.nl
+imoodcompany.nl
+janhage.nl
+jeaniekeofficeassistance.nl
+jesusislord.nl
+koningsverf.nl
+krachtigenfit.nl
+kunststofforte.nl
+landbovenwater.nl
+last-minute-vliegticket.nl
+liedjesvaneenander.nl
+maakeenpuntvannul.nl
+maxentia.nl
+medischpedicurehooglanderveen.nl
+mookdesign.nl
+motorkledingweb.nl
+n59vandetoekomst.nl
+nails-lashes-by-inge.nl
+nathalie-kriek.nl
+nationaalpolitie.nl
+nouks-visuals.nl
+nouksvisuals.nl
+nowweb.nl
+object-survey.nl
+objectsurvey.nl
+ojaoffice.nl
+onderwaterhockeydordrecht.nl
+paintandfloors.nl
+paintlease.nl
+pakhetaan.nl
+politie-amsterdam-amstelland.nl
+powerupyour40s.nl
+praktijkloom.nl
+procoholding.nl
+proconederland.nl
+publieksdagrijnlandroute.nl
+racoonlive.nl
+rant.nl
+ridderorde.nl
+rijschool3762.nl
+rondleiding-rijnlandroute.nl
+royal-park.nl
+royalgardenlive.nl
+royalgardenslive.nl
+scartbv.nl
+singel161.nl
+slangenstaal.nl
+sm4rtsales.nl
+smarthrsupport.nl
+smsactie.nl
+studio-carmen.nl
+tafeldeal.nl
+tafelexpo.nl
+tegelsincourant.nl
+tegelsuitassortiment.nl
+tegelsuitproductie.nl
+tegelwijs.nl
+tinomartinlive.nl
+tinomartintheater.nl
+traprenovatie-schillings.nl
+truevalue.nl
+unsocial.nl
+uwbrokkenthuisbezorgd.nl
+veiligezaakuwzaak.nl
+verloskundigenpraktijkdegeboorte.nl
+verloskundigenpraktijkstadshagen.nl
+vernieling.nl
+watermakerslimburg.nl
+web-schap.nl
+web-schappen.nl
+web-shopje.nl
+wesleybronckhorstlive.nl
+wesleybronkhorstlive.nl
+weslybronckhorstlive.nl
+weslybronkhorstlive.nl
+wifimarketing.nl
+youvegotthepower.nl
+zachtjeszingen.nl
+zangerkafkeinconcert.nl
+zangerkafkeinkoncert.nl
+zevenlindenloop.nl
+zienergiek.nl
+zoutelandeblond.nl
+zoutelandecraftbeer.nl
+ndwcloud.nu
+imps-elfs.uk
