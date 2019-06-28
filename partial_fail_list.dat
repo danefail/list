@@ -181,3 +181,26 @@ bluesrv.eu
 #
 antoineducret.eu
 ducret.sh
+
+## barracuda.inter-hosting.nl[178.255.24.242]
+# 2019-06-27
+#
+# The TLSA record:
+#
+#    _25._tcp.barracuda.inter-hosting.nl. IN TLSA 3 1 1 \
+#        e7578fefbac4d63484864088686f2828 \
+#        3ce5e9670a0f24a264c1d1d288c06cac
+#
+# does not match the certificate at the address: [178.255.24.242]
+#
+#     Issuer CommonName = Barracuda/emailAddress=sales@barracuda.com
+#     Issuer Organization = Barracuda Networks
+#     notBefore = 2011-09-29T14:32:57Z
+#     notAfter = 2031-09-24T14:32:57Z
+#     Subject CommonName = Barracuda/emailAddress=sales@barracuda.com
+#     Subject Organization = Barracuda Networks
+#     pkey sha256: 3 1 1 2ce5509ad945b67aaaa6ddc07bcb95e3 \
+#                        000650c7f6afed63dc2c68d0f6aaaeb7
+#
+deelen-gouda.nl
+jbgauto.nl
