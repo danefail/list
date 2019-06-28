@@ -1083,3 +1083,26 @@ dochelper.net
 dochelper.se
 punktdesign.se
 wieo.se
+
+## posta.studio-kiara.cz
+# 2019-06-28
+#
+# The TLSA record:
+#
+#    _25._tcp.posta.studio-kiara.cz. IN TLSA 3 1 1 \
+#        908ec27fa5fa3edc6bfdd6069cdf182d \
+#        31c09200b17d5ae9a965fa133e948fb4
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-06-18T23:35:23Z
+#     notAfter = 2019-09-16T23:35:23Z
+#     Subject CommonName = posta.studio-kiara.cz
+#     pkey sha256: 3 1 1 2a857685108f44f9ab7bde934551c321 \
+#                        162f697facfb84f94ec6c25db10b027e
+#
+cloud-zero.cz
+studio-kiara.cz
+uteseny.eu
