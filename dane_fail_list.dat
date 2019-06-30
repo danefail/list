@@ -996,68 +996,6 @@ aegisnet.eu
 aegissec.net
 valkyrie.run
 
-## web1.sys.ccs-baumann.de
-## web2.sys.ccs-baumann.de
-# 2019-06-18
-#
-# The TLSA records:
-#
-#    _25._tcp.web1.sys.ccs-baumann.de. IN TLSA 2 1 2 \
-#        44b81e185b37bddd32052c02569ec8ed \
-#        0d978dd5360e3bf398f9bef40973ff5f \
-#        9159bc7cdca6dd61f43011f89c838bcb \
-#        53024859a57ccbd59bbe4be147ac69b0
-#    _25._tcp.web2.sys.ccs-baumann.de. IN TLSA 2 1 2
-#        44b81e185b37bddd32052c02569ec8ed \
-#        0d978dd5360e3bf398f9bef40973ff5f \
-#        9159bc7cdca6dd61f43011f89c838bcb \
-#        53024859a57ccbd59bbe4be147ac69b0
-#
-# Specify a DANE-TA(2) issuer, but the EE certificates are expired:
-#
-#     Issuer CommonName = CAcert Class 3 Root
-#     Issuer Organization = CAcert Inc.
-#     notBefore = 2017-06-06T09:23:22Z
-#     notAfter = 2019-06-06T09:23:22Z
-#     Subject CommonName = web1.sys.ccs-baumann.de
-#
-#     Issuer CommonName = CAcert Class 3 Root
-#     Issuer Organization = CAcert Inc.
-#     notBefore = 2017-06-06T09:23:29Z
-#     notAfter = 2019-06-06T09:23:29Z
-#     Subject CommonName = web2.sys.ccs-baumann.de
-#
-#     Issuer CommonName = CA Cert Signing Authority
-#     Issuer Organization = Root CA
-#     notBefore = 2011-05-23T17:48:02Z
-#     notAfter = 2021-05-20T17:48:02Z
-#     Subject CommonName = CAcert Class 3 Root
-#     Subject Organization = CAcert Inc.
-#     pkey sha512: 2 1 2 44b81e185b37bddd32052c02569ec8ed \
-#                        0d978dd5360e3bf398f9bef40973ff5f \
-#                        9159bc7cdca6dd61f43011f89c838bcb \
-#                        53024859a57ccbd59bbe4be147ac69b0
-#
-qbnz.com
-benbe.de
-benny-baumann.de
-ccs-baumann.de
-detlef-baumann.de
-martingummi.de
-omorphia.de
-crypto.fail
-openpgp.fail
-security.fail
-x509.fail
-geshi.org
-omorphia.org
-cert.wtf
-certificates.wtf
-certs.wtf
-crypto.wtf
-openpgp.wtf
-x509.wtf
-
 ## mail.notoffline.se
 # 2019-06-20
 #
