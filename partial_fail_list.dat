@@ -204,3 +204,26 @@ ducret.sh
 #
 deelen-gouda.nl
 jbgauto.nl
+
+## mx02.zencrypt.de
+# 2019-06-30
+#
+# The TLSA record:
+#
+#    _25._tcp.mx02.zencrypt.de. IN TLSA 3 0 1 \
+#        07e7bcd412f93d4b0cf46aaef8a90695 \
+#        4ef35eaf9ef55628df07938ff4d3f15f
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-06-23T22:10:09Z
+#     notAfter = 2019-09-21T22:10:09Z
+#     Subject CommonName = mx2.mindrun.de
+#     cert sha256: 3 0 1 85099d0f166b705443d1e092777f15a81b2c3a5c7bdd07728c5e34e22dfc622a
+#
+bailey-rud.de
+mindrun.de
+mindrun.net
+zencrypt.de
