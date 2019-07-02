@@ -1108,3 +1108,32 @@ ekosysteme.fr
 lenclumeenchantee.fr
 thyko.fr
 ekoprojet.org
+
+## mail.qusign.net
+# 2019-07-02
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.qusign.net. IN TLSA 3 1 1 \
+#        6f521335870804505f4d8c41d02e2a26 \
+#        905112653e2ae003d64539ce8f35cc18
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-06-26T02:03:19Z
+#     notAfter = 2019-09-24T02:03:19Z
+#     Subject CommonName = mail.qusign.net
+#     pkey sha256: 3 1 1 8dfada8e0f6695978bbf37b109b6bfcc24455141bfc78aa84ae345b31f35f737
+#
+bemovely.de
+daniel-quanz.de
+daqua.de
+energieoase-maintal.de
+quanz.me
+qusign.de
+qusign.net
+sabine-buschbeck.de
+sportescort.com
+valid-mail.com
