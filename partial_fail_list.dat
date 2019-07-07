@@ -227,3 +227,26 @@ bailey-rud.de
 mindrun.de
 mindrun.net
 zencrypt.de
+
+## mx31.bvo-ict.net
+# 2019-07-06
+#
+# The TLSA record:
+#
+#    _25._tcp.mx31.bvo-ict.net. IN TLSA 3 1 1 \
+#        63af03e9d65816bbd47325a8257d7850 \
+#        388ad5805305c176f993588d87105829
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-07-06T20:29:20Z
+#     notAfter = 2019-10-04T20:29:20Z
+#     Subject CommonName = bvo-ict.net
+#     pkey sha256: 3 1 1 9b5545088cc33efa3e716e2d44defa7e \
+#                        8772152cd2ff82cf9f0e5c7d822540b9
+#
+bvo-ict.net
+bvo-ict.nl
+struis.org
