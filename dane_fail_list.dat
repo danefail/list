@@ -997,16 +997,13 @@ reisenbauer.org
 ## mail.ekoprojet.org
 # 2019-06-29
 #
-# The TLSA records:
+# The TLSA record:
 #
 #    _25._tcp.mail.ekosysteme.fr. IN TLSA 3 0 1 \
 #        fa1f83668f7b1e40a2e8501310c49403 \
 #        787cdd83754d5aa3e604e62f6b362aa5
-#    _25._tcp.mail.lenclumeenchantee.fr. IN TLSA 3 0 1 \
-#        000f647873194db3c7eaa61d97b6f5b0 \
-#        d6faadb74696d4335cebe293786e32d2
 #
-# do not match the certificate:
+# does not match the certificate:
 #
 #     Issuer CommonName = Let's Encrypt Authority X3
 #     Issuer Organization = Let's Encrypt
@@ -1031,7 +1028,6 @@ reisenbauer.org
 #     cert sha256: 3 0 1 7bd9e1bc3b0cfe19826b3b0235d7c60a5a32f6ae4b963e9c5210250447f265e0
 #
 ekosysteme.fr
-lenclumeenchantee.fr
 thyko.fr
 ekoprojet.org
 
