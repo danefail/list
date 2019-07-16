@@ -1071,9 +1071,6 @@ valid-mail.com
 #    _25._tcp.mail.adinflux.com. IN TLSA 3 0 1 \
 #        ec7e06e39ac963f71940d84ed0f31b57 \
 #        8f3e10d7ef330c828771c5e3640dd0a7
-#    _25._tcp.mail.agiient.com. IN TLSA 3 0 1 \
-#        ec7e06e39ac963f71940d84ed0f31b57 \
-#        8f3e10d7ef330c828771c5e3640dd0a7
 #    _25._tcp.mail.nrccg.org. IN TLSA 3 0 1 \
 #        ec7e06e39ac963f71940d84ed0f31b57 \
 #        8f3e10d7ef330c828771c5e3640dd0a7
@@ -1099,7 +1096,6 @@ valid-mail.com
 #
 zonkhost.net
 adinflux.com
-agiient.com
 voteforguerra.com
 nrccg.org
 elpasoinvestigations.us
