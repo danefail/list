@@ -10,27 +10,6 @@
 # "watch list" for further problems, and it should not be surprising to find
 # transient DANE-related delivery issues to these domains in MTA logs.
 
-## mail.misbegotten.net
-# 2019-05-20
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.misbegotten.net. IN TLSA 3 1 1 \
-#        c048b9d859e2e65a6baf65be2a7cd706 \
-#        1feb4ae3d2f2914e250adc5234dba380
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-05-19T01:00:44Z
-#     notAfter = 2019-08-17T01:00:44Z
-#     Subject CommonName = mail.misbegotten.net
-#     pkey sha256: 3 1 1 8a4792c37b987265beb173f0e619c18a \
-#                        51ec4871dbf44a7ee686b7ac04945a6a
-#
-misbegotten.net
-
 ## mail.blueconsulting.cz
 # 2019-06-08
 #
