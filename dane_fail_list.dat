@@ -882,29 +882,6 @@ binaryscapes.com
 dhanyoshiatsu.nl
 thepooproject.org
 
-## mail.innuce.ch
-# 2019-06-08
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.innuce.ch. IN TLSA 3 0 1 \
-#        56d7dd2244f45e1ee6901fe9bf22786b \
-#        2010dc4ff2923c21c609bc74e7314571
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-03-26T19:51:41Z
-#     notAfter = 2019-06-24T19:51:41Z
-#     Subject CommonName = innuce.ch
-#     cert sha256: 3 0 1 c4380ce771e94ea8b4d6afc517f407aa \
-#                        5096aedce390fc332d165444809f9100
-#
-econtrario.ch
-innuce.ch
-ionum.ch
-
 ## letterptrimus.blueconsulting.cz
 # 2019-06-08
 #
