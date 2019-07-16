@@ -227,32 +227,3 @@ bailey-rud.de
 mindrun.de
 mindrun.net
 zencrypt.de
-
-## mx21.bvo-ict.net
-# 2019-07-10
-#
-# The TLSA record:
-#
-#    _25._tcp.mx21.bvo-ict.net. IN TLSA 3 1 1 \
-#        24f2d7f303c58e710fb55ed3707d3685 \
-#        5c68e727a3fc48b860aaacfbee86c389
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-07-10T05:58:13Z
-#     notAfter = 2019-10-08T05:58:13Z
-#     Subject CommonName = web21.bvo-ict.net
-#     pkey sha256: 3 1 1 31524f272a62f58f008d4c9052dd1bda \
-#                        ee50c6afa86ec6d0c98d677edd5725cf
-#
-bvo-ict.net
-bvo-ict.nl
-brievenbusbrownies.nl
-cupencake.nl
-galleryhuis.nl
-giftbasket4you.nl
-lifecounselling.nl
-struis.org
-sweetpost.nl
