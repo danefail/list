@@ -992,10 +992,12 @@ chris-vega.com
 reisenbauer.ee
 reisenbauer.org
 
-## mail.ekosysteme.fr
-## mail.lenclumeenchantee.fr
+## mail.besseges.org
 ## mail.ekoprojet.org
-# 2019-06-29
+## mail.ekosysteme.fr
+## mail.reseaucitoyen.org
+## mail.tribuvivace.org
+# 2019-07-17
 #
 # The TLSA record:
 #
@@ -1027,9 +1029,34 @@ reisenbauer.org
 #     Subject CommonName = ekoprojet.org
 #     cert sha256: 3 0 1 7bd9e1bc3b0cfe19826b3b0235d7c60a5a32f6ae4b963e9c5210250447f265e0
 #
-ekosysteme.fr
-thyko.fr
+# The TLSA records:
+#
+#    _25._tcp.mail.besseges.org. IN TLSA 3 0 1 \
+#        8423eb8ba0a8dd413a697e48c52451ec \
+#        0b9110f26031088ff1ff5f02cd66538c
+#    _25._tcp.mail.reseaucitoyen.org. IN TLSA 3 0 1 \
+#        8423eb8ba0a8dd413a697e48c52451ec \
+#        0b9110f26031088ff1ff5f02cd66538c
+#    _25._tcp.mail.tribuvivace.org. IN TLSA 3 0 1 \
+#        8423eb8ba0a8dd413a697e48c52451ec \
+#        0b9110f26031088ff1ff5f02cd66538c
+#
+# do not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-06-29T14:53:39Z
+#     notAfter = 2019-09-27T14:53:39Z
+#     Subject CommonName = reseaucitoyen.org
+#     cert sha256: 3 0 1 fe1fedf626ab8e42de0132e45a825a77 \
+#                        ceb8d45819a89aa5026807b24070ff24
+#
+besseges.org
 ekoprojet.org
+ekosysteme.fr
+reseaucitoyen.org
+thyko.fr
+tribuvivace.org
 
 ## mail.qusign.net
 # 2019-07-02
