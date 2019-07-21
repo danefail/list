@@ -158,36 +158,6 @@ jak-na-les.cz
 pasion.ro
 testgeomed.ro
 
-## mail.diplomatic.email
-# 2019-02-10
-#
-# The TLSA records:
-#
-#    _25._tcp.mail.diplomatic.email. IN TLSA 3 1 1 \
-#        4e933170df981dc187f0659b30eb424f \
-#        8a21e2edfd2813e8ff523812d4fc2998
-#
-# do not match the actual certificates:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-01-27T00:33:16Z
-#     notAfter = 2019-04-27T00:33:16Z
-#     Subject CommonName = diplomatic.email
-#     pkey sha256: 3 1 1 f8c971ba8cc7bf292ed0b54c7e703f88 \
-#                        b61c7f3a80b2225e119815419cb61bde
-#
-cutspin.com
-diplomatic.email
-fonsecu.de
-kommle.de
-secmatic.com
-secmatic.net
-secufon.com
-secufon.de
-secufon.net
-sigtest.com
-
 ## prime.gushi.org
 # 2018-08-17
 #
