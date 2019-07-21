@@ -179,7 +179,6 @@ ducret.sh
 #     Subject CommonName = mx2.mindrun.de
 #     cert sha256: 3 0 1 85099d0f166b705443d1e092777f15a81b2c3a5c7bdd07728c5e34e22dfc622a
 #
-mindrun.net
 zencrypt.de
 
 ## mail.diplomatic.email
