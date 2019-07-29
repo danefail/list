@@ -228,31 +228,6 @@ injectoare-turbocompresoare.ro
 #
 hasno.info
 
-## mail.victorycity.com.hk
-## mail2.victorycity.com.hk
-# 2018-09-05
-#
-# The TLSA records:
-#
-#    _25._tcp.mail.victorycity.com.hk. IN TLSA 3 1 1 \
-#        700efee6653c26ea2462a641ff29cf52 \
-#        7e574a29ce4e118c14bcc4c7fa616eb4
-#    _25._tcp.mail2.victorycity.com.hk. IN TLSA 3 1 1 \
-#        700efee6653c26ea2462a641ff29cf52 \
-#        7e574a29ce4e118c14bcc4c7fa616eb4
-#
-# do not match the actual certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-02-09T16:07:05Z
-#     notAfter = 2018-05-10T16:07:05Z
-#     Subject CommonName = mail.victorycity.com.hk
-#     pkey sha256: 3 1 1 c4dbb860b815dc4bf09ddd262e7c6314 \
-#                        26cbbe5244dd73c3e6c839393eecb78e
-#
-victorycity.com.hk
-
 ## ma.qbitnet.com
 # 2018-09-06
 #
