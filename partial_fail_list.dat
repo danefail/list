@@ -209,28 +209,3 @@ secufon.com
 secufon.de
 secufon.net
 sigtest.com
-
-## mx2.veelenturf.email
-# 2019-07-29
-#
-# The TLSA record:
-#
-#    mail2.vouteva.nl. IN CNAME mx2.veelenturf.email.
-#    _25._tcp.mx2.veelenturf.email. IN TLSA 3 0 1 \
-#        db5459f81e3a65a156d91853cc77b05b \
-#        5df4266863e849ac7b52098be6367021
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-07-28T19:52:47Z
-#     notAfter = 2019-10-26T19:52:47Z
-#     Subject CommonName = mx2.veelenturf.email
-#     cert sha256: 3 0 1 b44bcb91e1eafc3ee5e3066c31fcd98a \
-#                        7ef74818ef858533e6fa60730bdf3a44
-#
-kroon.email
-maelstrom.ninja
-speelweeknieuwerbrug.nl
-veelenturf.email
