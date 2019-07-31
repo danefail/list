@@ -1031,48 +1031,6 @@ sabine-buschbeck.de
 sportescort.com
 valid-mail.com
 
-## mail.zonkhost.net
-# 2019-07-07
-#
-# The TLSA records:
-#
-#    _25._tcp.mail.zonkhost.net. IN TLSA 3 0 1 \
-#        ec7e06e39ac963f71940d84ed0f31b57 \
-#        8f3e10d7ef330c828771c5e3640dd0a7
-#    _25._tcp.mail.adinflux.com. IN TLSA 3 0 1 \
-#        ec7e06e39ac963f71940d84ed0f31b57 \
-#        8f3e10d7ef330c828771c5e3640dd0a7
-#    _25._tcp.mail.nrccg.org. IN TLSA 3 0 1 \
-#        ec7e06e39ac963f71940d84ed0f31b57 \
-#        8f3e10d7ef330c828771c5e3640dd0a7
-#    _25._tcp.mail.voteforguerra.com. IN TLSA 3 0 1 \
-#        ec7e06e39ac963f71940d84ed0f31b57 \
-#        8f3e10d7ef330c828771c5e3640dd0a7
-#    _25._tcp.mail.elpasoinvestigations.us. IN TLSA 3 0 1 \
-#        ec7e06e39ac963f71940d84ed0f31b57 \
-#        8f3e10d7ef330c828771c5e3640dd0a7
-#    _25._tcp.mail.texaslegalservices.us. IN TLSA 3 0 1 \
-#        ec7e06e39ac963f71940d84ed0f31b57 \
-#        8f3e10d7ef330c828771c5e3640dd0a7
-#
-# do not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-07-07T01:29:11Z
-#     notAfter = 2019-10-05T01:29:11Z
-#     Subject CommonName = zonkhost.net
-#     cert sha256: 3 0 1 766e2566916e2ac9258a0b283a9121a6 \
-#                        d67215a03ec9d429f3be8f093f0c812c
-#
-zonkhost.net
-adinflux.com
-voteforguerra.com
-nrccg.org
-elpasoinvestigations.us
-mobilehomesupply.us
-texaslegalservices.us
-
 ## mx2.veelenturf.email
 # 2019-07-29
 #
