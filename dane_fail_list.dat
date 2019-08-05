@@ -576,28 +576,6 @@ aprit.jp
 #
 wendell.dk
 
-## ovh.neland.dk
-# 2019-03-17
-#
-# The TLSA record:
-#
-#    _25._tcp.ovh.neland.dk. IN TLSA 3 1 1  \
-#        01ca21026a705f21e7d0745849509b7c \
-#        3f4df6862bc422475e0585e4c074a237
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-03-11T22:58:22Z
-#     notAfter = 2019-06-09T22:58:22Z
-#     Subject CommonName = ovh.neland.dk
-#     pkey sha256: 3 1 1 e94a1091f063fa3ee1e56967d7468dbb \
-#                        bd6ca97714749f249e944612ea069c73
-#
-neland.dk
-gourmettomater.dk
-
 ## mail.three2.one
 # 2019-03-17
 #
