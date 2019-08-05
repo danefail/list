@@ -822,28 +822,6 @@ sonapekova.cz
 mecca.cz
 omgparty.cz
 
-## mta00.aegissec.net
-# 2019-06-08
-#
-# The TLSA record:
-#
-#    _25._tcp.mta00.aegissec.net. IN TLSA 3 0 1 \
-#        b7794f2eaea9b5955e5060237c9f022d \
-#        5d01810f240afe862d9b7f4ea8e3dde0
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-04-05T11:46:52Z
-#     notAfter = 2019-07-04T11:46:52Z
-#     Subject CommonName = smtp.aegissec.net
-#     cert sha256: 3 0 1 048eac56085dee4a00dff6b2e301a862 \
-#                        820b70342cb82bfa202c6e4767c68551
-#
-aegisnet.eu
-valkyrie.run
-
 ## mail.notoffline.se
 # 2019-06-20
 #
