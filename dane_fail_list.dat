@@ -1046,3 +1046,31 @@ multiunit.lv
 rigasfutbolaskola.lv
 scena.lv
 sell.lv
+
+## briefkaschte.meckepfiff.de
+# 2019-08-06
+#
+# The TLSA record:
+#
+#    _25._tcp.briefkaschte.meckepfiff.de. IN TLSA 3 1 1 \
+#        d331a90fc818898d6e8fad1497093406 \
+#        a46bf2c063a35ad2cf1021675a01ff3a
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-07-29T12:38:20Z
+#     notAfter = 2019-10-27T12:38:20Z
+#     Subject CommonName = briefkaschte.meckepfiff.de
+#     pkey sha256: 3 1 1 5238d7645c23beb587850b3bf544efd5 \
+#                        2af8577be7488f0a2ad85b84d791a8ed
+#
+alleska.de
+dajoli.de
+meckepfiff.de
+narrenboerse.de
+narresome.de
+pampered.ch
+stocka.ch
+xn--narrenbrse-kcb.de
