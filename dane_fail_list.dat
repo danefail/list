@@ -951,9 +951,30 @@ reisenbauer.org
 #     cert sha256: 3 0 1 fe1fedf626ab8e42de0132e45a825a77 \
 #                        ceb8d45819a89aa5026807b24070ff24
 #
+# The TLSA records:
+#
+#    _25._tcp.mail.jarrige.net. IN TLSA 3 0 1 \
+#        94e5e535dfc5c97335867d2975271a36 \
+#        d65def81e03aeed9efce7184ff99c78e
+#    _25._tcp.mail.lenclumeenchantee.fr. IN TLSA 3 0 1 \
+#        94e5e535dfc5c97335867d2975271a36 \
+#        d65def81e03aeed9efce7184ff99c78e
+#
+# do not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-08-07T23:50:21Z
+#     notAfter = 2019-11-05T23:50:21Z
+#     Subject CommonName = ekosysteme.fr
+#     cert sha256: 3 0 1 405ec8bb7cbea4133c7f6e8149716ef6 \
+#                        356b93a4d7acb8da050df49ee0cb637a
+#
 besseges.org
 ekoprojet.org
 ekosysteme.fr
+jarrige.net
+lenclumeenchantee.fr
 reseaucitoyen.org
 thyko.fr
 tribuvivace.org
