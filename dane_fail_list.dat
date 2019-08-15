@@ -1095,3 +1095,25 @@ narresome.de
 pampered.ch
 stocka.ch
 xn--narrenbrse-kcb.de
+
+## very.badf00d.de
+# 2019-08-14
+#
+# The TLSA record:
+#
+#    _25._tcp.very.badf00d.de. IN TLSA 3 1 1 \
+#        fe05d8bf7cc6f3e6e57bd12c102bae2f \
+#        1ea5ddcc1de50278ade81400e9b9baa1
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-08-13T03:36:12Z
+#     notAfter = 2019-11-11T03:36:12Z
+#     Subject CommonName = very.badf00d.de
+#     pkey sha256: 3 1 1 7d1f0710f6f054a189bdc629c542f4c2 \
+#                        3f3355c21a6ed01a7cc74a1210271a0b
+#
+badf00d.de
+dopesoft.de
