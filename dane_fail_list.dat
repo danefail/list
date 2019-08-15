@@ -1029,45 +1029,6 @@ valid-mail.com
 #
 kd2.io
 
-## server-07.io.lv
-# 2019-08-06
-#
-# The TLSA record:
-#
-#    _25._tcp.server-07.io.lv. IN TLSA 3 1 1 \
-#        d40fe1204d683685bffdb76cb76ed2fe \
-#        c85a991f0071d56439e429c34194f5c0
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-07-29T08:21:39Z
-#     notAfter = 2019-10-27T08:21:39Z
-#     Subject CommonName = *.io.lv
-#     pkey sha256: 3 1 1 3927ab1480c112345bfa8a24b778406a \
-#                        0d04707b690b0c918cc4f3e0436235a1
-#
-b2blogger.lv
-cka.lv
-fkrfs.lv
-fkriga.lv
-futbolaskola.lv
-io.lv
-jasminegarden.lv
-kulik.lv
-latvijas-tilti.lv
-lnk-industries.lv
-lnk-properties.lv
-lnk-tulkojumi.lv
-lnk.lv
-lnkboxing.lv
-ltpiling.lv
-multiunit.lv
-rigasfutbolaskola.lv
-scena.lv
-sell.lv
-
 ## briefkaschte.meckepfiff.de
 # 2019-08-06
 #
