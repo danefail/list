@@ -181,28 +181,6 @@ gushi.org
 biafrarepublic.me
 danmahoney.com
 
-## mail.bacrau.ro
-# 2018-08-22
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.bacrau.ro. IN TLSA 3 1 1 \
-#        226cdbca97cff3eb1001820b80930708 \
-#        b01cc3bf9409e644193058b5f7b0b760
-#
-# does not match the actual certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-07-16T05:11:27Z
-#     notAfter = 2018-10-14T05:11:27Z
-#     Subject CommonName = mail.bacrau.ro
-#     pkey sha256: 3 1 1 f80ab2f9f5b22dc6e24a0014c9a2d1aa \
-#                        f5afbf729c45e32180f7cbe7c9f6b891
-#
-bacrau.ro
-injectoare-turbocompresoare.ro
-
 ## mail.hasno.info
 ## mail2.hasno.info
 # 2018-09-05
