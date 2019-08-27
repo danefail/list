@@ -1159,3 +1159,28 @@ dementhia.se
 #                        a3246b91857ae9f9dc0eec99b76e4ed6
 #
 spamsponge.de
+
+## mail.d3fy.net
+# 2019-08-27
+#
+# The TLSA records:
+#
+#    _25._tcp.mail.d3fy.net. IN TLSA 3 1 1 \
+#        27c0116525de89bb6b00484b800fc478 \
+#        9eb7d722ce299dc4a7733ed42f56a06e
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-08-19T14:56:36Z
+#     notAfter = 2019-11-17T14:56:36Z
+#     Subject CommonName = mail.d3fy.net
+#     pkey sha256: 3 1 1 9539d0a96153e10ccfae26695616f632 \
+#                        e02ed44874de9573258f0d2fbf87d8fb
+#
+bflo.dev
+cross-country.io
+d3fy.net
+danmolik.com
+whisperos.org
