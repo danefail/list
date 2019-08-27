@@ -188,3 +188,26 @@ secufon.com
 secufon.de
 secufon.net
 sigtest.com
+
+## belgium.grids.be
+# 2019-08-27
+#
+# The TLSA record:
+#
+#    _25._tcp.belgium.grids.be. IN TLSA 3 1 1 \
+#        1e8ee045f313521774e46a762da1a32f \
+#        756ccfcd48b7a1a518326091cc31aa89
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-06-10T21:38:38Z
+#     notAfter = 2019-09-08T21:38:38Z
+#     Subject CommonName = mail.nkhn.nl
+#     pkey sha256: 3 1 1 7d9a5b44e24b2fb3f4b18890db0f1ca6 \
+#                        3150248512ef3b481e2f7b249b4e1749
+#
+dykhoeve.nl
+exxponent.nl
+nukanhetnog.net
