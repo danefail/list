@@ -2,43 +2,6 @@
 # DNS problems: TLSA record lookup failure, dropped queries, incorrect denial
 # of existence proofs, looping CNAMEs, ...
 
-## Sites hosted at enavn.dk / dotserv.com
-## http://dnsviz.net/d/_25._tcp.mail.aktiv-varme.dk/dnssec/
-## http://dnsviz.net/d/_25._tcp.mail.falckwaehrens.dk/dnssec/
-# 
-# Host _25._tcp.mail.aktiv-varme.dk not found: 3(NXDOMAIN). (BOGUS (security failure))
-# validation failure <_25._tcp.mail.aktiv-varme.dk. TLSA IN>: nameerror proof failed from 178.20.218.61
-# 
-# Host _25._tcp.mail.falckwaehrens.dk not found: 3(NXDOMAIN). (BOGUS (security failure))
-# validation failure <_25._tcp.mail.falckwaehrens.dk. TLSA IN>: nameerror proof failed from 91.215.162.155
-#
-casanielsen.dk
-dukkebutikken.dk
-flying-gizmo.dk
-forlaget-amadeo.dk
-fuglsang-akupunktur.dk
-gi-design.dk
-handikram.dk
-magaluf.dk
-ppfurniture.dk
-ppmoebler.dk
-shoottothrill.dk
-siaddk.dk
-skovsgaardmoelleogbagerimuseum.dk
-sosmodracisme.dk
-soundplannord.dk
-stepz-dansestudie.dk
-stt.dk
-stuartmcintyre.dk
-svovlbrinte.dk
-terra-nautica.dk
-terra-navtica.dk
-terranautica.dk
-thysygeplejevikarbureau.dk
-xn--buplsydst-r8a.dk
-xn--drej-i-tr-o3a.dk
-xn--toksvrdhallen-7fb.dk
-
 ## http://dnsviz.net/d/_25._tcp.mx1.blauwblaatje.nl/W_JxFA/dnssec/
 ## http://dnsviz.net/d/_25._tcp.mx2.blauwblaatje.nl/W_Jxkw/dnssec/
 #
