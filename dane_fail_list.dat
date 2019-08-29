@@ -719,28 +719,6 @@ binaryscapes.com
 dhanyoshiatsu.nl
 thepooproject.org
 
-## letterptrimus.blueconsulting.cz
-# 2019-06-08
-#
-# The TLSA record:
-#
-#    _25._tcp.letterptrimus.blueconsulting.cz. IN TLSA 3 0 1 \
-#        fee92a13d4c58de8e787f8b659f0faaf \
-#        0af17694dc14884b00efadc4bf5c60b3
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Portego Security CA
-#     Issuer Organization = Portego Security Ltd
-#     notBefore = 2015-05-21T12:20:05Z
-#     notAfter = 2025-05-18T12:20:05Z
-#     Subject CommonName = postfix-ecdsa.letterptrimus.blueconsulting.cz.
-#     Subject Organization = Portego Security Ltd
-#     cert sha256: 3 0 1 f0df52c5547160fae5cfb1bfa764c6a5 \
-#                        0536271af4ed3b936242b14c6e61961e
-#
-sonapekova.cz
-
 ## mail.blueconsulting.cz
 # 2019-06-08
 #
