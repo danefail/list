@@ -1134,3 +1134,38 @@ cross-country.io
 d3fy.net
 danmolik.com
 whisperos.org
+
+## a.smtp.sasr.com
+## c.smtp.sasr.com
+# 2019-09-02
+#
+# TLSA records published:
+#
+#    _25._tcp.a.smtp.sasr.com. IN TLSA 3 1 1 \
+#        62ddd39aef94ad1f73ae5a92aff16852 \
+#        b30c460fb373d6e046e6bb7a80d6403e
+#    _25._tcp.c.smtp.sasr.com. IN TLSA 3 1 1 \
+#        2ee4ac379d9a60b6a35ff70bc94256c1 \
+#        34918e738719f14ae439c37ce7603b8a
+#
+# but no STARTTLS:
+#
+#  a.smtp.sasr.com[212.90.130.12]: STARTTLS not offered
+#  c.smtp.sasr.com[185.39.177.83]: STARTTLS not offered
+#
+abc-no-d.com
+abcnod.com
+bourgewalla.com
+claudiahill.com
+coquo.org
+nemohill.com
+ondahill.com
+onhill.com
+sasr.com
+silbernagel.com
+silbernagl.com
+silbernagl.de
+the-undilutables.com
+theundilutables.com
+tna10.com
+usip.de
