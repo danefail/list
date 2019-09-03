@@ -719,28 +719,6 @@ binaryscapes.com
 dhanyoshiatsu.nl
 thepooproject.org
 
-## mail.blueconsulting.cz
-# 2019-06-08
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.blueconsulting.cz. IN TLSA 3 0 1 \
-#        f873284b35e4b16362db804c7d25a156 \
-#        d293eacdec57942c2ca975b9f7a51e0d
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Sectigo ECC Domain Validation Secure Server CA
-#     Issuer Organization = Sectigo Limited
-#     notBefore = 2019-05-07T00:00:00Z
-#     notAfter = 2020-05-06T23:59:59Z
-#     Subject CommonName = mail.blueconsulting.cz
-#     cert sha256: 3 0 1 b6eaf7d8614578bed3b14aa43a571d54 \
-#                        c6ffe9e8141a488f9245bbc0001a746f
-#
-mecca.cz
-omgparty.cz
-
 ## mail.notoffline.se
 # 2019-06-20
 #
