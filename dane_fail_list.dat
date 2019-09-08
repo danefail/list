@@ -2,22 +2,6 @@
 # DNS problems: TLSA record lookup failure, dropped queries, incorrect denial
 # of existence proofs, looping CNAMEs, ...
 
-## http://dnsviz.net/d/_25._tcp.mx1.blauwblaatje.nl/W_JxFA/dnssec/
-## http://dnsviz.net/d/_25._tcp.mx2.blauwblaatje.nl/W_Jxkw/dnssec/
-#
-# NSEC chain fails to match zone data
-#
-blauwblaatje.nl
-balwisseling.nl
-dutchdistortion.com
-dutchdistortion.nl
-kutgeluid.nl
-quagga.rocks
-randomfacepalm.nl
-spamaccount.nl
-virtunix.nl
-vivje.nl
-
 ## _25._tcp.art.org.tw.
 ## _25._tcp.cra.org.tw.
 ## _25._tcp.ham.org.tw.
