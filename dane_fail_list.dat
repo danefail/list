@@ -896,27 +896,6 @@ sabine-buschbeck.de
 sportescort.com
 valid-mail.com
 
-## kd2.io
-# 2019-08-06
-#
-# The TLSA record:
-#
-#    _25._tcp.kd2.io. IN TLSA 3 1 1 \
-#        e00b4205b0e7defc478fea6ba2bdf84f \
-#        e2b9168bc9327bca6b2b4ac51d58f489
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-08-06T07:47:29Z
-#     notAfter = 2019-11-04T07:47:29Z
-#     Subject CommonName = kd2.io
-#     pkey sha256: 3 1 1 e3557c038f90471c66837c8d1428fdf0 \
-#                        8fc74ff6c6ceaf928697e0f4c67da63f
-#
-kd2.io
-
 ## briefkaschte.meckepfiff.de
 # 2019-08-06
 #
