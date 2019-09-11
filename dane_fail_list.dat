@@ -1073,3 +1073,26 @@ cross-country.io
 d3fy.net
 danmolik.com
 whisperos.org
+
+## mail.silva-troeger.de
+# 2019-09-10
+#
+# The TLSA record:
+#
+#    _25._tcp.mail.silva-troeger.de. IN TLSA 3 1 1 \
+#        ff144c6c30bbaf514454f1df57543e10 \
+#        c2f212ba83fac7a64ed6d6320fa2feed
+#
+# does not match the certificate:
+#
+#     Issuer CommonName = Let's Encrypt Authority X3
+#     Issuer Organization = Let's Encrypt
+#     notBefore = 2019-08-25T23:14:26Z
+#     notAfter = 2019-11-23T23:14:26Z
+#     Subject CommonName = mail.silva-troeger.de
+#     pkey sha256: 3 1 1 f02374ca398a32043ca85055f7893879 \
+#                        faba024aa00f53ceba6ac62ecffc76fb
+#
+silva-troeger.de
+troeger.cc
+troeger.email
