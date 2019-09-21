@@ -635,29 +635,6 @@ familledavid.fr
 #
 calaad.net
 
-## mail.connecti0n.de
-# 2019-05-31
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.connecti0n.de. IN TLSA 3 1 1 \
-#        ceef3fdc15d3f3f19e5942e00a76dc46 \
-#        b7b2353bc27f5c494e80c526dedb82d8
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-03-27T07:33:58Z
-#     notAfter = 2019-06-25T07:33:58Z
-#     Subject CommonName = admin.connecti0n.de
-#     pkey sha256: 3 1 1 a51aeb713fb60212c467be1016b4dc75 \
-#                        b6049f467bfe73384759cce5cb99c5f5
-#
-connecti0n.de
-connecti0n.com
-p0wershell.de
-
 ## hmserver.de
 # 2019-06-08
 #
