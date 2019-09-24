@@ -727,27 +727,6 @@ cloud-zero.cz
 studio-kiara.cz
 uteseny.eu
 
-## email.reisenbauer.ee
-# 2019-06-28
-#
-# TLSA records published:
-#
-#    _25._tcp.email.reisenbauer.ee. IN TLSA 3 0 1 \
-#        06f8433c50ba747cdf8c3c0891d49fe7 \
-#        70f4a4827fc66369f78d7e3a22ad8403
-#    _25._tcp.email.reisenbauer.ee. IN TLSA 3 1 1 \
-#        c93482402eace2f507275f1f403e9f13 \
-#        dc82de27054b08e7497012ce332ee3b9
-#
-# but no STARTTLS:
-#
-#  email.reisenbauer.ee[138.68.106.109]: STARTTLS 454 4.7.0 TLS not available due to local problem
-#  email.reisenbauer.ee[2a03:b0c0:3:d0::3de:9001]: connection timeout
-#
-chris-vega.com
-reisenbauer.ee
-reisenbauer.org
-
 ## mail.besseges.org
 ## mail.ekoprojet.org
 ## mail.ekosysteme.fr
