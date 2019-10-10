@@ -570,28 +570,6 @@ steelyard.nl
 #
 so-isi.fr
 
-## mx.quentindavid.fr
-# 2019-03-30
-#
-# The TLSA record:
-#
-#    _25._tcp.mx.quentindavid.fr. IN TLSA 3 1 1  \
-#        de6b2a6b825bb9c1caa2d06340c93349 \
-#        795619d08e2adaf4bfafdc69746d8fbd
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-03-25T10:34:23Z
-#     notAfter = 2019-06-23T10:34:23Z
-#     Subject CommonName = quentindavid.fr
-#     pkey sha256: 3 1 1 66d7589b9744e43a122ad9d1179618c0 \
-#                        b2ea813ec736c741eb9ed83a991bdcb2
-#
-quentindavid.fr
-familledavid.fr
-
 ## swamp.snulvin.org
 # 2019-03-30
 #
