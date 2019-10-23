@@ -591,27 +591,6 @@ so-isi.fr
 #
 0e.dk
 
-## hmserver.de
-# 2019-06-08
-#
-# The TLSA record:
-#
-#    _25._tcp.hmserver.de. IN TLSA 3 1 1 \
-#        225649d538c0e7ffa8e49038585716a8 \
-#        3e4a28645b0ca69c8a3bfb23cef9fb79
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore=2019-06-07T09:29:58Z
-#     notAfter=2019-09-05T09:29:58Z
-#     Subject CommonName = hmserver.de
-#     pkey sha256: 3 1 1 0852a04d3979975d62fa6afcb975e26a \
-#                        65be60c5fdfb1a7c823fba99278d21c2
-#
-hmserver.de
-
 ## mail.binaryscapes.com
 # 2019-06-08
 #
