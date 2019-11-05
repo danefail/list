@@ -879,35 +879,6 @@ deepfreezer.nl
 punkcat.se
 dementhia.se
 
-## mx1.spamsponge.de
-## mx2.spamsponge.de
-## mx3.spamsponge.de
-# 2019-08-18
-#
-# The TLSA records:
-#
-#    _25._tcp.mx1.spamsponge.de. IN TLSA 3 1 1 \
-#        3043ff253f0ebfd32af629525af6b2cb \
-#        33ef46fa94a38315b263d173ca0db9bd
-#    _25._tcp.mx2.spamsponge.de. IN TLSA 3 1 1 \
-#        3043ff253f0ebfd32af629525af6b2cb \
-#        33ef46fa94a38315b263d173ca0db9bd
-#    _25._tcp.mx3.spamsponge.de. IN TLSA 3 1 1 \
-#        3043ff253f0ebfd32af629525af6b2cb \
-#        33ef46fa94a38315b263d173ca0db9bd
-#
-# do not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-08-17T10:30:59Z
-#     notAfter = 2019-11-15T10:30:59Z
-#     Subject CommonName = mx1.spam-sponge.de
-#     pkey sha256: 3 1 1 d051a32c77354fd3659d57a8e17ef9ba \
-#                        a3246b91857ae9f9dc0eec99b76e4ed6
-#
-spamsponge.de
-
 ## mail.silva-troeger.de
 # 2019-09-10
 #
