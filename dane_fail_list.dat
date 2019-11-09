@@ -166,11 +166,11 @@ hasno.info
 #
 #     Issuer CommonName = Let's Encrypt Authority X3
 #     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-09-04T18:58:22Z
-#     notAfter = 2018-12-03T18:58:22Z
+#     notBefore = 2019-10-14T13:06:34Z
+#     notAfter = 2020-01-12T13:06:34Z
 #     Subject CommonName = qbitnet.com
-#     cert sha256: 3 0 1 acacde5f3c8ad95f8cf6cc9a102a7498 \
-#                        a9dcd3eda8329750cda82f4999a4afb1
+#     cert sha256: 3 0 1 0d73863193b7031c1c78f30c8e26726d \
+#                        a7dcd714d4e4e9781bf3a88bb7eaf8b2
 #
 qbitnet.com
 
