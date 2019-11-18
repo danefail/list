@@ -153,27 +153,6 @@ danmahoney.com
 #
 hasno.info
 
-## ma.qbitnet.com
-# 2018-09-06
-#
-# The TLSA record:
-#
-#    _25._tcp.ma.qbitnet.com. IN TLSA 3 0 1 \
-#        C7398537022146C2D4CCD383B696012A \
-#        2D307BFEB67DA4A225440D6FE7355DDD
-#
-# does not match the actual certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-10-14T13:06:34Z
-#     notAfter = 2020-01-12T13:06:34Z
-#     Subject CommonName = qbitnet.com
-#     cert sha256: 3 0 1 0d73863193b7031c1c78f30c8e26726d \
-#                        a7dcd714d4e4e9781bf3a88bb7eaf8b2
-#
-qbitnet.com
-
 ## lore.xmw.de
 # 2018-09-06
 #
