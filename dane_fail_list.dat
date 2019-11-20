@@ -240,30 +240,6 @@ smia-automotive.com
 hartbecke.net
 untethered.org
 
-## mail.fortknox.cz
-# 2019-01-26
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.fortknox.cz. IN TLSA 3 0 1 \
-#        5badd9d2634b9c0cd806d0b2e2d0f97b \
-#        15271bce86566bbbd7c24a993dcd6be3
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = MX
-#     notBefore = 2018-11-23T11:32:37Z
-#     notAfter = 2023-11-23T11:32:37Z
-#     Subject CommonName = MX
-#     cert sha256: 3 0 1 ea0089ec1dccb8ae1d18f608b90b6eed \
-#                        1b74ac718ecabb1c1ec37b47109c7b35
-#
-fortknox.cz
-gc-system.cz
-igalileo.cz
-ispecialista.eu
-itspecialista.eu
-
 ## mx.maverickvalves.com
 # 2018-12-04
 #
