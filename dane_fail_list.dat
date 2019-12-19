@@ -731,31 +731,6 @@ sportescort.com
 badf00d.de
 dopesoft.de
 
-## mail.steinerovi.cz
-# 2019-08-16
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.steinerovi.cz. IN TLSA 3 1 1 \
-#        b9304c004711f57a8f2ec364f4474a97 \
-#        d396631d10ba8804ce407dd043b93679
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-07-15T17:08:20Z
-#     notAfter = 2019-10-13T17:08:20Z
-#     Subject CommonName = mail.steinerovi.cz
-#     pkey sha256: 3 1 1 b413e753974196fd510c7ff115c84a99 \
-#                        6fd12c01e2ff2a84ded1c622db583a15
-#
-senamlibi.cz
-steinerovi.cz
-steinerovi.eu
-vaclavsteiner.cz
-vaclavsteiner.eu
-
 ## mx.soverout.net
 # 2019-08-16
 #
