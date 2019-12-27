@@ -182,42 +182,6 @@ cbk-praxis-kompetenz.de
 fewopenzberg.de
 tehsuck.de
 
-## stmics01.smia-automotive.com
-## stmics02.smia-automotive.com
-# 2018-09-06
-#
-# The TLSA records:
-#
-#    _25._tcp.stmics01.smia-automotive.com. IN TLSA 3 0 1 \
-#        9491b12e273ab371a15e08080fc57393 \
-#        abbc58a403a1487860e5dda6feba85d8
-#
-#    _25._tcp.stmics02.smia-automotive.com. IN TLSA 3 0 1 \
-#        122a6e2e66c6f08388620b52dbbebb58 \
-#        16bfaa24773b3b6804f3f4bc251e54ea
-#
-# do not match the actual certificates:
-#
-#     Issuer CommonName = Symantec Class 3 Secure Server CA - G4
-#     Issuer Organization = Symantec Corporation
-#     notBefore = 2017-07-03T00:00:00Z
-#     notAfter = 2019-07-26T23:59:59Z
-#     Subject CommonName = stmics01.smia-automotive.com
-#     Subject Organization = Samvardhana Motherson Innovative Autosystems B.V. & Co. KG
-#     cert sha256: 3 0 1 b17884d0dca097bcbfa7767932f8e63b \
-#                        5ce89ebeabdfafa4d62e0b96ddf794c0
-#
-#     Issuer CommonName = Symantec Class 3 Secure Server CA - G4
-#     Issuer Organization = Symantec Corporation
-#     notBefore = 2017-07-04T00:00:00Z
-#     notAfter = 2019-07-26T23:59:59Z
-#     Subject CommonName = stmics02.smia-automotive.com
-#     Subject Organization = Samvardhana Motherson Innovative Autosystems B.V. & Co. KG
-#     cert sha256: 3 0 1 0558a135c713e2017acd93956c5a6de2 \
-#                        0d8fdc983069a05e5fafd5a2fb3b565a
-#
-smia-automotive.com
-
 ## mail.hartbecke.net
 # 2018-09-20
 #
