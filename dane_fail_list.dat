@@ -581,7 +581,6 @@ cloud-zero.cz
 studio-kiara.cz
 uteseny.eu
 
-## mail.besseges.org
 ## mail.ekoprojet.org
 ## mail.ekosysteme.fr
 ## mail.reseaucitoyen.org
@@ -619,9 +618,6 @@ uteseny.eu
 #
 # The TLSA records:
 #
-#    _25._tcp.mail.besseges.org. IN TLSA 3 0 1 \
-#        8423eb8ba0a8dd413a697e48c52451ec \
-#        0b9110f26031088ff1ff5f02cd66538c
 #    _25._tcp.mail.reseaucitoyen.org. IN TLSA 3 0 1 \
 #        fe1fedf626ab8e42de0132e45a825a77 \
 #        ceb8d45819a89aa5026807b24070ff24
@@ -639,7 +635,6 @@ uteseny.eu
 #     cert sha256: 3 0 1 f0f7fba39a2271bb02d7ba5aefc90fe9 \
 #                        08a398b57d64d23bf819ea0021af7040
 #
-besseges.org
 ekoprojet.org
 ekosysteme.fr
 reseaucitoyen.org
