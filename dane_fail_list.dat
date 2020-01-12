@@ -346,27 +346,6 @@ syrettegroup.hu
 dehtak.cz
 abcdoprava.cz
 
-## mail.report-endpoint.com
-# 2019-03-11
-#
-# The TLSA records:
-#
-#    _25._tcp.mail.report-endpoint.com. IN TLSA 3 1 1 \
-#        d6b36fb9884ee1f6d5137fd73ad0225b \
-#        0e15a5c213da9a262b0dff2210112505
-#
-# do not match the certificate:
-#
-#     Issuer CommonName = Sectigo RSA Domain Validation Secure Server CA
-#     Issuer Organization = Sectigo Limited
-#     notBefore = 2019-03-21T00:00:00Z
-#     notAfter = 2021-03-20T23:59:59Z
-#     Subject CommonName = *.uriports.com
-#     pkey sha256: 3 1 1 6cfd9f1cdd6477cb1cd62f31df6cb442 \
-#                        86086f04314b2fa4cd73dc12433d8662
-#
-report-endpoint.com
-
 ## ns01.aprit.jp
 # 2019-03-11
 #
