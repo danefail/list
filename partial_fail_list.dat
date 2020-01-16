@@ -29,31 +29,3 @@
 #     cert sha256: 3 0 1 85099d0f166b705443d1e092777f15a81b2c3a5c7bdd07728c5e34e22dfc622a
 #
 zencrypt.de
-
-## mail.diplomatic.email
-# 2019-07-20
-#
-# The TLSA records:
-#
-#    _25._tcp.mail.diplomatic.email. IN TLSA 3 1 1 \
-#        2e1622a0855bcbc89220d49eb48426e6 \
-#        1b587ec63fd2365f3fcd2c24bc050277
-#
-# do not match the actual certificates:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-05-04T23:35:13Z
-#     notAfter = 2019-08-02T23:35:13Z
-#     Subject CommonName = diplomatic.email
-#     pkey sha256: 3 1 1 37e40aaf8486aa1d4e3be51bb1d53a84df90fa402fff3cab54d26212b85ab86b
-#
-cutspin.com
-diplomatic.email
-fonsecu.de
-kommle.de
-secmatic.com
-secmatic.net
-secufon.com
-secufon.de
-sigtest.com
