@@ -32,28 +32,6 @@ sauditelecom.com.sa
 # STARTTLS problems: TLSA records that don't match the server certificate
 # chain, or no STARTTLS support at all
 
-## mail.pasion.ro
-# 2018-05-14
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.pasion.ro. IN TLSA 3 1 1 \
-#        8a9fafd676424803581c0adc1fcdbfaa \
-#        dcb9af79d2abdd0f0e5e55c4edccea0c
-#
-# does not match the actual certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2018-08-06T10:39:25Z
-#     notAfter = 2018-11-04T10:39:25Z
-#     Subject CommonName = mail.pasion.ro
-#     pkey sha256: 3 1 1 4042a98ff5b0532873bb425bfdc2c811 \
-#                        d073a6e68113f56ce4b27d9c9abc084c
-#
-pasion.ro
-testgeomed.ro
-
 ## prime.gushi.org
 # 2018-08-17
 #
