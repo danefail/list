@@ -20,32 +20,6 @@ sauditelecom.com.sa
 # STARTTLS problems: TLSA records that don't match the server certificate
 # chain, or no STARTTLS support at all
 
-## mx1.spotlightpatriot.com
-## mx2.spotlightpatriot.com
-# 2018-12-17
-#
-# TLSA records published:
-#
-#    _25._tcp.mx1.spotlightpatriot.com. IN TLSA 3 1 1 \
-#        69a54490225cf4d7902896bfe5dd201b \
-#        56602a29030859ecc6528ca4bb4af067
-#    _25._tcp.mx2.spotlightpatriot.com. IN TLSA 3 1 1 \
-#        69a54490225cf4d7902896bfe5dd201b \
-#        56602a29030859ecc6528ca4bb4af067
-#
-# but STARTTLS broken:
-#
-#  mx1.spotlightpatriot.com[192.107.243.159]:
-#    STARTTLS 454 4.7.0 TLS not available due to local problem
-#  mx1.spotlightpatriot.com[2602:ff1c:1:210::10]:
-#    STARTTLS 454 4.7.0 TLS not available due to local problem
-#  mx2.spotlightpatriot.com[192.107.243.160]:
-#    STARTTLS 454 4.7.0 TLS not available due to local problem
-#  mx2.spotlightpatriot.com[2602:ff1c:1:210::20]:
-#    STARTTLS 454 4.7.0 TLS not available due to local problem
-#
-spotlightpatriot.com
-
 ## mx1.tethys-systems.com
 # 2018-12-28
 #
