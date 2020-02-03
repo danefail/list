@@ -20,29 +20,6 @@ sauditelecom.com.sa
 # STARTTLS problems: TLSA records that don't match the server certificate
 # chain, or no STARTTLS support at all
 
-## box.syrettegroup.com
-# 2019-01-26
-#
-# The TLSA record:
-#
-#    _25._tcp.box.syrettegroup.com. IN TLSA 3 1 1 \
-#        586264c988f1d5031d31ed14aa5c8e29 \
-#        7b7274f0d5ae4eec9767d5fa7366d6be
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Gandi Standard SSL CA 2
-#     Issuer Organization = Gandi
-#     notBefore = 2019-01-04T00:00:00Z
-#     notAfter = 2020-01-07T23:59:59Z
-#     Subject CommonName = box.syrettegroup.com
-#     pkey sha256: 3 1 1 ecf6f70399981d667f05583e7fd6868f \
-#                        93fb9dc0fbe1b58c99622bde37abdbee
-#
-syrettegroup.com
-i-gluc.hu
-syrettegroup.hu
-
 ## mail.dehtak.cz
 # 2019-03-05
 #
