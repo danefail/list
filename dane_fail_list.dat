@@ -20,28 +20,6 @@ sauditelecom.com.sa
 # STARTTLS problems: TLSA records that don't match the server certificate
 # chain, or no STARTTLS support at all
 
-## mx1.tethys-systems.com
-# 2018-12-28
-#
-# The TLSA record:
-#
-#    _25._tcp.mx1.tethys-systems.com. IN TLSA 3 0 1 \
-#        3f5d965817eec6740e86268e66019135 \
-#        78b935f5aa930bf63d38b32eb8b6abbd
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = RapidSSL RSA CA 2018
-#     Issuer Organization = DigiCert Inc
-#     notBefore = 2018-10-07T00:00:00Z
-#     notAfter = 2019-10-12T12:00:00Z
-#     Subject CommonName = *.tethys-systems.com
-#     cert sha256: 3 0 1 278bd16d419b56a6c7e281c68d9ac2ba \
-#                        05de67a83ba98423439d4211a4d447a7
-#
-tethys-systems.ch
-tethys-systems.com
-
 ## mail.familie-sander.rocks
 # 2019-01-07
 #
