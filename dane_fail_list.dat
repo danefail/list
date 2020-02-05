@@ -20,38 +20,6 @@ sauditelecom.com.sa
 # STARTTLS problems: TLSA records that don't match the server certificate
 # chain, or no STARTTLS support at all
 
-## ns01.aprit.jp
-# 2019-03-11
-#
-# The TLSA records:
-#
-#    _25._tcp.ns01.aprit.jp. IN CNAME 3.0.1to2._dane.ns01.aprit.jp.
-#    3.0.1to2._dane.ns01.aprit.jp. IN TLSA 3 0 1 \
-#        e98cb4fc714be8990e1375fece9101e2 \
-#        2b479ce6fdcd1a61e143184d88265cda
-#    3.0.1to2._dane.ns01.aprit.jp. IN TLSA 3 0 2 \
-#        c44d28bd2a2660eebaeb03d706c54071 \
-#        c50ed74e1e543c44d087f2025b811076 \
-#        80d82d401014c0d8f326dc3a8c57047f \
-#        42aca2f10027ffc088d86c859366e12d
-#
-# do not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-03-05T23:42:46Z
-#     notAfter = 2019-06-03T23:42:46Z
-#     Subject CommonName = ns01.aprit.jp
-#     cert sha256: 3 0 1 31efb75a7211501c15349c0ef9435a4c \
-#                        76e0ad9bd75faca4ab7a2bd8a56a76ca
-#     cert sha512: 3 0 2 20140f772e62b3b18810cdfba8f60185 \
-#                        f29dfb9673b5981e81de91b05e3650d5 \
-#                        415a9c5601c7e4e3df2845f78c017616 \
-#                        bccc9a3b0e5a12209c53050fee91e257
-#
-aprit.jp
-6joma.jp
-
 ## mx.wendell.dk
 # 2019-03-14
 #
