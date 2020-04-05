@@ -34,65 +34,6 @@
 #
 steelyard.nl
 
-## mail.ekoprojet.org
-## mail.ekosysteme.fr
-## mail.reseaucitoyen.org
-# 2019-07-17
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.ekosysteme.fr. IN TLSA 3 0 1 \
-#        fa1f83668f7b1e40a2e8501310c49403 \
-#        787cdd83754d5aa3e604e62f6b362aa5
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-06-08T23:48:38Z
-#     notAfter = 2019-09-06T23:48:38Z
-#     Subject CommonName = ekosysteme.fr
-#     cert sha256: 3 0 1 94e5e535dfc5c97335867d2975271a36d65def81e03aeed9efce7184ff99c78e
-#
-# The TLSA record:
-#
-#    _25._tcp.mail.ekoprojet.org. IN TLSA 3 0 1 \
-#        a1f3480c1d24ca06a8aeeea1ba4c9d50 \
-#        478498b84fce7fe97eb3401f276b3f0b
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-05-26T07:12:36Z
-#     notAfter = 2019-08-24T07:12:36Z
-#     Subject CommonName = ekoprojet.org
-#     cert sha256: 3 0 1 7bd9e1bc3b0cfe19826b3b0235d7c60a5a32f6ae4b963e9c5210250447f265e0
-#
-# The TLSA records:
-#
-#    _25._tcp.mail.reseaucitoyen.org. IN TLSA 3 0 1 \
-#        fe1fedf626ab8e42de0132e45a825a77 \
-#        ceb8d45819a89aa5026807b24070ff24
-#    _25._tcp.reseaucitoyen.org. IN TLSA 3 0 1 \
-#        fe1fedf626ab8e42de0132e45a825a77 \
-#        ceb8d45819a89aa5026807b24070ff24
-#
-# do not match the certificate:
-#
-#     Issuer CommonName = Let's Encrypt Authority X3
-#     Issuer Organization = Let's Encrypt
-#     notBefore = 2019-08-28T14:58:19Z
-#     notAfter = 2019-11-26T14:58:19Z
-#     Subject CommonName = reseaucitoyen.org
-#     cert sha256: 3 0 1 f0f7fba39a2271bb02d7ba5aefc90fe9 \
-#                        08a398b57d64d23bf819ea0021af7040
-#
-ekoprojet.org
-ekosysteme.fr
-reseaucitoyen.org
-thyko.fr
-
 ## very.badf00d.de
 # 2019-08-14
 #
