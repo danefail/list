@@ -34,32 +34,6 @@
 #
 steelyard.nl
 
-## mx.soverout.net
-# 2019-08-16
-#
-# The TLSA record:
-#
-#    _25._tcp.mx.soverout.net. IN TLSA 3 0 1 \
-#        c7879c59d445780864742cc8b0f109fc \
-#        8140eb942d002061c4fe1a5db2d28f30
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Sectigo RSA Domain Validation Secure Server CA
-#     Issuer Organization = Sectigo Limited
-#     notBefore = 2019-03-08T00:00:00Z
-#     notAfter = 2020-03-07T23:59:59Z
-#     Subject CommonName = *.soverout.net
-#     cert sha256: 3 0 1 52e9c97e9db3dfa0b0390500e2ee2717 \
-#                        fdd3fc7e7cf02740cbc928e57bf2609f
-#
-nletest.nl
-qredir.nl
-somethingtohi.de
-soverout.net
-soverout.nl
-deepfreezer.nl
-
 ## mail1.puggan.se
 # 2019-08-17
 #
