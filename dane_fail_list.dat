@@ -33,27 +33,3 @@
 #    < 250 HELP
 #
 steelyard.nl
-
-## mail1.puggan.se
-# 2019-08-17
-#
-# The TLSA record:
-#
-#    _25._tcp.mail1.puggan.se. IN TLSA 3 0 1 \
-#        ffb9f28a121eaf27df107c8317b26d86 \
-#        e0260edb6986d9211a0a7c4c3257b303
-#    mail1.puggan.se. IN CNAME ASPMX.L.GOOGLE.COM.
-#
-# does not match the certificate:
-#
-#     Issuer CommonName = Google Internet Authority G3
-#     Issuer Organization = Google Trust Services
-#     notBefore = 2019-07-29T18:36:17Z
-#     notAfter = 2019-10-21T18:23:00Z
-#     Subject CommonName = mx.google.com
-#     Subject Organization = Google LLC
-#     cert sha256: 3 0 1 0edc78684af226b03137d28559ca4bd0 \
-#                        32c4a804da92e2dc0ef8d16045d5662a
-#
-punkcat.se
-dementhia.se
