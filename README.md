@@ -1,5 +1,14 @@
 # The DANE fail list
 
+## List status
+
+The list is not presently actively maintained, and is now empty.  If you or
+your users are correponding with one or more domains that have DANE-validation
+issues, please reach out to the operators of those domains, or the ask affected
+recipient(s) to do so.
+
+## About the list
+
 DANE is a standard that allows TLS certificates to be bound to DNS
 names using DNSSEC.  At present, DANE is used primarily in MTA-to-MTA
 SMTP.  DANE is supported by multiple major MTAs, such as: Postfix,
