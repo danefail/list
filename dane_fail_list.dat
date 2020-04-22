@@ -5,31 +5,3 @@
 # -----------------
 # STARTTLS problems: TLSA records that don't match the server certificate
 # chain, or no STARTTLS support at all
-
-## bounder.steelyard.nl
-#
-# TLSA records published:
-#
-#    _25._tcp.bounder.steelyard.nl. IN TLSA 3 1 1 \
-#        2ce48d594714a0674c653c6e06cff97d \
-#        f40053c2fc5c1adc065387ca34d65a34
-#
-# but no STARTTLS:
-#
-#    Connected to bounder.steelyard.nl[82.176.103.217]:25
-#    < 220-bounder.steelyard.nl ESMTP IceWarp 10.3.5; Mon, 18 Mar 2019 05:03:30 +0100
-#    < 220 Secure server at bounder.steelyard.nl
-#    > EHLO amnesiac.example
-#    < 250-bounder.steelyard.nl Hello amnesiac.example [192.0.2.1], pleased to meet you.
-#    < 250-ENHANCEDSTATUSCODES
-#    < 250-SIZE
-#    < 250-EXPN
-#    < 250-ETRN
-#    < 250-ATRN
-#    < 250-DSN
-#    < 250-CHECKPOINT
-#    < 250-8BITMIME
-#    < 250-AUTH PLAIN LOGIN DIGEST-MD5 CRAM-MD5 NTLM GSSAPI
-#    < 250 HELP
-#
-steelyard.nl
